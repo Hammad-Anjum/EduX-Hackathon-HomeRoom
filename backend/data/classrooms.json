@@ -1,0 +1,13 @@
+[
+  {
+    "id": "c1",
+    "name": "Year 3 Blue",
+    "year_level": 3,
+    "teacher_id": "t1",
+    "students": [
+      { "id": "s1", "name": "Lily Chen", "parent_ids": ["p1"] },
+      { "id": "s2", "name": "Tom Jones", "parent_ids": ["p2"] },
+      { "id": "s3", "name": "Amir Al-Hassan", "parent_ids": ["p3"] }
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "documents": [
+    {
+      "id": "explainer-education-system-overview",
+      "content": "The Australian education system has three main stages: primary school (Foundation/Prep to Year 6), secondary school (Year 7 to Year 12), and tertiary education (university or TAFE). Education is compulsory from age 6 to age 17 in most states. The school year runs from late January to mid-December, split into 4 terms of about 10 weeks each, with 2-week breaks between terms and a 6-week summer break over December-January.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "explainer",
+        "subject": "Education System",
+        "year_level": null,
+        "strand": "Education System Overview",
+        "substrand": null,
+        "source_url": null
+      }
+    },
+    {
+      "id": "explainer-education-system-primary",
+      "content": "Primary school in Australia covers Foundation Year (also called Prep or Kindergarten depending on your state) through to Year 6. Children start Foundation/Prep at age 5. In primary school, children study English, Mathematics, Science, Humanities and Social Sciences (HASS), The Arts, Health and Physical Education, Technologies, and Languages. All schools follow the Australian Curriculum set by ACARA (Australian Curriculum, Assessment and Reporting Authority). Students are assessed by their teachers throughout the year and receive semester reports.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "explainer",
+        "subject": "Education System",
+        "year_level": null,
+        "strand": "Education System Overview",
+        "substrand": null,
+        "source_url": null
+      }
+    },
+    {
+      "id": "explainer-education-system-secondary",
+      "content": "Secondary school covers Year 7 to Year 12. Years 7-10 are junior secondary where students study a mix of compulsory subjects and electives. Years 11-12 are senior secondary where students choose their subjects and work toward their state certificate (e.g., HSC in NSW, VCE in Victoria, QCE in Queensland). At the end of Year 12, students receive an ATAR (Australian Tertiary Admission Rank) — a number from 0 to 99.95 that ranks them against other students nationally. The ATAR is used for university admission.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "explainer",
+        "subject": "Education System",
+        "year_level": null,
+        "strand": "Education System Overview",
+        "substrand": null,
+        "source_url": null
+      }
+    },
+    {
+      "id": "explainer-education-system-state-names",
+      "content": "Different states use different names for the first year of school. In NSW and ACT, it is called Kindergarten. In Victoria, Tasmania, and Queensland, it is called Prep or Foundation. In South Australia, Western Australia, and Northern Territory, it is called Reception or Pre-Primary. Regardless of the name, the curriculum content is the same nationally — the Australian Curriculum applies everywhere.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "explainer",
+        "subject": "Education System",
+        "year_level": null,
+        "strand": "Education System Overview",
+        "substrand": null,
+        "source_url": null
+      }
+    },
+    {
+      "id": "explainer-education-system-school-types",
+      "content": "There are three types of schools in Australia: government (public) schools which are free, Catholic schools, and independent (private) schools. All three types follow the Australian Curriculum. Government schools are funded by the state and federal government. Catholic and independent schools charge fees but also receive government funding. You can compare schools on the My School website (myschool.edu.au) which shows each school's NAPLAN results, funding, and student demographics.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "explainer",
+        "subject": "Education System",
+        "year_level": null,
+        "strand": "Education System Overview",
+        "substrand": null,
+        "source_url": null
+      }
+    },
+    {
+      "id": "explainer-education-system-naplan-overview",
+      "content": "NAPLAN (National Assessment Program — Literacy and Numeracy) is a national standardised test taken by students in Years 3, 5, 7, and 9. It tests reading, writing, conventions of language (spelling, grammar, punctuation), and numeracy. NAPLAN is not a pass or fail test — it shows how your child is progressing compared to national standards. Results are sent home as an Individual Student Report showing your child's proficiency level: Exceeding, Strong, Developing, or Needs additional support.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "explainer",
+        "subject": "Education System",
+        "year_level": null,
+        "strand": "Education System Overview",
+        "substrand": null,
+        "source_url": null
+      }
+    },
+    {
+      "id": "explainer-education-system-pathways",
+      "content": "After Year 12, students have several pathways. University requires an ATAR and offers bachelor's degrees (typically 3-4 years). TAFE (Technical and Further Education) offers vocational certificates and diplomas — many TAFE courses can be used as a pathway into university. Apprenticeships and traineeships combine paid work with training. Students can also start school-based apprenticeships during Years 11-12. HECS-HELP is a government loan that lets university students defer their tuition fees until they are earning above a threshold (around $54,000 per year).",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "explainer",
+        "subject": "Education System",
+        "year_level": null,
+        "strand": "Education System Overview",
+        "substrand": null,
+        "source_url": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "documents": [
+    {
+      "id": "mathematics-foundation_year-achievement",
+      "content": "By the end of Foundation Year in Mathematics, students are expected to: By the end of the Foundation year, students make connections between number names, numerals and quantities up to 10. They compare objects using mass, length and capacity. Students connect events and the days of the week. They explain the order and duration of events. They use appropriate language to describe location.Students count to and from 20 and order small collections. They group objects based on common characteristics and sort shapes and objects. Students answer simple questions to collect information and make simple inferences.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Mathematics",
+        "year_level": "Foundation Year",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/4e0d84fb-9095-4db6-a031-9e4600a2533d"
+      }
+    },
+    {
+      "id": "mathematics-year_1-achievement",
+      "content": "By the end of Year 1 in Mathematics, students are expected to: By the end of Year 1, students describe number sequences resulting from skip counting by 2s, 5s and 10s. They identify representations of one half. They recognise Australian coins according to their value. Students explain time durations. They describe two-dimensional shapes and three-dimensional objects. Students describe data displays.Students count to and from 100 and locate numbers on a number line. They carry out simple additions and subtractions using counting strategies. They partition numbers using place value. They continue simple patterns involving numbers and objects. Students order objects based on lengths and capacities using informal units. They tell time to the half-hour. They use the language of direction to move from place to place. Students classify outcomes of simple familiar events. They collect data by asking questions, draw simple data displays and make simple inferences.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Mathematics",
+        "year_level": "Year 1",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/4e0d84fb-9095-4db6-a031-9e4600a2533d"
+      }
+    },
+    {
+      "id": "mathematics-year_2-achievement",
+      "content": "By the end of Year 2 in Mathematics, students are expected to: By the end of Year 2, students recognise increasing and decreasing number sequences involving 2s, 3s and 5s. They represent multiplication and division by grouping into sets. They associate collections of Australian coins with their value. Students identify the missing element in a number sequence. Students recognise the features of three-dimensional objects. They interpret simple maps of familiar locations. They explain the effects of one-step transformations. Students make sense of collected information.Students count to and from 1000. They perform simple addition and subtraction calculations using a range of strategies. They divide collections and shapes into halves, quarters and eighths. Students order shapes and objects using informal units. They tell time to the quarter-hour and use a calendar to identify the date and the months included in seasons. They draw two-dimensional shapes. They describe outcomes for everyday events. Students collect, organise and represent data to make simple inferences.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Mathematics",
+        "year_level": "Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/4e0d84fb-9095-4db6-a031-9e4600a2533d"
+      }
+    },
+    {
+      "id": "mathematics-year_3-achievement",
+      "content": "By the end of Year 3 in Mathematics, students are expected to: By the end of Year 3, students recognise the connection between addition and subtraction and solve problems using efficient strategies for multiplication. They model and represent unit fractions. They represent money values in various ways. Students identify symmetry in the environment. They match positions on maps with given information. Students recognise angles in real situations. They interpret and compare data displays.Students count to and from 10 000. They classify numbers as either odd or even. They recall addition and multiplication facts for single-digit numbers. Students correctly count out change from financial transactions. They continue number patterns involving addition and subtraction. Students use metric units for length, mass and capacity. They tell time to the nearest minute. Students make models of three-dimensional objects. Students conduct chance experiments and list possible outcomes. They conduct simple data investigations for categorical variables.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Mathematics",
+        "year_level": "Year 3",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/4e0d84fb-9095-4db6-a031-9e4600a2533d"
+      }
+    },
+    {
+      "id": "mathematics-year_4-achievement",
+      "content": "By the end of Year 4 in Mathematics, students are expected to: By the end of Year 4, students choose appropriate strategies for calculations involving multiplication and division. They recognise common equivalent fractions in familiar contexts and make connections between fraction and decimal notations up to two decimal places. Students solve simple purchasing problems. They identify and explain strategies for finding unknown quantities in number sentences. They describe number patterns resulting from multiplication. Students compare areas of regular and irregular shapes using informal units. They solve problems involving time duration. They interpret information contained in maps. Students identify dependent and independent events. They describe different methods for data collection and representation, and evaluate their effectiveness.Students use the properties of odd and even numbers. They recall multiplication facts to 10 x 10 and related division facts. Students locate familiar fractions on a number line. They continue number sequences involving multiples of single digit numbers. Students use scaled instruments to measure temperatures, lengths, shapes and objects. They convert between units of time. Students create symmetrical shapes and patterns. They classify angles in relation to a right angle. Students list the probabilities of everyday events. They construct data displays from given or collected data.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Mathematics",
+        "year_level": "Year 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/4e0d84fb-9095-4db6-a031-9e4600a2533d"
+      }
+    },
+    {
+      "id": "mathematics-year_5-achievement",
+      "content": "By the end of Year 5 in Mathematics, students are expected to: By the end of Year 5, students solve simple problems involving the four operations using a range of strategies. They check the reasonableness of answers using estimation and rounding. Students identify and describe factors and multiples. They identify and explain strategies for finding unknown quantities in number sentences involving the four operations. They explain plans for simple budgets. Students connect three-dimensional objects with their two-dimensional representations. They describe transformations of two-dimensional shapes and identify line and rotational symmetry. Students interpret different data sets.Students order decimals and unit fractions and locate them on number lines. They add and subtract fractions with the same denominator. Students continue patterns by adding and subtracting fractions and decimals. They use appropriate units of measurement for length, area, volume, capacity and mass, and calculate perimeter and area of rectangles. They convert between 12- and 24-hour time. Students use a grid reference system to locate landmarks. They measure and construct different angles. Students list outcomes of chance experiments with equally likely outcomes and assign probabilities between 0 and 1. Students pose questions to gather data, and construct data displays appropriate for the data.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Mathematics",
+        "year_level": "Year 5",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/4e0d84fb-9095-4db6-a031-9e4600a2533d"
+      }
+    },
+    {
+      "id": "mathematics-year_6-achievement",
+      "content": "By the end of Year 6 in Mathematics, students are expected to: By the end of Year 6, students recognise the properties of prime, composite, square and triangular numbers. They describe the use of integers in everyday contexts. They solve problems involving all four operations with whole numbers. Students connect fractions, decimals and percentages as different representations of the same number. They solve problems involving the addition and subtraction of related fractions. Students make connections between the powers of 10 and the multiplication and division of decimals. They describe rules used in sequences involving whole numbers, fractions and decimals. Students connect decimal representations to the metric system and choose appropriate units of measurement to perform a calculation. They make connections between capacity and volume. They solve problems involving length and area. They interpret timetables. Students describe combinations of transformations. They solve problems using the properties of angles. Students compare observed and expected frequencies. They interpret and compare a variety of data displays including those displays for two categorical variables. They interpret secondary data displayed in the media.Students locate fractions and integers on a number line. They calculate a simple fraction of a quantity. They add, subtract and multiply decimals and divide decimals where the result is rational. Students calculate common percentage discounts on sale items. They write correct number sentences using brackets and order of operations. Students locate an ordered pair in any one of the four quadrants on the Cartesian plane. They construct simple prisms and pyramids. Students describe probabilities using simple fractions, decimals and percentages.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Mathematics",
+        "year_level": "Year 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/4e0d84fb-9095-4db6-a031-9e4600a2533d"
+      }
+    },
+    {
+      "id": "mathematics-year_7-achievement",
+      "content": "By the end of Year 7 in Mathematics, students are expected to: By the end of Year 7, students solve problems involving the comparison, addition and subtraction of integers. They make the connections between whole numbers and index notation and the relationship between perfect squares and square roots. They solve problems involving percentages and all four operations with fractions and decimals. They compare the cost of items to make financial decisions. Students represent numbers using variables. They connect the laws and properties for numbers to algebra. They interpret simple linear representations and model authentic information. Students describe different views of three-dimensional objects. They represent transformations in the Cartesian plane. They solve simple numerical problems involving angles formed by a transversal crossing two lines. Students identify issues involving the collection of continuous data. They describe the relationship between the median and mean in data displays.Students use fractions, decimals and percentages, and their equivalences. They express one quantity as a fraction or percentage of another. Students solve simple linear equations and evaluate algebraic expressions after numerical substitution. They assign ordered pairs to given points on the Cartesian plane. Students use formulas for the area and perimeter of rectangles and calculate volumes of rectangular prisms. Students classify triangles and quadrilaterals. They name the types of angles formed by a transversal crossing parallel line. Students determine the sample space for simple experiments with equally likely outcomes and assign probabilities to those outcomes. They calculate mean, mode, median and range for data sets. They construct stem-and-leaf plots and dot-plots.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Mathematics",
+        "year_level": "Year 7",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/4e0d84fb-9095-4db6-a031-9e4600a2533d"
+      }
+    },
+    {
+      "id": "mathematics-year_8-achievement",
+      "content": "By the end of Year 8 in Mathematics, students are expected to: By the end of Year 8, students solve everyday problems involving rates, ratios and percentages. They describe index laws and apply them to whole numbers. They describe rational and irrational numbers. Students solve problems involving profit and loss. They make connections between expanding and factorising algebraic expressions. Students solve problems relating to the volume of prisms. They make sense of time duration in real applications. They identify conditions for the congruence of triangles and deduce the properties of quadrilaterals. Students model authentic situations with two-way tables and Venn diagrams. They choose appropriate language to describe events and experiments. They explain issues related to the collection of data and the effect of outliers on means and medians in that data.Students use efficient mental and written strategies to carry out the four operations with integers. They simplify a variety of algebraic expressions. They solve linear equations and graph linear relationships on the Cartesian plane. Students convert between units of measurement for area and volume. They perform calculations to determine perimeter and area of parallelograms, rhombuses and kites. They name the features of circles and calculate the areas and circumferences of circles. Students determine the probabilities of complementary events and calculate the sum of probabilities.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Mathematics",
+        "year_level": "Year 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/4e0d84fb-9095-4db6-a031-9e4600a2533d"
+      }
+    },
+    {
+      "id": "mathematics-year_9-achievement",
+      "content": "By the end of Year 9 in Mathematics, students are expected to: By the end of Year 9, students solve problems involving simple interest. They interpret ratio and scale factors in similar figures. Students explain similarity of triangles. They recognise the connections between similarity and the trigonometric ratios. Students compare techniques for collecting data from primary and secondary sources. They make sense of the position of the mean and median in skewed, symmetric and bi-modal displays to describe and interpret data.Students apply the index laws to numbers and express numbers in scientific notation. They expand binomial expressions. They find the distance between two points on the Cartesian plane and the gradient and midpoint of a line segment. They sketch linear and non-linear relations. Students calculate areas of shapes and the volume and surface area of right prisms and cylinders. They use Pythagoras’ Theorem and trigonometry to find unknown sides of right-angled triangles. Students calculate relative frequencies to estimate probabilities, list outcomes for two-step experiments and assign probabilities for those outcomes. They construct histograms and back-to-back stem-and-leaf plots.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Mathematics",
+        "year_level": "Year 9",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/4e0d84fb-9095-4db6-a031-9e4600a2533d"
+      }
+    },
+    {
+      "id": "mathematics-year_10-achievement",
+      "content": "By the end of Year 10 in Mathematics, students are expected to: By the end of Year 10, students recognise the connection between simple and compound interest. They solve problems involving linear equations and inequalities. They make the connections between algebraic and graphical representations of relations. Students solve surface area and volume problems relating to composite solids. They recognise the relationships between parallel and perpendicular lines. Students apply deductive reasoning to proofs and numerical exercises involving plane shapes. They compare data sets by referring to the shapes of the various data displays. They describe bivariate data where the independent variable is time. Students describe statistical relationships between two continuous variables. They evaluate statistical reports.Students expand binomial expressions and factorise monic quadratic expressions. They find unknown values after substitution into formulas. They perform the four operations with simple algebraic fractions. Students solve simple quadratic equations and pairs of simultaneous equations. They use triangle and angle properties to prove congruence and similarity. Students use trigonometry to calculate unknown angles in right-angled triangles. Students list outcomes for multi-step chance experiments and assign probabilities for these experiments. They calculate quartiles and inter-quartile ranges.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Mathematics",
+        "year_level": "Year 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/4e0d84fb-9095-4db6-a031-9e4600a2533d"
+      }
+    }
+  ]
+}

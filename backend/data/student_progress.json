@@ -1,0 +1,16 @@
+[
+  { "id": "sp1", "student_id": "s1", "subject": "Mathematics", "term": "T4-2025", "achievement_level": "At", "naplan_band": "Developing", "score": 68, "teacher_comment": "Lily has a solid foundation in number sense.", "updated_at": "2025-12-10T10:00:00Z", "updated_by": "t1" },
+  { "id": "sp2", "student_id": "s1", "subject": "Mathematics", "term": "T1-2026", "achievement_level": "Above", "naplan_band": "Strong", "score": 82, "teacher_comment": "Excellent improvement in fractions and place value.", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sp3", "student_id": "s1", "subject": "English", "term": "T4-2025", "achievement_level": "At", "naplan_band": "Strong", "score": 74, "teacher_comment": "Reading comprehension is on track.", "updated_at": "2025-12-10T10:00:00Z", "updated_by": "t1" },
+  { "id": "sp4", "student_id": "s1", "subject": "English", "term": "T1-2026", "achievement_level": "At", "naplan_band": "Strong", "score": 79, "teacher_comment": "Writing is improving. Focus on paragraph structure.", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+
+  { "id": "sp5", "student_id": "s2", "subject": "Mathematics", "term": "T4-2025", "achievement_level": "Below", "naplan_band": "Developing", "score": 52, "teacher_comment": "Tom needs support with multiplication facts.", "updated_at": "2025-12-10T10:00:00Z", "updated_by": "t1" },
+  { "id": "sp6", "student_id": "s2", "subject": "Mathematics", "term": "T1-2026", "achievement_level": "At", "naplan_band": "Developing", "score": 65, "teacher_comment": "Good progress — now working confidently with times tables.", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sp7", "student_id": "s2", "subject": "English", "term": "T4-2025", "achievement_level": "Above", "naplan_band": "Exceeding", "score": 91, "teacher_comment": "Excellent reader. Loves chapter books.", "updated_at": "2025-12-10T10:00:00Z", "updated_by": "t1" },
+  { "id": "sp8", "student_id": "s2", "subject": "English", "term": "T1-2026", "achievement_level": "Above", "naplan_band": "Exceeding", "score": 93, "teacher_comment": "Exceptional writing skills for Year 3.", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+
+  { "id": "sp9", "student_id": "s3", "subject": "Mathematics", "term": "T4-2025", "achievement_level": "At", "naplan_band": "Strong", "score": 75, "teacher_comment": "Amir is confident with problem solving.", "updated_at": "2025-12-10T10:00:00Z", "updated_by": "t1" },
+  { "id": "sp10", "student_id": "s3", "subject": "Mathematics", "term": "T1-2026", "achievement_level": "At", "naplan_band": "Strong", "score": 77, "teacher_comment": "Consistent performance across all strands.", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sp11", "student_id": "s3", "subject": "English", "term": "T4-2025", "achievement_level": "Below", "naplan_band": "Developing", "score": 55, "teacher_comment": "Amir is building his English vocabulary. Great effort.", "updated_at": "2025-12-10T10:00:00Z", "updated_by": "t1" },
+  { "id": "sp12", "student_id": "s3", "subject": "English", "term": "T1-2026", "achievement_level": "At", "naplan_band": "Developing", "score": 66, "teacher_comment": "Significant improvement in reading fluency.", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" }
+]

@@ -1,0 +1,56 @@
+{
+  "documents": [
+    {
+      "id": "explainer-reports-grading-scale",
+      "content": "Australian schools use an A to E grading scale on student reports. Grade A means your child is performing well above the standard expected for their year level — they demonstrate excellent understanding. Grade B means above the expected standard — a strong performance. Grade C means at the expected standard — your child is meeting the year level expectations, which is a good result. Grade D means below the expected standard — your child may need some extra support. Grade E means well below the standard — your child needs significant additional support in this area.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "explainer",
+        "subject": "Report Cards",
+        "year_level": null,
+        "strand": "Understanding School Reports",
+        "substrand": null,
+        "source_url": null
+      }
+    },
+    {
+      "id": "explainer-reports-how-to-read",
+      "content": "School reports are issued twice a year, at the end of Term 2 (mid-year) and Term 4 (end of year). Each report shows grades for every subject, plus comments from the teacher about your child's progress, strengths, and areas for improvement. Many reports also include an effort rating (such as Excellent, Good, Satisfactory, Needs Improvement) which is separate from the achievement grade. A child might get a B for achievement but Excellent for effort — meaning they are working hard and progressing well.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "explainer",
+        "subject": "Report Cards",
+        "year_level": null,
+        "strand": "Understanding School Reports",
+        "substrand": null,
+        "source_url": null
+      }
+    },
+    {
+      "id": "explainer-reports-what-c-means",
+      "content": "Many parents worry when their child receives a C grade, but C actually means your child is meeting the expected standard for their year level. This is the benchmark — it means they are where they should be. Think of it as 'on track'. The majority of students receive C grades. An A or B means they are ahead of expectations, while D or E means they may need extra help. If you are concerned about your child's grades, the best step is to book a parent-teacher interview to discuss specific areas where you can help at home.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "explainer",
+        "subject": "Report Cards",
+        "year_level": null,
+        "strand": "Understanding School Reports",
+        "substrand": null,
+        "source_url": null
+      }
+    },
+    {
+      "id": "explainer-reports-parent-teacher",
+      "content": "Parent-teacher interviews are offered at least once per year (usually twice). These are short meetings (10-15 minutes) where you discuss your child's progress with their teacher. Good questions to ask include: What are my child's strengths? What areas need improvement? How can I support their learning at home? Is my child meeting year level expectations? How do they interact with other students? You do not need to wait for a scheduled interview — you can contact the school at any time if you have concerns.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "explainer",
+        "subject": "Report Cards",
+        "year_level": null,
+        "strand": "Understanding School Reports",
+        "substrand": null,
+        "source_url": null
+      }
+    }
+  ]
+}

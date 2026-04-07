@@ -1,0 +1,47 @@
+[
+  {
+    "id": "a1",
+    "classroom_id": "c1",
+    "subject": "Mathematics",
+    "title": "Fractions Quiz - Week 3",
+    "description": "Identifying and comparing simple fractions",
+    "due_date": "2026-03-14",
+    "created_at": "2026-03-10T08:00:00Z",
+    "created_by": "t1",
+    "results": [
+      { "student_id": "s1", "score": 85, "submitted": true, "feedback": "Great work on equivalent fractions." },
+      { "student_id": "s2", "score": 62, "submitted": true, "feedback": "Review comparing fractions with different denominators." },
+      { "student_id": "s3", "score": 78, "submitted": true, "feedback": "Good understanding of halves and quarters." }
+    ]
+  },
+  {
+    "id": "a2",
+    "classroom_id": "c1",
+    "subject": "English",
+    "title": "Narrative Writing - My Adventure",
+    "description": "Write a short narrative with beginning, middle, and end",
+    "due_date": "2026-03-21",
+    "created_at": "2026-03-17T08:00:00Z",
+    "created_by": "t1",
+    "results": [
+      { "student_id": "s1", "score": 76, "submitted": true, "feedback": "Good story structure. Work on using more descriptive language." },
+      { "student_id": "s2", "score": 92, "submitted": true, "feedback": "Excellent vocabulary and vivid descriptions." },
+      { "student_id": "s3", "score": 64, "submitted": true, "feedback": "Great effort. Keep practising sentence variety." }
+    ]
+  },
+  {
+    "id": "a3",
+    "classroom_id": "c1",
+    "subject": "Mathematics",
+    "title": "Place Value Assessment",
+    "description": "Understanding thousands, hundreds, tens and ones",
+    "due_date": "2026-04-04",
+    "created_at": "2026-03-31T08:00:00Z",
+    "created_by": "t1",
+    "results": [
+      { "student_id": "s1", "score": 90, "submitted": true, "feedback": "Excellent understanding of 4-digit numbers." },
+      { "student_id": "s2", "score": 71, "submitted": true, "feedback": "Good progress. Keep practising expanded form." },
+      { "student_id": "s3", "score": 80, "submitted": true, "feedback": "Solid work across all questions." }
+    ]
+  }
+]

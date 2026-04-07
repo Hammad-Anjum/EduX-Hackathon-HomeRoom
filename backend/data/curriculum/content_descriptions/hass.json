@@ -1,0 +1,992 @@
+{
+  "documents": [
+    {
+      "id": "hass-economics_and_busine-year_7-cd000",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways consumers and producers interact and respond to each other in the market",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd001",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why and how individuals and businesses plan to achieve short-term and long-term personal, organisational and financial objectives",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd002",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Characteristics of entrepreneurs and successful businesses",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd003",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why individuals work, types of work and how people derive an income",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd004",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways markets in Australia operate to enable the distribution of resources, and why they may be influenced by government",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd005",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The traditional markets of Aboriginal and Torres Strait Islander communities and their participation in contemporary markets",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd006",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The rights and responsibilities of consumers and businesses in Australia in terms of financial and economic decision-making",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd007",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Types of businesses and the ways that businesses respond to opportunities in Australia",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd008",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Influences on the ways people work and factors that might affect work in the future",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd009",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Australia as a trading nation and its place within the rising economies of Asia and broader global economy",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd010",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why and how participants in the global economy are dependent on each other",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd011",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why and how people manage financial risks and rewards in the current Australian and global financial landscape",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd012",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The nature of innovation and how and why businesses seek to create and maintain a competitive advantage in the market, including the global market",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd013",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The changing roles and responsibilities of participants in the Australian or global workplace",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd014",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Indicators of economic performance and how Australia’s economy is performing",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd015",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The links between economic performance and living standards, and how and why variations exist within and between economies",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd016",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways that governments manage economic performance to improve living standards",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd017",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Factors that influence major consumer and financial decisions and the short- and long-term consequences of these decisions",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd018",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways businesses respond to changing economic conditions and improve productivity through organisational management and workforce management",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd019",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways consumers and producers interact and respond to each other in the market",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd020",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways consumers and producers interact and respond to each other in the market",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd021",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways consumers and producers interact and respond to each other in the market",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd022",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why and how individuals and businesses plan to achieve short-term and long-term personal, organisational and financial objectives",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd023",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why and how individuals and businesses plan to achieve short-term and long-term personal, organisational and financial objectives",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd024",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why and how individuals and businesses plan to achieve short-term and long-term personal, organisational and financial objectives",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd025",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Characteristics of entrepreneurs and successful businesses",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd026",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Characteristics of entrepreneurs and successful businesses",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd027",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Characteristics of entrepreneurs and successful businesses",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd028",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why individuals work, types of work and how people derive an income",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd029",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why individuals work, types of work and how people derive an income",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd030",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why individuals work, types of work and how people derive an income",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd031",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways markets in Australia operate to enable the distribution of resources, and why they may be influenced by government",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd032",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways markets in Australia operate to enable the distribution of resources, and why they may be influenced by government",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd033",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways markets in Australia operate to enable the distribution of resources, and why they may be influenced by government",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd034",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The traditional markets of Aboriginal and Torres Strait Islander communities and their participation in contemporary markets",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd035",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The traditional markets of Aboriginal and Torres Strait Islander communities and their participation in contemporary markets",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd036",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The traditional markets of Aboriginal and Torres Strait Islander communities and their participation in contemporary markets",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd037",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The rights and responsibilities of consumers and businesses in Australia in terms of financial and economic decision-making",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd038",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The rights and responsibilities of consumers and businesses in Australia in terms of financial and economic decision-making",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd039",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The rights and responsibilities of consumers and businesses in Australia in terms of financial and economic decision-making",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd040",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Types of businesses and the ways that businesses respond to opportunities in Australia",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd041",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Types of businesses and the ways that businesses respond to opportunities in Australia",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd042",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Types of businesses and the ways that businesses respond to opportunities in Australia",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd043",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Influences on the ways people work and factors that might affect work in the future",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd044",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Influences on the ways people work and factors that might affect work in the future",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd045",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Influences on the ways people work and factors that might affect work in the future",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd046",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Australia as a trading nation and its place within the rising economies of Asia and broader global economy",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd047",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Australia as a trading nation and its place within the rising economies of Asia and broader global economy",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd048",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Australia as a trading nation and its place within the rising economies of Asia and broader global economy",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd049",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why and how participants in the global economy are dependent on each other",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd050",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why and how participants in the global economy are dependent on each other",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd051",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why and how participants in the global economy are dependent on each other",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd052",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why and how people manage financial risks and rewards in the current Australian and global financial landscape",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd053",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why and how people manage financial risks and rewards in the current Australian and global financial landscape",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd054",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Why and how people manage financial risks and rewards in the current Australian and global financial landscape",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd055",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The nature of innovation and how and why businesses seek to create and maintain a competitive advantage in the market, including the global market",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd056",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The nature of innovation and how and why businesses seek to create and maintain a competitive advantage in the market, including the global market",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd057",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The nature of innovation and how and why businesses seek to create and maintain a competitive advantage in the market, including the global market",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd058",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The changing roles and responsibilities of participants in the Australian or global workplace",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd059",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The changing roles and responsibilities of participants in the Australian or global workplace",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-cd060",
+      "content": "In Year 10 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The changing roles and responsibilities of participants in the Australian or global workplace",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd061",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Indicators of economic performance and how Australia’s economy is performing",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd062",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Indicators of economic performance and how Australia’s economy is performing",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd063",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Indicators of economic performance and how Australia’s economy is performing",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd064",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The links between economic performance and living standards, and how and why variations exist within and between economies",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd065",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The links between economic performance and living standards, and how and why variations exist within and between economies",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd066",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The links between economic performance and living standards, and how and why variations exist within and between economies",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd067",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways that governments manage economic performance to improve living standards",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd068",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways that governments manage economic performance to improve living standards",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd069",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways that governments manage economic performance to improve living standards",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd070",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Factors that influence major consumer and financial decisions and the short- and long-term consequences of these decisions",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd071",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Factors that influence major consumer and financial decisions and the short- and long-term consequences of these decisions",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd072",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: Factors that influence major consumer and financial decisions and the short- and long-term consequences of these decisions",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-cd073",
+      "content": "In Year 7 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways businesses respond to changing economic conditions and improve productivity through organisational management and workforce management",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-cd074",
+      "content": "In Year 8 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways businesses respond to changing economic conditions and improve productivity through organisational management and workforce management",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-cd075",
+      "content": "In Year 9 Humanities and Social Sciences — Economics and Business, under Economics and Business Knowledge and Understanding, students learn to: The ways businesses respond to changing economic conditions and improve productivity through organisational management and workforce management",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": "Economics and Business Knowledge and Understanding",
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    }
+  ]
+}

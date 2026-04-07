@@ -1,0 +1,524 @@
+{
+  "documents": [
+    {
+      "id": "the_arts-dance-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in The Arts — Dance, students are expected to: By the end of Year 2, students describe the effect of the elements in dance they make, perform and view and where and why people dance.Students use the elements of dance to make and perform dance sequences that demonstrate fundamental movement skills to represent ideas. Students demonstrate safe practice.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Dance",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in The Arts — Dance, students are expected to: By the end of Year 2, students describe artworks they make and those to which they respond. They consider where and why people make artworks. Students use the elements and processes of arts subjects to make and share artworks that represent ideas.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Dance",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in The Arts — Dance, students are expected to: By the end of Year 4, students describe and discuss similarities and differences between dances they make, perform and view. They discuss how they and others organise the elements of dance in dances depending on the purpose.Students structure movements into dance sequences and use the elements of dance and choreographic devices to represent a story or mood. They collaborate to make dances and perform with control, accuracy, projection and focus.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in The Arts — Dance, students are expected to: By the end of Year 4, students describe and discuss similarities and differences between artworks they make and those to which they respond. They discuss how they and others organise the elements and processes in artworks. Students collaborate to plan and make artworks that communicate ideas.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in The Arts — Dance, students are expected to: By the end of Year 6, students explain how ideas are communicated in artworks they make and to which they respond. They describe characteristics of artworks from different social, historical and cultural contexts that influence their art making.Students structure elements and processes of arts subjects to make artworks that communicate meaning. They work collaboratively to share artworks for audiences, demonstrating skills and techniques.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in The Arts — Dance, students are expected to: By the end of Year 6, students explain how the elements of dance, choreographic devices and production elements communicate meaning in dances they make, perform and view. They describe characteristics of dances from different social, historical and cultural contexts that influence their dance making.Students structure movements in dance sequences and use the elements of dance and choreographic devices to make dances that communicate meaning. They work collaboratively to perform dances for audiences, demonstrating technical and expressive skills.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_7_and_8-achievement",
+      "content": "By the end of Years 7 and 8 in The Arts — Dance, students are expected to: By the end of Year 8, students identify and analyse the elements of dance, choreographic devices and production elements in dances in different styles and apply this knowledge in dances they make and perform. They evaluate how they and others from different cultures, times and places communicate meaning and intent through dance.Students choreograph dances, demonstrating selection and organisation of the elements of dance, choreographic devices and form to communicate choreographic intent. They choreograph and learn dances, and perform them with confidence and clarity, and with technical and expressive skills appropriate to the dance style.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_9_and_10-achievement",
+      "content": "By the end of Years 9 and 10 in The Arts — Dance, students are expected to: By the end of Year 10, students analyse the choreographer’s use of the elements of dance, choreographic devices, form and production elements to communicate choreographic intent in dances they make, perform and view. They evaluate the impact of dance from different cultures, places and times on Australian dance.Students choreograph dances by manipulating and combining the elements of dance, choreographic devices, form and production elements to communicate their choreographic intent. They choreograph, rehearse and perform dances, demonstrating technical and expressive skills appropriate to the genre and style.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in The Arts — Drama, students are expected to: By the end of Year 2, students describe what happens in drama they make, perform and view. They identify some elements in drama and describe where and why there is drama.Students make and present drama using the elements of role, situation and focus in dramatic play and improvisation.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Drama",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in The Arts — Drama, students are expected to: By the end of Year 2, students describe artworks they make and those to which they respond. They consider where and why people make artworks. Students use the elements and processes of arts subjects to make and share artworks that represent ideas.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Drama",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in The Arts — Drama, students are expected to: By the end of Year 4, students describe and discuss similarities and differences between artworks they make and those to which they respond. They discuss how they and others organise the elements and processes in artworks. Students collaborate to plan and make artworks that communicate ideas.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in The Arts — Drama, students are expected to: By the end of Year 4, students describe and discuss similarities and differences between drama they make, perform and view. They discuss how they and others organise the elements of drama in their drama.Students use relationships, tension, time and place and narrative structure when improvising and performing devised and scripted drama. They collaborate to plan, make and perform drama that communicates ideas.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in The Arts — Drama, students are expected to: By the end of Year 6, students explain how ideas are communicated in artworks they make and to which they respond. They describe characteristics of artworks from different social, historical and cultural contexts that influence their art making.Students structure elements and processes of arts subjects to make artworks that communicate meaning. They work collaboratively to share artworks for audiences, demonstrating skills and techniques.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in The Arts — Drama, students are expected to: By the end of Year 6, students explain how dramatic action and meaning is communicated in drama they make, perform and view. They explain how drama from different cultures, times and places influences their own drama making.Students work collaboratively as they use the elements of drama to shape character, voice and movement in improvisation, playbuilding and performances of devised and scripted drama for audiences.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_7_and_8-achievement",
+      "content": "By the end of Years 7 and 8 in The Arts — Drama, students are expected to: By the end of Year 8, students identify and analyse how the elements of drama are used, combined and manipulated in different styles. They apply this knowledge in drama they make and perform. They evaluate how they and others from different cultures, times and places communicate meaning and intent through drama.Students collaborate to devise, interpret and perform drama. They manipulate the elements of drama, narrative and structure to control and communicate meaning. They apply different performance styles and conventions to convey status, relationships and intentions. They use performance skills and design elements to shape and focus theatrical effect for an audience.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_9_and_10-achievement",
+      "content": "By the end of Years 9 and 10 in The Arts — Drama, students are expected to: By the end of Year 10, students analyse the elements of drama, forms and performance styles and evaluate meaning and aesthetic effect in drama they devise, interpret, perform and view. They use their experiences of drama practices from different cultures, places and times to evaluate drama from different viewpoints.Students develop and sustain different roles and characters for given circumstances and intentions. They perform devised and scripted drama in different forms, styles and performance spaces. They collaborate with others to plan, direct, produce, rehearse and refine performances. They select and use the elements of drama, narrative and structure in directing and acting to engage audiences. They refine performance and expressive skills in voice and movement to convey dramatic action.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in The Arts — Media Arts, students are expected to: By the end of Year 2, students describe artworks they make and those to which they respond. They consider where and why people make artworks. Students use the elements and processes of arts subjects to make and share artworks that represent ideas.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in The Arts — Media Arts, students are expected to: By the end of Year 2, students communicate about media artworks they make and view, and where and why media artworks are made.Students make and share media artworks using story principles, composition, sound and technologies.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in The Arts — Media Arts, students are expected to: By the end of Year 4, students describe and discuss similarities and differences between artworks they make and those to which they respond. They discuss how they and others organise the elements and processes in artworks. Students collaborate to plan and make artworks that communicate ideas.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in The Arts — Media Arts, students are expected to: By the end of Year 4, students describe and discuss similarities and differences between media artworks they make and view. They discuss how and why they and others use images, sound and text to make and present media artworks.Students collaborate to use story principles, time, space and technologies to make and share media artworks that communicate ideas to an audience.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in The Arts — Media Arts, students are expected to: By the end of Year 6, students explain how ideas are communicated in artworks they make and to which they respond. They describe characteristics of artworks from different social, historical and cultural contexts that influence their art making.Students structure elements and processes of arts subjects to make artworks that communicate meaning. They work collaboratively to share artworks for audiences, demonstrating skills and techniques.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in The Arts — Media Arts, students are expected to: By the end of Year 6, students explain how points of view, ideas and stories are shaped and portrayed in media artworks they make, share and view. They explain the purposes and audiences for media artworks made in different cultures, times and places.Students work collaboratively using technologies to make media artworks for specific audiences and purposes using story principles to shape points of view and genre conventions, movement and lighting.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_7_and_8-achievement",
+      "content": "By the end of Years 7 and 8 in The Arts — Media Arts, students are expected to: By the end of Year 8, students identify and analyse how representations of social values and points of view are portrayed in the media artworks they make, distribute and view. They evaluate how they and other makers and users of media artworks from different cultures, times and places use genre and media conventions and technical and symbolic elements to make meaning. They identify and analyse the social and ethical responsibility of the makers and users of media artworks.Students produce representations of social values and points of view in media artworks for particular audiences and contexts. They use genre and media conventions and shape technical and symbolic elements for specific purposes and meaning. They collaborate with others in design and production processes, and control equipment and technologies to achieve their intentions.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_9_and_10-achievement",
+      "content": "By the end of Years 9 and 10 in The Arts — Media Arts, students are expected to: By the end of Year 10, students analyse how social and cultural values and alternative points of view are portrayed in media artworks they make, interact with and distribute. They evaluate how genre and media conventions and technical and symbolic elements are manipulated to make representations and meaning. They evaluate how social, institutional and ethical issues influence the making and use of media artworks.Students produce representations that communicate alternative points of view in media artworks for different community and institutional contexts. They manipulate genre and media conventions and integrate and shape the technical and symbolic elements for specific purposes, meaning and style. They collaboratively apply design, production and distribution processes.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in The Arts — Music, students are expected to: By the end of Year 2, students describe artworks they make and those to which they respond. They consider where and why people make artworks. Students use the elements and processes of arts subjects to make and share artworks that represent ideas.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Music",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in The Arts — Music, students are expected to: By the end of Year 2, students communicate about the music they listen to, make and perform and where and why people make music.Students improvise, compose, arrange and perform music. They demonstrate aural skills by staying in tune and keeping in time when they sing and play.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Music",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in The Arts — Music, students are expected to: By the end of Year 4, students describe and discuss similarities and differences between music they listen to, compose and perform. They discuss how they and others use the elements of music in performance and composition.Students collaborate to improvise, compose and arrange sound, silence, tempo and volume in music that communicates ideas. They demonstrate aural skills by singing and playing instruments with accurate pitch, rhythm and expression.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Music",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in The Arts — Music, students are expected to: By the end of Year 4, students describe and discuss similarities and differences between artworks they make and those to which they respond. They discuss how they and others organise the elements and processes in artworks. Students collaborate to plan and make artworks that communicate ideas.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Music",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in The Arts — Music, students are expected to: By the end of Year 6, students explain how ideas are communicated in artworks they make and to which they respond. They describe characteristics of artworks from different social, historical and cultural contexts that influence their art making.Students structure elements and processes of arts subjects to make artworks that communicate meaning. They work collaboratively to share artworks for audiences, demonstrating skills and techniques.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Music",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in The Arts — Music, students are expected to: By the end of Year 6, students explain how the elements of music are used to communicate meaning in the music they listen to, compose and perform. They describe how their music making is influenced by music and performances from different cultures, times and places.Students use rhythm, pitch and form symbols and terminology to compose and perform music. They sing and play music in different styles, demonstrating aural, technical and expressive skills by singing and playing instruments with accurate pitch, rhythm and expression in performances for audiences.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Music",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_7_and_8-achievement",
+      "content": "By the end of Years 7 and 8 in The Arts — Music, students are expected to: By the end of Year 8, students identify and analyse how the elements of music are used in different styles and apply this knowledge in their performances and compositions. They evaluate musical choices they and others from different cultures, times and places make to communicate meaning as performers and composers.Students manipulate the elements of music and stylistic conventions to compose music. They interpret, rehearse and perform songs and instrumental pieces in unison and in parts, demonstrating technical and expressive skills. They use aural skills, music terminology and symbols to recognise, memorise and notate features, such as melodic patterns in music they perform and compose.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Music",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_9_and_10-achievement",
+      "content": "By the end of Years 9 and 10 in The Arts — Music, students are expected to: By the end of Year 10, students analyse different scores and performances aurally and visually. They evaluate the use of elements of music and defining characteristics from different musical styles. They use their understanding of music making in different cultures, times and places to inform and shape their interpretations, performances and compositions.Students interpret, rehearse and perform solo and ensemble repertoire in a range of forms and styles. They interpret and perform music with technical control, expression and stylistic understanding. They use aural skills to recognise elements of music and memorise aspects of music such as pitch and rhythm sequences. They use knowledge of the elements of music, style and notation to compose, document and share their music.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Music",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in The Arts — Visual Arts, students are expected to: By the end of Year 2, students describe artworks they make and view and where and why artworks are made and presented.Students make artworks in different forms to express their ideas, observations and imagination, using different techniques and processes.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in The Arts — Visual Arts, students are expected to: By the end of Year 2, students describe artworks they make and those to which they respond. They consider where and why people make artworks. Students use the elements and processes of arts subjects to make and share artworks that represent ideas.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in The Arts — Visual Arts, students are expected to: By the end of Year 4, students describe and discuss similarities and differences between artworks they make, present and view. They discuss how they and others use visual conventions in artworks.Students collaborate to plan and make artworks that are inspired by artworks they experience. They use visual conventions, techniques and processes to communicate their ideas.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in The Arts — Visual Arts, students are expected to: By the end of Year 4, students describe and discuss similarities and differences between artworks they make and those to which they respond. They discuss how they and others organise the elements and processes in artworks. Students collaborate to plan and make artworks that communicate ideas.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in The Arts — Visual Arts, students are expected to: By the end of Year 6, students explain how ideas are communicated in artworks they make and to which they respond. They describe characteristics of artworks from different social, historical and cultural contexts that influence their art making.Students structure elements and processes of arts subjects to make artworks that communicate meaning. They work collaboratively to share artworks for audiences, demonstrating skills and techniques.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in The Arts — Visual Arts, students are expected to: By the end of Year 6, students explain how ideas are represented in artworks they make and view. They describe the influences of artworks and practices from different cultures, times and places on their art making.Students use visual conventions and visual arts practices to express a personal view in their artworks. They demonstrate different techniques and processes in planning and making artworks. They describe how the display of artworks enhances meaning for an audience.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_7_and_8-achievement",
+      "content": "By the end of Years 7 and 8 in The Arts — Visual Arts, students are expected to: By the end of Year 8, students identify and analyse how other artists use visual conventions and viewpoints to communicate ideas and apply this knowledge in their art making. They explain how an artwork is displayed to enhance its meaning. They evaluate how they and others are influenced by artworks from different cultures, times and places.Students plan their art making in response to exploration of techniques and processes used in their own and others’ artworks. They demonstrate use of visual conventions, techniques and processes to communicate meaning in their artworks.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_9_and_10-achievement",
+      "content": "By the end of Years 9 and 10 in The Arts — Visual Arts, students are expected to: By the end of Year 10, students evaluate how representations communicate artistic intentions in artworks they make and view. They evaluate artworks and displays from different cultures, times and places. They analyse connections between visual conventions, practices and viewpoints that represent their own and others’ ideas. They identify influences of other artists on their own artworks.Students manipulate materials, techniques and processes to develop and refine techniques and processes to represent ideas and subject matter in their artworks.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    }
+  ]
+}

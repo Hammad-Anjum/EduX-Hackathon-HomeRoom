@@ -1,0 +1,147 @@
+{
+  "documents": [
+    {
+      "id": "science-foundation_year-achievement",
+      "content": "By the end of Foundation Year in Science, students are expected to: By the end of the Foundation year, students describe the properties and behaviour of familiar objects. They suggest how the environment affects them and other living things.Students share and reflect on observations, and ask and respond to questions about familiar objects and events.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Science",
+        "year_level": "Foundation Year",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/593bf494-a404-4057-8cb2-9e4600a2dba8"
+      }
+    },
+    {
+      "id": "science-year_1-achievement",
+      "content": "By the end of Year 1 in Science, students are expected to: By the end of Year 1, students describe objects and events that they encounter in their everyday lives, and the effects of interacting with materials and objects. They describe changes in their local environment and how different places meet the needs of living things.Students respond to questions, make predictions, and participate in guided investigations of everyday phenomena. They follow instructions to record and sort their observations and share them with others.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Science",
+        "year_level": "Year 1",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/593bf494-a404-4057-8cb2-9e4600a2dba8"
+      }
+    },
+    {
+      "id": "science-year_2-achievement",
+      "content": "By the end of Year 2 in Science, students are expected to: By the end of Year 2, students describe changes to objects, materials and living things. They identify that certain materials and resources have different uses and describe examples of where science is used in people’s daily lives.Students pose and respond to questions about their experiences and predict outcomes of investigations. They use informal measurements to make and compare observations. They record and represent observations and communicate ideas in a variety of ways.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Science",
+        "year_level": "Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/593bf494-a404-4057-8cb2-9e4600a2dba8"
+      }
+    },
+    {
+      "id": "science-year_3-achievement",
+      "content": "By the end of Year 3 in Science, students are expected to: By the end of Year 3, students use their understanding of the movement of Earth, materials and the behaviour of heat to suggest explanations for everyday observations. They group living things based on observable features and distinguish them from non-living things. They describe how they can use science investigations to respond to questions.Students use their experiences to identify questions and make predictions about scientific investigations. They follow procedures to collect and record observations and suggest possible reasons for their findings, based on patterns in their data. They describe how safety and fairness were considered and they use diagrams and other representations to communicate their ideas.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Science",
+        "year_level": "Year 3",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/593bf494-a404-4057-8cb2-9e4600a2dba8"
+      }
+    },
+    {
+      "id": "science-year_4-achievement",
+      "content": "By the end of Year 4 in Science, students are expected to: By the end of Year 4, students apply the observable properties of materials to explain how objects and materials can be used. They describe how contact and non-contact forces affect interactions between objects. They discuss how natural processes and human activity cause changes to Earth’s surface. They describe relationships that assist the survival of living things and sequence key stages in the life cycle of a plant or animal. They identify when science is used to understand the effect of their actions.Students follow instructions to identify investigable questions about familiar contexts and make predictions based on prior knowledge. They describe ways to conduct investigations and safely use equipment to make and record observations with accuracy. They use provided tables and column graphs to organise data and identify patterns. Students suggest explanations for observations and compare their findings with their predictions. They suggest reasons why a test was fair or not. They use formal and informal ways to communicate their observations and findings.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Science",
+        "year_level": "Year 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/593bf494-a404-4057-8cb2-9e4600a2dba8"
+      }
+    },
+    {
+      "id": "science-year_5-achievement",
+      "content": "By the end of Year 5 in Science, students are expected to: By the end of Year 5, students classify substances according to their observable properties and behaviours. They explain everyday phenomena associated with the transfer of light. They describe the key features of our solar system. They analyse how the form of living things enables them to function in their environments. Students discuss how scientific developments have affected people’s lives, help us solve problems and how science knowledge develops from many people’s contributions. Students follow instructions to pose questions for investigation and predict the effect of changing variables when planning an investigation. They use equipment in ways that are safe and improve the accuracy of their observations. Students construct tables and graphs to organise data and identify patterns in the data. They compare patterns in their data with predictions when suggesting explanations. They describe ways to improve the fairness of their investigations, and communicate their ideas and findings using multimodal texts.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Science",
+        "year_level": "Year 5",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/593bf494-a404-4057-8cb2-9e4600a2dba8"
+      }
+    },
+    {
+      "id": "science-year_6-achievement",
+      "content": "By the end of Year 6 in Science, students are expected to: By the end of Year 6, students compare and classify different types of observable changes to materials. They analyse requirements for the transfer of electricity and describe how energy can be transformed from one form to another when generating electricity. They explain how natural events cause rapid change to Earth’s surface. They describe and predict the effect of environmental changes on individual living things. Students explain how scientific knowledge helps us to solve problems and inform decisions and identify historical and cultural contributions.Students follow procedures to develop investigable questions and design investigations into simple cause-and-effect relationships. They identify variables to be changed and measured and describe potential safety risks when planning methods. They collect, organise and interpret their data, identifying where improvements to their methods or research could improve the data. They describe and analyse relationships in data using appropriate representations and construct multimodal texts to communicate ideas, methods and findings.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Science",
+        "year_level": "Year 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/593bf494-a404-4057-8cb2-9e4600a2dba8"
+      }
+    },
+    {
+      "id": "science-year_7-achievement",
+      "content": "By the end of Year 7 in Science, students are expected to: By the end of Year 7, students describe techniques to separate pure substances from mixtures. They represent and predict the effects of unbalanced forces, including Earth’s gravity, on motion. They explain how the relative positions of Earth, the sun and moon affect phenomena on Earth. They analyse how the sustainable use of resources depends on the way they are formed and cycle through Earth systems. They predict the effect of human and environmental changes on interactions between organisms and classify and organise diverse organisms based on observable differences. Students describe situations where scientific knowledge from different science disciplines and diverse cultures has been used to solve a real-world problem. They explain possible implications of the solution for different groups in society.Students identify questions that can be investigated scientifically. They plan fair experimental methods, identifying variables to be changed and measured. They select equipment that improves fairness and accuracy and describe how they considered safety. Students draw on evidence to support their conclusions. They summarise data from different sources, describe trends and refer to the quality of their data when suggesting improvements to their methods. They communicate their ideas, methods and findings using scientific language and appropriate representations.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Science",
+        "year_level": "Year 7",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/593bf494-a404-4057-8cb2-9e4600a2dba8"
+      }
+    },
+    {
+      "id": "science-year_8-achievement",
+      "content": "By the end of Year 8 in Science, students are expected to: By the end of Year 8, students compare physical and chemical changes and use the particle model to explain and predict the properties and behaviours of substances. They identify different forms of energy and describe how energy transfers and transformations cause change in simple systems. They compare processes of rock formation, including the timescales involved. They analyse the relationship between structure and function at cell, organ and body system levels. Students examine the different science knowledge used in occupations. They explain how evidence has led to an improved understanding of a scientific idea and describe situations in which scientists collaborated to generate solutions to contemporary problems. They reflect on implications of these solutions for different groups in society.Students identify and construct questions and problems that they can investigate scientifically. They consider safety and ethics when planning investigations, including designing field or experimental methods. They identify variables to be changed, measured and controlled. Students construct representations of their data to reveal and analyse patterns and trends, and use these when justifying their conclusions. They explain how modifications to methods could improve the quality of their data and apply their own scientific knowledge and investigation findings to evaluate claims made by others. They use appropriate language and representations to communicate science ideas, methods and findings in a range of text types.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Science",
+        "year_level": "Year 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/593bf494-a404-4057-8cb2-9e4600a2dba8"
+      }
+    },
+    {
+      "id": "science-year_9-achievement",
+      "content": "By the end of Year 9 in Science, students are expected to: By the end of Year 9, students explain chemical processes and natural radioactivity in terms of atoms and energy transfers and describe examples of important chemical reactions. They describe models of energy transfer and apply these to explain phenomena. They explain global features and events in terms of geological processes and timescales. They analyse how biological systems function and respond to external changes with reference to interdependencies, energy transfers and flows of matter. They describe social and technological factors that have influenced scientific developments and predict how future applications of science and technology may affect people’s lives.Students design questions that can be investigated using a range of inquiry skills. They design methods that include the control and accurate measurement of variables and systematic collection of data and describe how they considered ethics and safety. They analyse trends in data, identify relationships between variables and reveal inconsistencies in results. They analyse their methods and the quality of their data, and explain specific actions to improve the quality of their evidence. They evaluate others’ methods and explanations from a scientific perspective and use appropriate language and representations when communicating their findings and ideas to specific audiences.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Science",
+        "year_level": "Year 9",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/593bf494-a404-4057-8cb2-9e4600a2dba8"
+      }
+    },
+    {
+      "id": "science-year_10-achievement",
+      "content": "By the end of Year 10 in Science, students are expected to: By the end of Year 10, students analyse how the periodic table organises elements and use it to make predictions about the properties of elements. They explain how chemical reactions are used to produce particular products and how different factors influence the rate of reactions. They explain the concept of energy conservation and represent energy transfer and transformation within systems. They apply relationships between force, mass and acceleration to predict changes in the motion of objects. Students describe and analyse interactions and cycles within and between Earth’s spheres. They evaluate the evidence for scientific theories that explain the origin of the universe and the diversity of life on Earth. They explain the processes that underpin heredity and evolution. Students analyse how the models and theories they use have developed over time and discuss the factors that prompted their review.Students develop questions and hypotheses and independently design and improve appropriate methods of investigation, including field work and laboratory experimentation. They explain how they have considered reliability, safety, fairness and ethical actions in their methods and identify where digital technologies can be used to enhance the quality of data. When analysing data, selecting evidence and developing and justifying conclusions, they identify alternative explanations for findings and explain any sources of uncertainty. Students evaluate the validity and reliability of claims made in secondary sources with reference to currently held scientific views, the quality of the methodology and the evidence cited. They construct evidence-based arguments and select appropriate representations and text types to communicate science ideas for specific purposes.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Science",
+        "year_level": "Year 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/593bf494-a404-4057-8cb2-9e4600a2dba8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "documents": [
+    {
+      "id": "naplan-parents-preparation",
+      "content": "How to prepare your child for NAPLAN: The best preparation for NAPLAN is regular school attendance and engagement with learning throughout the year. You do not need to buy special study materials or hire a tutor for NAPLAN. Excessive test preparation can increase anxiety without improving results. If your child feels nervous, reassure them that NAPLAN is not a pass or fail test and that it is just one way of showing what they have learned. Make sure they get a good night's sleep and eat breakfast on test days.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "naplan",
+        "subject": "NAPLAN",
+        "year_level": null,
+        "strand": "NAPLAN For Parents",
+        "substrand": null,
+        "source_url": "https://www.nap.edu.au/naplan/for-parents-carers"
+      }
+    },
+    {
+      "id": "naplan-parents-special-needs",
+      "content": "Students with disability or additional learning needs may be eligible for adjustments during NAPLAN. These include extra time, rest breaks, a scribe, assistive technology, or a separate room. If your child has a diagnosed condition or receives learning support, talk to the school about what adjustments are available. Students who have been in Australia for less than one year and are from a non-English speaking background may be exempted from NAPLAN, but participation is encouraged where possible. Parents can also choose to withdraw their child from NAPLAN by contacting the school.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "naplan",
+        "subject": "NAPLAN",
+        "year_level": null,
+        "strand": "NAPLAN For Parents",
+        "substrand": null,
+        "source_url": "https://www.nap.edu.au/naplan/for-parents-carers"
+      }
+    },
+    {
+      "id": "naplan-parents-after-test",
+      "content": "After NAPLAN: Results are usually sent home to parents between June and September. Each student receives an Individual Student Report (ISR) showing their results across the four domains. The report shows your child's result on a scale and their proficiency level. If you have questions about your child's results, contact their teacher. The teacher can explain what the results mean in the context of your child's overall learning and what areas might need more attention. Remember, NAPLAN is just one snapshot — your child's classroom performance is equally important.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "naplan",
+        "subject": "NAPLAN",
+        "year_level": null,
+        "strand": "NAPLAN For Parents",
+        "substrand": null,
+        "source_url": "https://www.nap.edu.au/naplan/for-parents-carers"
+      }
+    }
+  ]
+}

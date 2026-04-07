@@ -1,0 +1,22 @@
+[
+  { "id": "sk1", "student_id": "s1", "subject": "Mathematics", "skill_name": "Represents fractions on a number line", "level": "Proficient", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk2", "student_id": "s1", "subject": "Mathematics", "skill_name": "Recalls multiplication facts to 10x10", "level": "Mastered", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk3", "student_id": "s1", "subject": "Mathematics", "skill_name": "Reads and writes numbers to 10,000", "level": "Mastered", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk4", "student_id": "s1", "subject": "English", "skill_name": "Reads fluently with expression", "level": "Proficient", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk5", "student_id": "s1", "subject": "English", "skill_name": "Writes a structured paragraph", "level": "Developing", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk6", "student_id": "s1", "subject": "English", "skill_name": "Uses correct spelling for common words", "level": "Proficient", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+
+  { "id": "sk7", "student_id": "s2", "subject": "Mathematics", "skill_name": "Represents fractions on a number line", "level": "Developing", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk8", "student_id": "s2", "subject": "Mathematics", "skill_name": "Recalls multiplication facts to 10x10", "level": "Developing", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk9", "student_id": "s2", "subject": "Mathematics", "skill_name": "Reads and writes numbers to 10,000", "level": "Proficient", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk10", "student_id": "s2", "subject": "English", "skill_name": "Reads fluently with expression", "level": "Mastered", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk11", "student_id": "s2", "subject": "English", "skill_name": "Writes a structured paragraph", "level": "Mastered", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk12", "student_id": "s2", "subject": "English", "skill_name": "Uses correct spelling for common words", "level": "Mastered", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+
+  { "id": "sk13", "student_id": "s3", "subject": "Mathematics", "skill_name": "Represents fractions on a number line", "level": "Proficient", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk14", "student_id": "s3", "subject": "Mathematics", "skill_name": "Recalls multiplication facts to 10x10", "level": "Proficient", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk15", "student_id": "s3", "subject": "Mathematics", "skill_name": "Reads and writes numbers to 10,000", "level": "Proficient", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk16", "student_id": "s3", "subject": "English", "skill_name": "Reads fluently with expression", "level": "Developing", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk17", "student_id": "s3", "subject": "English", "skill_name": "Writes a structured paragraph", "level": "Beginning", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" },
+  { "id": "sk18", "student_id": "s3", "subject": "English", "skill_name": "Uses correct spelling for common words", "level": "Developing", "updated_at": "2026-04-01T10:00:00Z", "updated_by": "t1" }
+]

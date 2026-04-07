@@ -1,0 +1,628 @@
+{
+  "documents": [
+    {
+      "id": "hass-hass-foundation_year-achievement",
+      "content": "By the end of Foundation Year in Humanities and Social Sciences — HASS, students are expected to: By the end of the Foundation year, students identify important events in their own lives. They identify how they, their families and friends know about their past and commemorate events that are important to them.Students sequence familiar events in order. They respond to questions about their own past. Students relate a story about their past using a range of texts.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Foundation Year",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-foundation_year-achievement",
+      "content": "By the end of Foundation Year in Humanities and Social Sciences — HASS, students are expected to: By the end of Foundation Year, students identify important events in their own lives and recognise why some places are special to people. They describe the features of familiar places and recognise that places can be represented on maps and models. They identify how they, their families and friends know about their past and commemorate events that are important to them.Students respond to questions about their own past and places they belong to. They sequence familiar events in order. They observe the familiar features of places and represent these features and their location on pictorial maps and models. They reflect on their learning to suggest ways they can care for a familiar place. Students relate stories about their past and share and compare observations about familiar places.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Foundation Year",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-foundation_year-achievement",
+      "content": "By the end of Foundation Year in Humanities and Social Sciences — HASS, students are expected to: By the end of Foundation Year, students describe the features of familiar places and recognise why some places are special to people. They recognise that places can be represented on maps and a globe and why places are important to people.Students observe the familiar features of places and represent these features and their location on pictorial maps and models. They share and compare observations in a range of texts and use everyday language to describe direction and location. Students reflect on their learning to suggest ways they can care for a familiar place.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Foundation Year",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_1-achievement",
+      "content": "By the end of Year 1 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 1, students identify and describe important dates and changes in their own lives. They explain how some aspects of daily life have changed over recent time while others have remained the same.Students sequence personal and family events in order, using everyday terms about the passing of time. They respond to questions about the past using sources provided. Students relate stories about life in the past, using a range of texts.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 1",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_1-achievement",
+      "content": "By the end of Year 1 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 1, students identify and describe the natural, managed and constructed features of places at a local scale and identify where features of places are located. They recognise that people describe the features of places differently. Students identify changes in features and describe how to care for places.Students respond to questions about familiar and unfamiliar places by locating and interpreting information from sources provided. They represent the location of different places and their features on labelled maps and present findings in a range of texts and use everyday language to describe direction and location. They reflect on their learning to suggest ways that places can be cared for.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 1",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_1-achievement",
+      "content": "By the end of Year 1 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 1, students identify and describe important dates and changes in their own lives. They explain how some aspects of daily life have changed over recent time while others have remained the same. They identify and describe the features of places and their location at a local scale and identify changes to the features of places. They recognise that people describe the features of places differently and describe how places can be cared for.Students respond to questions about the recent past and familiar and unfamiliar places by collecting and interpreting information and data from observations and from sources provided. They sequence personal and family events in order and represent the location of different places and their features on labelled maps. They reflect on their learning to suggest ways they can care for places. They share stories about the past, and present observations and findings using everyday terms to denote the passing of time and to describe direction and location.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 1",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_2-achievement",
+      "content": "By the end of Year 2 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 2, students describe a person, site and/or event of significance in the local community. They identify how and why the lives of people have changed over time while others have remained the same.Students sequence events in order, using a range of terms related to time. They pose questions about the past and use sources provided to answer these questions and to identify a point of view. They compare objects from the past and present. Students develop a narrative about the past using a range of texts.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_2-achievement",
+      "content": "By the end of Year 2 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 2, students identify the features that define places and recognise that places can be described at different scales. Students recognise that the world can be divided into major geographical divisions. They describe how people in different places are connected to each other and identify factors that influence these connections. They explain why places are important to people, recognising that places have meaning.Students pose questions about familiar and unfamiliar places and answer them by locating information from observations and from sources provided. They represent data and the location of places and their features in tables, plans and on labelled maps. They interpret geographical information to draw conclusions. Students present findings in a range of texts and use simple geographical terms to describe the direction and location of places. They suggest action in response to the findings of their inquiry.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_2-achievement",
+      "content": "By the end of Year 2 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 2, students describe a person, site and/or event of significance in the local community and explain why places are important to people. They identify how and why the lives of people have changed over time while others have remained the same. They recognise that the world is divided into geographic divisions and that places can be described at different scales. Students describe how people in different places are connected to each other and identify factors that influence these connections. They recognise that places have different meaning for different people and why the significant features of places should be preserved.Students pose questions about the past and familiar and unfamiliar objects and places. They locate information from observations and from sources provided. They compare objects from the past and present and interpret information and data to identify a point of view and draw simple conclusions. They sequence familiar objects and events in order and sort and record data in tables, plans and on labelled maps. They reflect on their learning to suggest ways to care for places and sites of significance. Students develop narratives about the past and communicate findings in a range of texts using language to describe direction, location and the passing of time.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_3-achievement",
+      "content": "By the end of Year 3 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 3, students describe the location of the states and territories of Australia, the location of selected Aboriginal and Torres Strait Islander Countries/Places and selected countries neighbouring Australia. They describe the characteristics of different places at local scales and identify and describe similarities and differences between the characteristics of these places. They identify connections between people and the characteristics of places and recognise that people have different perceptions of places.Students pose geographical questions and locate and collect information from different sources to answer these questions. They record and represent data in tables and simple graphs and the location of places and their characteristics on labelled maps that use the cartographic conventions of legend, title and north point. They describe the location of places and their features using simple grid references and cardinal compass points. Students interpret geographical data to identify and describe distributions and draw conclusions. They present findings using simple geographical terminology in a range of texts. They reflect on their learning to suggest individual action in response to a geographical challenge.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 3",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_3-achievement",
+      "content": "By the end of Year 3 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 3, students explain the role of rules in their community and the importance of making decisions democratically. They describe how people participate in their community as active citizens.Students pose simple questions about the society in which they live. They collect information from sources to answer these questions. They examine information to identify a point of view and draw simple conclusions. Students share their views on an issue and describe how they participate in a group. They present their ideas and conclusions in oral, visual and written forms using civics and citizenship terms.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 3",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_3-achievement",
+      "content": "By the end of Year 3 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 3, students identify individuals, events and aspects of the past that have significance in the present. They identify and describe aspects of their community that have changed and remained the same over time. They identify the importance of different celebrations and commemorations for different groups.Students sequence information about events and the lives of individuals in chronological order. They pose questions about the past and locate and collect information from sources (written, physical, visual, oral) to answer these questions. They analyse information to identify a point of view. Students develop texts, including narrative accounts, using terms denoting time.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 3",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_3-achievement",
+      "content": "By the end of Year 3 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 3, students identify individuals, events and aspects of the past that have significance in the present. They identify and describe aspects of their community that have changed and remained the same over time. They describe the diverse characteristics of different places at the local scale and identify and describe similarities and differences between the characteristics of these places. They identify connections between people and the characteristics of places. Students explain the role of rules in their community and the importance of making decisions democratically. They identify the importance of different celebrations and commemorations for different groups. They explain how and why people participate in and contribute to their communities.Students pose questions and locate and collect information from sources, including observations, to answer these questions. They examine information to identify a point of view and interpret data to identify and describe simple distributions. They draw simple conclusions and share their views on an issue. They sequence information about events and the lives of individuals in chronological order. They record and represent data in different formats, including labelled maps using basic cartographic conventions. They reflect on their learning to suggest individual action in response to an issue or challenge. Students communicate their ideas, findings and conclusions in oral, visual and written forms using simple discipline-specific terms.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 3",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_4-achievement",
+      "content": "By the end of Year 4 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 4, students recognise the significance of events in bringing about change and the importance of the environment. They explain how and why life changed in the past and identify aspects of the past that have remained the same. They describe the experiences of an individual or group in the past. They describe and compare the diverse characteristics of different places at local to national scales. Students identify the interconnections between components of the environment and between people and the environment. They identify structures that support their local community and recognise the importance of laws in society. They describe factors that shape a person’s identity and sense of belonging. They identify different views on how to respond to an issue or challenge.Students develop questions to investigate. They locate and collect information and data from different sources, including observations to answer these questions. When examining information, they distinguish between facts and opinions and detect points of view. They interpret data and information to identify and describe distributions and simple patterns and draw conclusions. They share their points of view, respecting the views of others. Students sequence information about events and the lives of individuals in chronological order with reference to key dates. They sort, record and represent data in different formats, including large-scale maps using basic cartographic conventions. They reflect on their learning to propose action in response to an issue or challenge, and identify the possible effects of their proposed action. Students present ideas, findings and conclusions using discipline-specific terms in a range of communication forms.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_4-achievement",
+      "content": "By the end of Year 4 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 4, students identify structures and decisions that support their local community and recognise the importance of laws in society. They describe factors that shape a person’s identity and sense of belonging.Students develop questions about the society in which they live and locate and collect information from different sources to answer these questions. They examine information to distinguish between facts and opinions, identify points of view and to draw conclusions. They share their points of view, respecting the views of others, and identify the groups they belong to. Students present ideas and conclusions using discipline-specific terms in a range of communication forms.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_4-achievement",
+      "content": "By the end of Year 4 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 4, students describe the location of selected countries using compass direction. They describe and compare the characteristics of places in different locations at local to national scales. They identify the interconnections between components of the environment and between people and the environment. Students recognise the importance of the environment and identify different possible responses to a geographical challenge.Students develop geographical questions to investigate and locate, collect and sort information and data from different sources to answer these questions. They record and represent data and the location of places and their characteristics in simple graphic forms, including large-scale maps that use the cartographic conventions of scale, legend, title and north point. They describe the location of places and their features using grid references and compass direction. Students interpret geographical data to identify spatial distributions and simple patterns and draw conclusions. They present findings using geographical terminology in a range of texts. They propose individual action in response to a local geographical challenge and identify some possible effects of their proposed action.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_4-achievement",
+      "content": "By the end of Year 4 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 4, students recognise the significance of events in bringing about change. They explain how and why life changed in the past and identify aspects of the past that have remained the same. They describe the experiences of an individual or group in the past.Students sequence information about events and the lives of individuals in chronological order with reference to key dates. They develop questions about the past and locate, collect and sort information from different sources to answer these questions. They analyse sources to detect points of view. Students develop and present texts, including narrative recounts, using historical terms.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_5-achievement",
+      "content": "By the end of Year 5 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 5, students describe the significance of people and events/developments in bringing about change. They identify the causes and effects of change on particular communities and describe aspects of the past that have remained the same. They describe the experiences of different people in the past.Students sequence information about events and the lives of individuals in chronological order using timelines. When researching, students develop questions for a historical inquiry. They identify a range of sources and locate, collect and organise information related to this inquiry. They analyse sources to determine their origin and purpose and to identify different viewpoints. Students develop, organise and present their texts, particularly narrative recounts and descriptions, using historical terms and concepts.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 5",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_5-achievement",
+      "content": "By the end of Year 5 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 5, students describe the location of selected countries in relative terms. They explain the characteristics of places in different locations at local to national scales. They identify and describe the interconnections between people and the human and environmental characteristics of places, and between components of environments. They identify the effects of these interconnections on the characteristics of places and environments. They identify and describe different possible responses to a geographical challenge.Students develop appropriate geographical questions for an investigation. They locate, collect and organise data and information from a range of sources to answer inquiry questions. They represent data and the location of places and their characteristics in graphic forms, including large-scale and small-scale maps that use the cartographic conventions of border, scale, legend, title and north point. They describe the location of places and their characteristics using compass direction and distance. Students interpret maps, geographical data and other information to identify and describe spatial distributions, simple patterns and trends, and suggest conclusions. They present findings and ideas using geographical terminology in a range of communication forms. They propose action in response to a geographical challenge and identify the possible effects of their proposed action.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 5",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_5-achievement",
+      "content": "By the end of Year 5 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 5, students distinguish between needs and wants and recognise that choices need to be made when allocating resources. They describe factors that influence their choices as consumers. Students identify individual strategies that can be used to make informed consumer and financial choices.Students develop questions for an investigation about an economics or business issue or event. They locate and collect data and information from a range of sources to answer these questions. They examine sources to determine their purpose and suggest conclusions based on evidence. They interpret, sort and represent data in different formats. They generate alternative responses to an issue or challenge and reflect on their learning to propose action, describing the possible effects of their decision. Students apply economics and business skills to everyday problems. They present their ideas, findings and conclusions in a range of communication forms using economics and business terms.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 5",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_5-achievement",
+      "content": "By the end of Year 5 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 5, students describe the significance of people and events/developments in bringing about change. They identify the causes and effects of change on particular communities and describe aspects of the past that have remained the same. They describe the experiences of different people in the past. Students explain the characteristics of places in different locations at local to national scales. They identify and describe the interconnections between people and the human and environmental characteristics of places, and between components of environments. They identify the effects of these interconnections on the characteristics of places and environments. Students identify the importance of values and processes to Australia’s democracy and describe the roles of different people in Australia’s legal system. They recognise that choices need to be made when allocating resources. They describe factors that influence their choices as consumers and identify strategies that can be used to inform these choices. They describe different views on how to respond to an issue or challenge.Students develop questions for an investigation. They locate and collect data and information from a range of sources to answer inquiry questions. They examine sources to determine their purpose and to identify different viewpoints. They interpret data to identify and describe distributions, simple patterns and trends, and to infer relationships, and suggest conclusions based on evidence. Students sequence information about events, the lives of individuals and selected phenomena in chronological order using timelines. They sort, record and represent data in different formats, including large-scale and small-scale maps, using basic conventions. They work with others to generate alternative responses to an issue or challenge and reflect on their learning to independently propose action, describing the possible effects of their proposed action. They present their ideas, findings and conclusions in a range of communication forms using discipline-specific terms and appropriate conventions.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 5",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_5-achievement",
+      "content": "By the end of Year 5 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 5, students identify the importance of values and processes to Australia’s democracy and describe the roles of different people in Australia’s legal system. They identify various ways people can participate effectively in groups to achieve shared goals and describe different views on how to respond to a current issue or challenge.Students develop questions for an investigation about the society in which they live. They locate and collect information from different sources to answer these questions. They examine sources to determine their purpose and identify different viewpoints. They interpret information to suggest conclusions based on evidence. Students identify possible solutions to an issue as part of a plan for action and reflect on how they work together. They present their ideas, conclusions and viewpoints in a range of communication forms using civics and citizenship terms and concepts.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 5",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_6-achievement",
+      "content": "By the end of Year 6 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 6, students explain the significance of an event/development, an individual and/or group. They identify and describe continuities and changes for different groups in the past and present. They describe the causes and effects of change on society. They compare the experiences of different people in the past. Students describe, compare and explain the diverse characteristics of different places in different locations from local to global scales. They describe how people, places, communities and environments are diverse and globally interconnected and identify the effects of these interconnections over time. Students explain the importance of people, institutions and processes to Australia’s democracy and legal system. They describe the rights and responsibilities of Australian citizens and the obligations they may have as global citizens. Students recognise why choices about the allocation of resources involve trade-offs. They explain why it is important to be informed when making consumer and financial decisions. They identify the purpose of business and recognise the different ways that businesses choose to provide goods and services. They explain different views on how to respond to an issue or challenge.Students develop appropriate questions to frame an investigation. They locate and collect useful data and information from primary and secondary sources. They examine sources to determine their origin and purpose and to identify different perspectives in the past and present. They interpret data to identify, describe and compare distributions, patterns and trends, and to infer relationships, and evaluate evidence to draw conclusions. Students sequence information about events, the lives of individuals and selected phenomena in chronological order and represent time by creating timelines. They organise and represent data in a range of formats, including large- and small-scale maps, using appropriate conventions. They collaboratively generate alternative responses to an issue, use criteria to make decisions and identify the advantages and disadvantages of preferring one decision over others. They reflect on their learning to propose action in response to an issue or challenge and describe the probable effects of their proposal. They present ideas, findings, viewpoints and conclusions in a range of communication forms that incorporate source materials, mapping, graphing, communication conventions and discipline-specific terms.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_6-achievement",
+      "content": "By the end of Year 6 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 6 students explain the significance of an event/development, an individual or group. They identify and describe continuities and changes for different groups in the past. They describe the causes and effects of change on society. They compare the experiences of different people in the past.Students sequence information about events and the lives of individuals in chronological order and represent time by creating timelines. When researching, students develop appropriate questions to frame a historical inquiry. They identify a range of primary and secondary sources and locate, collect, organise and categorise relevant information to answer inquiry questions. They analyse information or sources for evidence to determine their origin and purpose and to identify different perspectives. Students develop texts, particularly narrative recounts and descriptions. In developing these texts and organising and presenting their information, they use historical terms and concepts, and incorporate relevant sources.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_6-achievement",
+      "content": "By the end of Year 6 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 6, students recognise why choices about the allocation of resources involve trade-offs. They explain why it is important to be informed when making consumer and financial decisions. They identify the purpose of business and recognise the different ways that businesses choose to provide goods and services.Students develop appropriate questions to frame an investigation about an economics or business issue, challenge or event. They locate and collect useful data and information from primary and secondary sources. They examine sources to determine their origin and purpose and evaluate evidence to draw conclusions. They interpret, organise and represent data in a range of formats using appropriate conventions. They generate alternative responses to an issue or challenge and identify the advantages and disadvantages of preferring one decision over others. They reflect on their learning to propose action in response to a challenge and identify the possible effects of their decision. They apply economics and business knowledge and skills to familiar problems. Students present ideas, findings, viewpoints and conclusions in a range of communication forms that incorporate source materials and economics and business terms.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_6-achievement",
+      "content": "By the end of Year 6 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 6, students explain the role and importance of people, institutions, and processes to Australia’s democracy and legal system. They describe the rights and responsibilities of Australian citizens and the obligations they may have as global citizens.Students develop appropriate questions to frame an investigation about the society in which they live. They locate, collect and organise useful information from a range of different sources to answer these questions. They examine sources to determine their origin and purpose and describe different perspectives. They evaluate information to draw conclusions. When planning for action, they identify different points of view and solutions to an issue. They reflect on their learning to identify the ways they can participate as citizens in the school or elsewhere. They present ideas, findings, viewpoints and conclusions in a range of communication forms that incorporate source materials and civics and citizenship terms and concepts.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_6-achievement",
+      "content": "By the end of Year 6 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 6, students describe the location of places in selected countries in absolute and relative terms. They describe and explain the diverse characteristics of places in different locations from local to global scales. They describe the interconnections between people in different places, identify factors that influence these interconnections and describe how interconnections change places and affect people. They identify and compare different possible responses to a geographical challenge.Students develop appropriate geographical questions to frame an inquiry. They locate, collect and organise useful data and information from primary and secondary sources. They record and represent data and the location of places and their characteristics in different graphic forms, including large-scale and small-scale maps that use cartographic conventions of border, source, scale, legend, title and north point. Students interpret maps, data and other information to identify, describe and compare spatial distributions, patterns and trends, to infer relationships and to draw conclusions. They present findings and ideas using geographical terminology and digital technologies in a range of communication forms. They propose action in response to a geographical challenge and describe the probable effects of their proposal.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_7-achievement",
+      "content": "By the end of Year 7 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 7, students describe the interdependence of consumers and producers in the market. They explain the importance of short- and long-term planning to individual and business success and identify different strategies that may be used. They describe the characteristics of successful businesses and explain how entrepreneurial capabilities contribute to this success. Students identify the reasons individuals choose to work and describe the various sources of income that exist.Students formulate significant questions and propositions to guide investigations about an economics or business issue, challenge or event. They locate and collect useful data and information from a range of primary and secondary sources. They examine sources to determine their origin, purpose and reliability and evaluate and synthesise evidence to draw conclusions. They interpret, categorise and represent data in a range of appropriate formats using economics and business conventions. They make informed decisions by collaborating with others to generate alternatives and comparing the potential costs and benefits of each. Students reflect on their learning to propose individual and collective action in response to an issue or challenge, taking account of different factors and multiple perspectives and predicting the probable effects of their proposal. They apply economics and business knowledge, skills and concepts to familiar problems. They present ideas, findings, viewpoints, explanations and conclusions in a range of communication forms that incorporate source materials, citations, economics and business terms, conventions and concepts.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 7",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_7-achievement",
+      "content": "By the end of Year 7 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 7, students describe geographical processes that influence the characteristics of places and how characteristics of places are perceived and valued differently. They explain interconnections between people and places and people and environments and describe how these interconnections change places and environments. They describe alternative strategies for a geographical challenge, referring to environmental, economic and social factors involved.Students develop geographically significant questions to frame and guide an inquiry process. They locate, collect, organise and categorise useful data and information from a range of primary and secondary sources. They record and represent data and the location and distribution of geographical phenomena in a range of graphic forms, including large-scale and small-scale maps that conform to cartographic conventions. They analyse geographical data and other information to propose simple explanations for spatial patterns, trends and relationships, and draw conclusions. Students present findings and arguments using relevant geographical terminology, digital technologies and graphic representations in a range of communication forms. They propose action in response to a geographical challenge, taking account of environmental, economic and social factors, and describe the expected effects of their proposal.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 7",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_7-achievement",
+      "content": "By the end of Year 7 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 7, students explain the role of groups and the significance of particular individuals in past societies. They suggest reasons for continuity and change over time. They describe the effects of change on societies, individuals and groups and describe events and developments from the perspective of people who lived at the time. They identify past events and developments that have been interpreted in different ways. Students describe geographical processes that influence the characteristics of places. They explain interconnections between people and places and people and environments, describing how these interconnections change places and environments. Students identify the ideas, values and principles that underpin the institutions and processes in Australia’s political and legal systems. They explain the diverse nature of Australian society, and identify the importance of shared values in contemporary Australian society. Students describe the interdependence of consumers and producers in the market and identify factors and strategies that contribute to the financial success of businesses and individuals. They identify why individuals choose to work and the various sources of income that exist. Students recognise that people have different perceptions of places, events and issues and explain how this and other factors influence views on how to respond to an issue or challenge.Students formulate significant questions and propositions to guide investigations. They locate and collect useful data, information and evidence from a range of primary and secondary sources. They examine sources to determine their origin, purpose and reliability and to identify past and present values and perspectives. They interpret and analyse data to propose simple explanations for distributions, patterns, trends and relationships, and evaluate and synthesise evidence to draw conclusions. Students sequence events and developments within a chronological framework, using dating conventions to represent and measure time. They organise, categorise and represent data in a range of appropriate formats using discipline-specific conventions. They make informed decisions by collaborating with others to generate alternatives, comparing the potential costs and benefits of each and developing and using criteria to make a reasoned judgement. Students reflect on their learning to propose individual and collective action in response to an issue or challenge, taking account of different factors and multiple perspectives, and predict the probable effects of their proposal. They present ideas, findings, viewpoints, explanations and conclusions in a range of communication forms that incorporate source materials, citations, discipline-specific terms, conventions and concepts.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 7",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_7-achievement",
+      "content": "By the end of Year 7 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 7, students explain the role of groups and the significance of particular individuals in past societies. They suggest reasons for change and continuity over time. They describe the effects of change on societies, individuals and groups and describe events and developments from the perspective of people who lived at the time. They identify past events and developments that have been interpreted in different ways.Students sequence events and developments within a chronological framework, using dating conventions to represent and measure time. When researching, students develop significant questions to frame a historical inquiry. They identify and select a range of primary and secondary sources and locate, compare and use relevant information and evidence to answer inquiry questions. They analyse information and evidence to determine their origin, purpose and usefulness and to identify past and present values and perspectives. Students develop texts, particularly descriptions and explanations. In developing these texts and organising and presenting their findings, they use historical terms and concepts, incorporate relevant sources, and acknowledge their sources of information.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 7",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-hass-year_7-achievement",
+      "content": "By the end of Year 7 in Humanities and Social Sciences — HASS, students are expected to: By the end of Year 7, students identify the ideas, values and principles that underpin the institutions and processes in Australia’s political and legal systems. They explain the diverse nature of Australian society, and identify the importance of shared values in contemporary Australian society.Students formulate significant questions to investigate Australia’s political and legal systems. They locate, collect and organise useful information from a range of primary and secondary sources. They examine sources to determine their origin, purpose and reliability and to identify and describe values and perspectives. They evaluate and synthesise information to draw conclusions. When planning for action, students take into account multiple perspectives to develop solutions to an issue. They reflect on their learning to identify ways they can be active and informed citizens. Students present ideas, viewpoints, explanations and conclusions in a range of communication forms that incorporate source materials, citations, and civics and citizenship terms and concepts.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — HASS",
+        "year_level": "Year 7",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-history-year_7-achievement",
+      "content": "By the end of Year 7 in Humanities and Social Sciences — History, students are expected to: By the end of Year 7, students suggest reasons for change and continuity over time. They describe the effects of change on societies, individuals and groups. They describe events and developments from the perspective of different people who lived at the time. Students explain the role of groups and the significance of particular individuals in society. They identify past events and developments that have been interpreted in different ways.Students sequence events and developments within a chronological framework, using dating conventions to represent and measure time. When researching, students develop questions to frame a historical inquiry. They identify and select a range of sources and locate, compare and use information to answer inquiry questions. They examine sources to explain points of view. When interpreting sources, they identify their origin and purpose. Students develop texts, particularly descriptions and explanations. In developing these texts and organising and presenting their findings, they use historical terms and concepts, incorporate relevant sources, and acknowledge their sources of information.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — History",
+        "year_level": "Year 7",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-history-year_8-achievement",
+      "content": "By the end of Year 8 in Humanities and Social Sciences — History, students are expected to: By the end of Year 8, students recognise and explain patterns of change and continuity over time. They explain the causes and effects of events and developments. They identify the motives and actions of people at the time. Students explain the significance of individuals and groups and how they were influenced by the beliefs and values of their society. They describe different interpretations of the past.Students sequence events and developments within a chronological framework with reference to periods of time. When researching, students develop questions to frame a historical inquiry. They analyse, select and organise information from primary and secondary sources and use it as evidence to answer inquiry questions. Students identify and explain different points of view in sources. When interpreting sources, they identify their origin and purpose, and distinguish between fact and opinion. Students develop texts, particularly descriptions and explanations, incorporating analysis. In developing these texts, and organising and presenting their findings, they use historical terms and concepts, evidence identified in sources, and acknowledge their sources of information.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — History",
+        "year_level": "Year 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-history-year_9-achievement",
+      "content": "By the end of Year 9 in Humanities and Social Sciences — History, students are expected to: By the end of Year 9, students refer to key events and the actions of individuals and groups to explain patterns of change and continuity over time. They analyse the causes and effects of events and developments and make judgments about their importance. They explain the motives and actions of people at the time. Students explain the significance of these events and developments over the short and long term. They explain different interpretations of the past.Students sequence events and developments within a chronological framework, with reference to periods of time and their duration. When researching, students develop different kinds of questions to frame a historical inquiry. They interpret, process, analyse and organise information from a range of primary and secondary sources and use it as evidence to answer inquiry questions. Students examine sources to compare different points of view. When evaluating these sources, they analyse origin and purpose, and draw conclusions about their usefulness. They develop their own interpretations about the past. Students develop texts, particularly explanations and discussions, incorporating historical interpretations. In developing these texts and organising and presenting their conclusions, they use historical terms and concepts, evidence identified in sources, and they reference these sources.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — History",
+        "year_level": "Year 9",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-history-year_10-achievement",
+      "content": "By the end of Year 10 in Humanities and Social Sciences — History, students are expected to: By the end of Year 10, students refer to key events, the actions of individuals and groups, and beliefs and values to explain patterns of change and continuity over time. They analyse the causes and effects of events and developments and explain their relative importance. They explain the context for people’s actions in the past. Students explain the significance of events and developments from a range of perspectives. They explain different interpretations of the past and recognise the evidence used to support these interpretations.Students sequence events and developments within a chronological framework, and identify relationships between events across different places and periods of time. When researching, students develop, evaluate and modify questions to frame a historical inquiry. They process, analyse and synthesise information from a range of primary and secondary sources and use it as evidence to answer inquiry questions. Students analyse sources to identify motivations, values and attitudes. When evaluating these sources, they analyse and draw conclusions about their usefulness, taking into account their origin, purpose and context. They develop and justify their own interpretations about the past. Students develop texts, particularly explanations and discussions, incorporating historical argument. In developing these texts and organising and presenting their arguments, they use historical terms and concepts, evidence identified in sources, and they reference these sources.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — History",
+        "year_level": "Year 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-geography-year_7-achievement",
+      "content": "By the end of Year 7 in Humanities and Social Sciences — Geography, students are expected to: By the end of Year 7, students describe geographical processes that influence the characteristics of places and how the characteristics of places are perceived and valued differently. They explain interconnections between people and places and environments and describe how these interconnections change places and environments. They describe alternative strategies to a geographical challenge referring to environmental, economic and social factors.Students identify geographically significant questions to frame an inquiry. They evaluate a range of primary and secondary sources to locate useful information and data. They record and represent data and the location and distribution of geographical phenomena in a range of forms, including large-scale and small-scale maps that conform to cartographic conventions. They interpret and analyse geographical maps, data and other information to propose simple explanations for spatial distributions, patterns, trends and relationships, and draw conclusions. Students present findings and arguments using relevant geographical terminology and digital technologies in a range of communication forms. They propose action in response to a geographical challenge, taking account of environmental, economic and social factors, and describe the expected effects of their proposal.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — Geography",
+        "year_level": "Year 7",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-geography-year_8-achievement",
+      "content": "By the end of Year 8 in Humanities and Social Sciences — Geography, students are expected to: By the end of Year 8, students explain geographical processes that influence the characteristics of places and explain how places are perceived and valued differently. They explain interconnections within environments and between people and places and explain how they change places and environments. They compare alternative strategies to a geographical challenge, taking into account environmental, economic and social factors.Students identify geographically significant questions from observations to frame an inquiry. They evaluate a range of primary and secondary sources to locate useful and reliable information and data. They select, record and represent data and the location and distribution of geographical phenomena in a range of appropriate digital and non-digital forms, including maps at different scales that conform to cartographic conventions. They analyse geographical maps, data and other information to propose explanations for spatial distributions, patterns, trends and relationships, and draw reasoned conclusions. Students present findings, arguments and ideas using relevant geographical terminology and digital technologies in a range of appropriate communication forms. They propose action in response to a geographical challenge, taking account of environmental, economic and social factors, and predict the outcomes of their proposal.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — Geography",
+        "year_level": "Year 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-geography-year_9-achievement",
+      "content": "By the end of Year 9 in Humanities and Social Sciences — Geography, students are expected to: By the end of Year 9, students explain how geographical processes change the characteristics of places. They analyse interconnections between people, places and environments and explain how these interconnections influence people, and change places and environments. They predict changes in the characteristics of places over time and identify the possible implications of change for the future. Students analyse alternative strategies to a geographical challenge using environmental, social and economic criteria.Students use initial research to identify geographically significant questions to frame an inquiry. They evaluate a range of primary and secondary sources to select and collect relevant and reliable geographical information and data. They record and represent multi-variable data in a range of appropriate digital and non-digital forms, including a range of maps that comply with cartographic conventions. They use a range of methods and digital technologies to interpret and analyse maps, data and other information to propose explanations for patterns, trends, relationships and anomalies across time and space, and to predict outcomes. Students synthesise data and information to draw reasoned conclusions. They present findings, arguments and explanations using relevant geographical terminology and digital representations in a range of appropriate communication forms. Students propose action in response to a geographical challenge, taking account of environmental, economic and social factors, and predict the outcomes and consequences of their proposal.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — Geography",
+        "year_level": "Year 9",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-geography-year_10-achievement",
+      "content": "By the end of Year 10 in Humanities and Social Sciences — Geography, students are expected to: By the end of Year 10, students explain how interactions between geographical processes at different scales change the characteristics of places. Students identify, analyse and explain significant interconnections between people, places and environments and explain changes that result from these interconnections and their consequences. They predict changes in the characteristics of places and environments over time, across space and at different scales and explain the predicted consequences of change. They evaluate alternative views on a geographical challenge and alternative strategies to address this challenge using environmental, economic, political and social criteria and draw a reasoned conclusion.Students use initial research to develop and modify geographically significant questions to frame an inquiry. They critically evaluate a range of primary and secondary sources to select and collect relevant, reliable and unbiased geographical information and data. Students record and represent multi-variable data in of the most appropriate digital and non-digital forms, including a range of graphs and maps that use suitable scales and comply with cartographic conventions. They use a range of methods and digital technologies to interpret and analyse maps, data and other information to make generalisations and inferences, propose explanations for significant patterns, trends, relationships and anomalies across time and space and at different scales, and predict outcomes. They analyse and synthesise data and other information to draw reasoned conclusions, taking into account alternative perspectives. Students present findings, arguments and explanations using relevant geographical terminology and graphic representations and digital technologies in a range of selected and appropriate communication forms. They evaluate their findings and propose action in response to a contemporary geographical challenge, taking account of environmental, economic, political and social considerations. They explain the predicted outcomes and consequences of their proposal.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — Geography",
+        "year_level": "Year 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-civics_and_citizensh-year_7-achievement",
+      "content": "By the end of Year 7 in Humanities and Social Sciences — Civics and Citizenship, students are expected to: By the end of Year 7, students explain features of Australia’s Constitution, including the process for constitutional change. They explain how Australia’s legal system is based on the principle of justice. Students explain the diverse nature of Australian society and identify the importance of shared values in promoting a cohesive society.When researching, students develop a range of questions and gather and analyse information from different sources to investigate Australia’s political and legal systems. They consider different points of view on civics and citizenship issues. When planning for action, students take into account multiple perspectives to develop solutions to an issue. Students develop and present arguments on civics and citizenship issues using appropriate texts, terms and concepts. They identify ways they can be active and informed citizens.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — Civics and Citizenship",
+        "year_level": "Year 7",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-civics_and_citizensh-year_8-achievement",
+      "content": "By the end of Year 8 in Humanities and Social Sciences — Civics and Citizenship, students are expected to: By the end of Year 8, students analyse features of Australian democracy, and explain features of Australia’s democracy that enable active participation. They recognise different types of law in Australia and explain how laws are made. They identify the diverse belief systems in Australia and analyse issues about national identity and the factors that contribute to people’s sense of belonging.When researching, students develop a range of questions to investigate Australia’s political and legal systems and critically analyse information gathered from different sources for relevance. They explain different points of view on civics and citizenship issues. When planning for action, students take into account multiple perspectives, use democratic processes, and develop solutions to an issue. Students develop and present reasoned arguments on civics and citizenship issues using appropriate texts, subject-specific language and concepts. They identify ways they can be active and informed citizens in different contexts.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — Civics and Citizenship",
+        "year_level": "Year 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-civics_and_citizensh-year_9-achievement",
+      "content": "By the end of Year 9 in Humanities and Social Sciences — Civics and Citizenship, students are expected to: By the end of Year 9, students evaluate features of Australia’s political system, and identify and analyse the influences on people’s political choices. They explain the key principles of Australia’s system of justice and analyse the role of Australia’s court system. They analyse a range of factors that influence identities and attitudes to diversity. They reflect on how groups participate and contribute to civic life.When researching, students analyse a range of questions to investigate Australia’s political and legal systems and critically analyse information gathered from different sources for relevance and reliability. They compare and account for different interpretations and points of view on civics and citizenship issues. When planning for action, students take into account multiple perspectives, use democratic processes, and negotiate solutions to an issue. Students develop and present evidence-based arguments on civics and citizenship issues using appropriate texts, subject-specific language and concepts. They analyse ways they can be active and informed citizens in different contexts.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — Civics and Citizenship",
+        "year_level": "Year 9",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-civics_and_citizensh-year_10-achievement",
+      "content": "By the end of Year 10 in Humanities and Social Sciences — Civics and Citizenship, students are expected to: By the end of Year 10, students compare and evaluate the key features and values of systems of government, and analyse the Australian Government’s global roles and responsibilities. They analyse the role of the High Court and explain how Australia’s international legal obligations influence law and government policy. Students evaluate a range of factors that sustain democratic societies.When researching, students evaluate a range of questions to investigate Australia’s political and legal systems and critically analyse information gathered from different sources for relevance, reliability and omission. They account for and evaluate different interpretations and points of view on civics and citizenship issues. When planning for action, students take account of multiple perspectives and ambiguities, use democratic processes, and negotiate solutions to an issue. Students develop and present evidenced-based arguments incorporating different points of view on civics and citizenship issues. They use appropriate texts, subject-specific language and concepts. They evaluate ways they can be active and informed citizens in different contexts.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — Civics and Citizenship",
+        "year_level": "Year 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_7-achievement",
+      "content": "By the end of Year 7 in Humanities and Social Sciences — Economics and Business, students are expected to: By the end of Year 7, students describe the interdependence of consumers and producers in the market. They explain the importance of short- and long-term planning to individual and business success and identify different strategies that may be used. They describe the characteristics of successful businesses and explain how entrepreneurial capabilities contribute to this success. Students identify the reasons individuals choose to work and describe the various sources of income that exist.When researching, students develop questions and gather data and information from different sources to investigate an economic or business issue. They interpret data to identify trends. They propose alternative responses to an issue and assess the costs and benefits of each alternative. They apply economics and business knowledge, skills and concepts to familiar problems. Students develop and present conclusions using appropriate texts, terms and concepts. They identify the effects of their decisions and the possible effects of alternative actions.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 7",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_8-achievement",
+      "content": "By the end of Year 8 in Humanities and Social Sciences — Economics and Business, students are expected to: By the end of Year 8, students explain how markets operate and recognise why governments may influence the market’s operation. They explain the rights and responsibilities of consumers and businesses in terms of financial and economic decision-making. They explain why different types of businesses exist and describe the different ways businesses can respond to opportunities in the market. Students describe influences on the way people work and factors that may affect work in the future.When researching, students develop questions and gather relevant data and information from different sources to investigate an economic or business issue. They interpret data to identify trends and relationships. They propose a range of alternative responses to an issue and evaluate the costs and benefits of each alternative. They apply economics and business knowledge, skills and concepts to familiar and unfamiliar problems. Students develop and present evidence-based conclusions using appropriate texts, subject-specific language and concepts. They identify the effects of an economic or business decision and the potential consequences of alternative actions.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_9-achievement",
+      "content": "By the end of Year 9 in Humanities and Social Sciences — Economics and Business, students are expected to: By the end of Year 9, students explain the role of the Australian economy in allocating and distributing resources, and analyse the interdependence of participants in the global economy. They explain the importance of managing financial risks and rewards and analyse the different strategies that may be used. They explain why businesses seek to create a competitive advantage, including through innovation, and evaluate the strategies that may be used. Students analyse the roles and responsibilities of participants in the workplace.When researching, students develop questions and simple hypotheses to frame an investigation of an economic or business issue. They gather and analyse relevant data and information from different sources to answer questions, identify trends and explain relationships. Students generate alternative responses to an issue and use cost-benefit analysis and appropriate criteria to propose a course of action. They apply economics and business knowledge, skills and concepts to familiar, unfamiliar and hypothetical problems. Students develop and present evidence-based conclusions and reasoned arguments using appropriate texts, subject-specific language and concepts. They analyse the effects of economic and business decisions and the potential consequences of alternative actions.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 9",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    },
+    {
+      "id": "hass-economics_and_busine-year_10-achievement",
+      "content": "By the end of Year 10 in Humanities and Social Sciences — Economics and Business, students are expected to: By the end of Year 10, students explain why and how governments manage economic performance to improve living standards. They give explanations for variations in economic performance and standards of living within and between economies. They analyse factors that influence major consumer and financial decisions and explain the short- and long-term effects of these decisions. They explain how businesses respond to changing economic conditions and improve productivity. Students evaluate the effect of organisational and workforce management on business performance.When researching, students develop questions and formulate hypotheses to frame an investigation of an economic or business issue or event. They gather and analyse reliable data and information from different sources to identify trends, explain relationships and make predictions. Students generate alternative responses to an issue, taking into account multiple perspectives. They use cost-benefit analysis and appropriate criteria to propose and justify a course of action. They apply economics and business knowledge, skills and concepts to familiar, unfamiliar and complex hypothetical problems. Students develop and present evidence-based conclusions and reasoned arguments incorporating different points of view. They use appropriate texts, subject-specific language, conventions and concepts. They analyse the intended and unintended effects of economic and business decisions and the potential consequences of alternative actions.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Humanities and Social Sciences — Economics and Business",
+        "year_level": "Year 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/e43cff2d-01be-456a-8b60-33d7f7f0ced8"
+      }
+    }
+  ]
+}

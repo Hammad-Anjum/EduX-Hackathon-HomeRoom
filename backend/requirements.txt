@@ -1,0 +1,31 @@
+# FastAPI
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# LangChain + HuggingFace
+langchain==0.3.7
+langchain-huggingface==0.1.2
+langchain-community==0.3.7
+sentence-transformers==3.3.1
+huggingface-hub==0.26.2
+
+# Vector store
+chromadb==0.5.23
+
+# PDF processing
+pypdf==5.1.0
+
+# Translation
+deep-translator==1.11.4
+langdetect==1.0.9
+
+# HTTP client (for CurricuLLM API)
+requests==2.32.3
+
+# Settings
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+
+# WebSocket support (included in uvicorn[standard])
+websockets==13.1

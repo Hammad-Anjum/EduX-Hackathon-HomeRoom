@@ -1,0 +1,82 @@
+{
+  "documents": [
+    {
+      "id": "health_pe-foundation_year-achievement",
+      "content": "By the end of Foundation Year in Health and Physical Education, students are expected to: By the end of Foundation Year, students recognise how they are growing and changing. They identify and describe the different emotions people experience. They identify actions that help them be healthy, safe and physically active. They identify different settings where they can be active and demonstrate how to move and play safely. They describe how their body responds to movement.Students use personal and social skills when working with others in a range of activities. They demonstrate, with guidance, practices and protective behaviours to keep themselves safe and healthy in different activities. They perform fundamental movement skills and solve movement challenges.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Health and Physical Education",
+        "year_level": "Foundation Year",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/eb31ae07-c467-403c-a1f7-7ceeac050b85"
+      }
+    },
+    {
+      "id": "health_pe-years_1_and_2-achievement",
+      "content": "By the end of Years 1 and 2 in Health and Physical Education, students are expected to: By the end of Year 2, students describe changes that occur as they grow older. They recognise how strengths and achievements contribute to identities. They identify how emotional responses impact on others’ feelings. They examine messages related to health decisions and describe how to keep themselves and others healthy, safe and physically active. They identify areas where they can be active and how the body reacts to different physical activities.Students demonstrate positive ways to interact with others. They select and apply strategies to keep themselves healthy and safe and are able to ask for help with tasks or problems. They demonstrate fundamental movement skills in a variety of movement sequences and situations and test alternatives to solve movement challenges. They perform movement sequences that incorporate the elements of movement.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Health and Physical Education",
+        "year_level": "Years 1 and 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/eb31ae07-c467-403c-a1f7-7ceeac050b85"
+      }
+    },
+    {
+      "id": "health_pe-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in Health and Physical Education, students are expected to: By the end of Year 4, students recognise strategies for managing change. They identify influences that strengthen identities. They investigate how emotional responses vary and understand how to interact positively with others in a variety of situations. Students interpret health messages and discuss the influences on healthy and safe choices. They understand the benefits of being healthy and physically active. They describe the connections they have to their community and identify local resources to support their health, wellbeing, safety and physical activity.Students apply strategies for working cooperatively and apply rules fairly. They use decision-making and problem-solving skills to select and demonstrate strategies that help them stay safe, healthy and active. They refine fundamental movement skills and apply movement concepts and strategies in a variety of physical activities and to solve movement challenges. They create and perform movement sequences using fundamental movement skills and the elements of movement.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Health and Physical Education",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/eb31ae07-c467-403c-a1f7-7ceeac050b85"
+      }
+    },
+    {
+      "id": "health_pe-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in Health and Physical Education, students are expected to: By the end of Year 6, students investigate developmental changes and transitions. They explain the influence of people and places on identities. They recognise the influence of emotions on behaviours and discuss factors that influence how people interact. They describe their own and others’ contributions to health, physical activity, safety and wellbeing. They describe the key features of health-related fitness and the significance of physical activity participation to health and wellbeing. They examine how physical activity, celebrating diversity and connecting to the environment support community wellbeing and cultural understanding.Students demonstrate fair play and skills to work collaboratively. They access and interpret health information and apply decision-making and problem-solving skills to enhance their own and others’ health, safety and wellbeing. They perform specialised movement skills and sequences and propose and combine movement concepts and strategies to achieve movement outcomes and solve movement challenges. They apply the elements of movement when composing and performing movement sequences.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Health and Physical Education",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/eb31ae07-c467-403c-a1f7-7ceeac050b85"
+      }
+    },
+    {
+      "id": "health_pe-years_7_and_8-achievement",
+      "content": "By the end of Years 7 and 8 in Health and Physical Education, students are expected to: By the end of Year 8, students evaluate strategies and resources to manage changes and transitions and investigate their impact on identities. Students evaluate the impact on wellbeing of relationships and valuing diversity. They analyse factors that influence emotional responses. They investigate strategies and practices that enhance their own, others’ and community health, safety and wellbeing. They investigate and apply movement concepts and select strategies to achieve movement and fitness outcomes. They examine the cultural and historical significance of physical activities and examine how connecting to the environment can enhance health and wellbeing.Students apply personal and social skills to establish and maintain respectful relationships and promote safety, fair play and inclusivity. They demonstrate skills to make informed decisions, and propose and implement actions that promote their own and others’ health, safety and wellbeing. Students demonstrate control and accuracy when performing specialised movement sequences and skills. They apply movement concepts and refine strategies to suit different movement situations. They apply the elements of movement to compose and perform movement sequences.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Health and Physical Education",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/eb31ae07-c467-403c-a1f7-7ceeac050b85"
+      }
+    },
+    {
+      "id": "health_pe-years_9_and_10-achievement",
+      "content": "By the end of Years 9 and 10 in Health and Physical Education, students are expected to: By the end of Year 10, students critically analyse contextual factors that influence identities, relationships, decisions and behaviours. They analyse the impact attitudes and beliefs about diversity have on community connection and wellbeing. They evaluate the outcomes of emotional responses to different situations. Students access, synthesise and apply health information from credible sources to propose and justify responses to health situations. Students propose and evaluate interventions to improve fitness and physical activity levels in their communities. They examine the role physical activity has played historically in defining cultures and cultural identities.Students demonstrate leadership, fair play and cooperation across a range of movement and health contexts. They apply decision-making and problem-solving skills when taking action to enhance their own and others’ health, safety and wellbeing. They apply and transfer movement concepts and strategies to new and challenging movement situations. They apply criteria to make judgements about and refine their own and others’ specialised movement skills and movement performances. They work collaboratively to design and apply solutions to movement challenges.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Health and Physical Education",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/eb31ae07-c467-403c-a1f7-7ceeac050b85"
+      }
+    }
+  ]
+}

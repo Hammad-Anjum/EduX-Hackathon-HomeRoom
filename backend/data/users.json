@@ -1,0 +1,6 @@
+[
+  { "id": "t1", "name": "Ms. Smith", "role": "teacher", "language": "en" },
+  { "id": "p1", "name": "Wei Chen", "role": "parent", "language": "zh", "children": ["s1"] },
+  { "id": "p2", "name": "Sarah Jones", "role": "parent", "language": "en", "children": ["s2"] },
+  { "id": "p3", "name": "Fatima Al-Hassan", "role": "parent", "language": "ar", "children": ["s3"] }
+]

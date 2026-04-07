@@ -1,0 +1,56 @@
+{
+  "documents": [
+    {
+      "id": "naplan-overview-what-is",
+      "content": "NAPLAN stands for the National Assessment Program — Literacy and Numeracy. It is Australia's national standardised assessment for all students in Years 3, 5, 7, and 9. NAPLAN tests four areas: reading, writing, conventions of language (spelling, grammar, and punctuation), and numeracy. NAPLAN is not a pass or fail test. It is designed to show how your child is progressing in literacy and numeracy compared to national standards. Every student in Australia in those year levels takes the same test, making it the only nationally consistent measure of student achievement.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "naplan",
+        "subject": "NAPLAN",
+        "year_level": null,
+        "strand": "NAPLAN Overview",
+        "substrand": null,
+        "source_url": "https://www.nap.edu.au/naplan"
+      }
+    },
+    {
+      "id": "naplan-overview-when",
+      "content": "NAPLAN tests are held every year in March (Term 1). Students in Years 3, 5, 7, and 9 sit the tests over several days. Since 2022, NAPLAN has moved fully online (NAPLAN Online), which means students complete the tests on a computer or tablet at school. The online format is adaptive — it adjusts the difficulty of questions based on the student's responses, giving a more accurate picture of their ability. Writing is the only component that may still be handwritten in some schools.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "naplan",
+        "subject": "NAPLAN",
+        "year_level": null,
+        "strand": "NAPLAN Overview",
+        "substrand": null,
+        "source_url": "https://www.nap.edu.au/naplan"
+      }
+    },
+    {
+      "id": "naplan-overview-purpose",
+      "content": "The purpose of NAPLAN is to provide information to parents, teachers, and schools about how students are performing in literacy and numeracy. It helps identify whether students are meeting important educational benchmarks. NAPLAN results are one piece of information alongside your child's school reports, classwork, and teacher assessments. Schools use NAPLAN data to identify areas where students may need additional support. It is not used to rank individual students, and parents should not feel stressed about the results.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "naplan",
+        "subject": "NAPLAN",
+        "year_level": null,
+        "strand": "NAPLAN Overview",
+        "substrand": null,
+        "source_url": "https://www.nap.edu.au/naplan"
+      }
+    },
+    {
+      "id": "naplan-overview-what-tested",
+      "content": "NAPLAN tests four domains. Reading: understanding written texts including stories, articles, and informational texts. Students answer questions about main ideas, vocabulary, and inferences. Writing: students write a response to a prompt (persuasive or narrative depending on the year). Conventions of Language: spelling, grammar, and punctuation — tested through multiple choice and short answer questions. Numeracy: number and algebra, measurement and geometry, and statistics and probability — covers the mathematics skills expected at each year level.",
+      "metadata": {
+        "source": "hand_authored",
+        "content_type": "naplan",
+        "subject": "NAPLAN",
+        "year_level": null,
+        "strand": "NAPLAN Overview",
+        "substrand": null,
+        "source_url": "https://www.nap.edu.au/naplan"
+      }
+    }
+  ]
+}

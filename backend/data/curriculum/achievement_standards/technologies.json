@@ -1,0 +1,238 @@
+{
+  "documents": [
+    {
+      "id": "technologies-design_and_technolog-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in Technologies — Design and Technologies, students are expected to: By the end of Year 2, students describe the purpose of familiar products, services and environments and how they meet a range of present needs. They list the features of technologies that influence design decisions and identify how digital systems are used. Students identify needs, opportunities or problems and describe them. They collect, sort and display familiar data from a range of sources and recognise patterns in data. Students record design ideas using techniques including labelled drawings, lists and sequenced instructions. They design solutions to simple problems using a sequence of steps and decisions. With guidance, students produce designed solutions for each of the prescribed technologies contexts. Students evaluate their ideas, information and solutions on the basis of personal preferences and provided criteria including care for the environment. They safely create solutions and communicate ideas and information face-to-face and online.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Design and Technologies",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-design_and_technolog-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in Technologies — Design and Technologies, students are expected to: By the end of Year 2, students describe the purpose of familiar products, services and environments and how they meet the needs of users and affect others and environments. They identify the features and uses of technologies for each of the prescribed technologies contexts.With guidance, students create designed solutions for each of the prescribed technologies contexts. They describe given needs or opportunities. Students create and evaluate their ideas and designed solutions based on personal preferences. They communicate design ideas for their designed products, services and environments using modelling and simple drawings. Following sequenced steps, students demonstrate safe use of tools and equipment when producing designed solutions.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Design and Technologies",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-design_and_technolog-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in Technologies — Design and Technologies, students are expected to: By the end of Year 4, students describe how social, technical and sustainability factors influence the design of solutions to meet present and future needs. They describe features of technologies that influence design decisions and how a range of digital systems can be used.Students outline and define needs, opportunities or problems. They collect, manipulate and interpret data from a range of sources to support decisions. Students generate and record design ideas for an audience using technical terms and graphical and non-graphical representation techniques including algorithms. They plan a sequence of steps (algorithms) to create solutions, including visual programs. Students plan and safely produce designed solutions for each of the prescribed technologies contexts. They use identified criteria for success, including sustainability considerations, to judge the suitability of their ideas, solutions and processes. Students use agreed protocols when collaborating, and creating and communicating ideas, information and solutions face-to-face and online.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Design and Technologies",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-design_and_technolog-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in Technologies — Design and Technologies, students are expected to: By the end of Year 4, students explain how products, services and environments are designed to best meet needs of communities and their environments. They describe contributions of people in design and technologies occupations. Students describe how the features of technologies can be used to produce designed solutions for each of the prescribed technologies contexts.Students create designed solutions for each of the prescribed technologies contexts. They explain needs or opportunities and evaluate ideas and designed solutions against identified criteria for success, including environmental sustainability considerations. They develop and expand design ideas and communicate these using models and drawings including annotations and symbols. Students plan and sequence major steps in design and production. They identify appropriate technologies and techniques and demonstrate safe work practices when producing designed solutions.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Design and Technologies",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-design_and_technolog-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in Technologies — Design and Technologies, students are expected to: By the end of Year 6, students describe competing considerations in the design of products, services and environments, taking into account sustainability. They describe how design and technologies contribute to meeting present and future needs. Students explain how the features of technologies impact on designed solutions for each of the prescribed technologies contexts.Students create designed solutions for each of the prescribed technologies contexts suitable for identified needs or opportunities. They suggest criteria for success, including sustainability considerations, and use these to evaluate their ideas and designed solutions. They combine design ideas and communicate these to audiences using graphical representation techniques and technical terms. Students record project plans including production processes. They select and use appropriate technologies and techniques correctly and safely to produce designed solutions.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Design and Technologies",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-design_and_technolog-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in Technologies — Design and Technologies, students are expected to: By the end of Year 6, students explain how social, ethical, technical and sustainability considerations influence the design of solutions to meet a range of present and future needs. They explain how the features of technologies influence design decisions and how digital systems are connected to form networks.Students describe a range of needs, opportunities or problems and define them in terms of functional requirements. They collect and validate data from a range of sources to assist in making judgements. Students generate and record design ideas for specified audiences using appropriate technical terms, and graphical and non-graphical representation techniques including algorithms. They plan, design, test, modify and create digital solutions that meet intended purposes including user interfaces and a visual program. Students plan and document processes and resources and safely produce designed solutions for each of the prescribed technologies contexts. They negotiate criteria for success, including sustainability considerations, and use these to judge the suitability of their ideas, solutions and processes. Students use ethical, social and technical protocols when collaborating, and creating and communicating ideas, information and solutions face-to-face and online.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Design and Technologies",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-design_and_technolog-years_7_and_8-achievement",
+      "content": "By the end of Years 7 and 8 in Technologies — Design and Technologies, students are expected to: By the end of Year 8, students explain how social, ethical, technical and sustainability considerations influence the design of innovative and enterprising solutions to meet a range of present and future needs. They explain how the features of technologies influence design and production decisions. Students make choices between different types of networks for defined purposes.Students explain a range of needs, opportunities or problems and define them in terms of functional requirements and constraints. They collect, authenticate and interpret data from a range of sources to assist in making informed judgements. Students generate and document in digital and non-digital form, design ideas for different audiences using appropriate technical terms, and graphical representation techniques including algorithms. They independently and safely plan, design, test, modify and create a range of digital solutions that meet intended purposes including user interfaces and the use of a programming language. They plan, document and effectively manage processes and resources to produce designed solutions for each of the prescribed technologies contexts. They develop criteria for success, including innovation and sustainability considerations, and use these to judge the suitability of their ideas, solutions and processes. Students use appropriate protocols when collaborating, and creating and communicating ideas, information and solutions face-to-face and online.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Design and Technologies",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-design_and_technolog-years_7_and_8-achievement",
+      "content": "By the end of Years 7 and 8 in Technologies — Design and Technologies, students are expected to: By the end of Year 8, students explain factors that influence the design of products, services and environments to meet present and future needs. They explain the contribution of design and technology innovations and enterprise to society. Students explain how the features of technologies impact on designed solutions and influence design decisions for each of the prescribed technologies contexts.Students create designed solutions for each of the prescribed technologies contexts based on an evaluation of needs or opportunities. They develop criteria for success, including sustainability considerations, and use these to judge the suitability of their ideas and designed solutions and processes. They create and adapt design ideas, make considered decisions and communicate to different audiences using appropriate technical terms and a range of technologies and graphical representation techniques. Students apply project management skills to document and use project plans to manage production processes. They independently and safely produce effective designed solutions for the intended purpose.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Design and Technologies",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-design_and_technolog-years_9_and_10-achievement",
+      "content": "By the end of Years 9 and 10 in Technologies — Design and Technologies, students are expected to: By the end of Year 10, students explain how people working in design and technologies occupations consider factors that impact on design decisions and the technologies used to produce products, services and environments. They identify the changes necessary to designed solutions to realise preferred futures they have described. When producing designed solutions for identified needs or opportunities, students evaluate the features of technologies and their appropriateness for purpose for one or more of the technologies contexts.Students create designed solutions for one or more of the technologies contexts based on a critical evaluation of needs or opportunities. They establish detailed criteria for success, including sustainability considerations, and use these to evaluate their ideas and designed solutions and processes. They create and connect design ideas and processes of increasing complexity and justify decisions. Students communicate and document projects, including marketing for a range of audiences. They independently and collaboratively apply sequenced production and management plans when producing designed solutions, making adjustments to plans when necessary. They select and use appropriate technologies skilfully and safely to produce high-quality designed solutions suitable for the intended purpose.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Design and Technologies",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-digital_technologies-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in Technologies — Digital Technologies, students are expected to: By the end of Year 2, students describe the purpose of familiar products, services and environments and how they meet a range of present needs. They list the features of technologies that influence design decisions and identify how digital systems are used. Students identify needs, opportunities or problems and describe them. They collect, sort and display familiar data from a range of sources and recognise patterns in data. Students record design ideas using techniques including labelled drawings, lists and sequenced instructions. They design solutions to simple problems using a sequence of steps and decisions. With guidance, students produce designed solutions for each of the prescribed technologies contexts. Students evaluate their ideas, information and solutions on the basis of personal preferences and provided criteria including care for the environment. They safely create solutions and communicate ideas and information face-to-face and online.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Digital Technologies",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-digital_technologies-foundation_to_year_2-achievement",
+      "content": "By the end of Foundation to Year 2 in Technologies — Digital Technologies, students are expected to: By the end of Year 2, students identify how common digital systems (hardware and software) are used to meet specific purposes. They use digital systems to represent simple patterns in data in different ways.Students design solutions to simple problems using a sequence of steps and decisions. They collect familiar data and display them to convey meaning. They create and organise ideas and information using information systems, and share information in safe online environments.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Digital Technologies",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-digital_technologies-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in Technologies — Digital Technologies, students are expected to: By the end of Year 4, students describe how social, technical and sustainability factors influence the design of solutions to meet present and future needs. They describe features of technologies that influence design decisions and how a range of digital systems can be used.Students outline and define needs, opportunities or problems. They collect, manipulate and interpret data from a range of sources to support decisions. Students generate and record design ideas for an audience using technical terms and graphical and non-graphical representation techniques including algorithms. They plan a sequence of steps (algorithms) to create solutions, including visual programs. Students plan and safely produce designed solutions for each of the prescribed technologies contexts. They use identified criteria for success, including sustainability considerations, to judge the suitability of their ideas, solutions and processes. Students use agreed protocols when collaborating, and creating and communicating ideas, information and solutions face-to-face and online.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Digital Technologies",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-digital_technologies-years_3_and_4-achievement",
+      "content": "By the end of Years 3 and 4 in Technologies — Digital Technologies, students are expected to: By the end of Year 4, students describe how a range of digital systems (hardware and software) and their peripheral devices can be used for different purposes. They explain how the same data sets can be represented in different ways.Students define simple problems, design and implement digital solutions using algorithms that involve decision-making and user input. They explain how the solutions meet their purposes. They collect and manipulate different data when creating information and digital solutions. They safely use and manage information systems for identified needs using agreed protocols and describe how information systems are used.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Digital Technologies",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-digital_technologies-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in Technologies — Digital Technologies, students are expected to: By the end of Year 6, students explain how social, ethical, technical and sustainability considerations influence the design of solutions to meet a range of present and future needs. They explain how the features of technologies influence design decisions and how digital systems are connected to form networks.Students describe a range of needs, opportunities or problems and define them in terms of functional requirements. They collect and validate data from a range of sources to assist in making judgements. Students generate and record design ideas for specified audiences using appropriate technical terms, and graphical and non-graphical representation techniques including algorithms. They plan, design, test, modify and create digital solutions that meet intended purposes including user interfaces and a visual program. Students plan and document processes and resources and safely produce designed solutions for each of the prescribed technologies contexts. They negotiate criteria for success, including sustainability considerations, and use these to judge the suitability of their ideas, solutions and processes. Students use ethical, social and technical protocols when collaborating, and creating and communicating ideas, information and solutions face-to-face and online.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Digital Technologies",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-digital_technologies-years_5_and_6-achievement",
+      "content": "By the end of Years 5 and 6 in Technologies — Digital Technologies, students are expected to: By the end of Year 6, students explain the fundamentals of digital system components (hardware, software and networks) and how digital systems are connected to form networks. They explain how digital systems use whole numbers as a basis for representing a variety of data types.Students define problems in terms of data and functional requirements and design solutions by developing algorithms to address the problems. They incorporate decision-making, repetition and user interface design into their designs and implement their digital solutions, including a visual program. They explain how information systems and their solutions meet needs and consider sustainability. Students manage the creation and communication of ideas and information in collaborative digital projects using validated data and agreed protocols.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Digital Technologies",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-digital_technologies-years_7_and_8-achievement",
+      "content": "By the end of Years 7 and 8 in Technologies — Digital Technologies, students are expected to: By the end of Year 8, students distinguish between different types of networks and defined purposes. They explain how text, image and audio data can be represented, secured and presented in digital systems.Students plan and manage digital projects to create interactive information. They define and decompose problems in terms of functional requirements and constraints. Students design user experiences and algorithms incorporating branching and iterations, and test, modify and implement digital solutions. They evaluate information systems and their solutions in terms of meeting needs, innovation and sustainability. They analyse and evaluate data from a range of sources to model and create solutions. They use appropriate protocols when communicating and collaborating online.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Digital Technologies",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-digital_technologies-years_7_and_8-achievement",
+      "content": "By the end of Years 7 and 8 in Technologies — Digital Technologies, students are expected to: By the end of Year 8, students explain how social, ethical, technical and sustainability considerations influence the design of innovative and enterprising solutions to meet a range of present and future needs. They explain how the features of technologies influence design and production decisions. Students make choices between different types of networks for defined purposes.Students explain a range of needs, opportunities or problems and define them in terms of functional requirements and constraints. They collect, authenticate and interpret data from a range of sources to assist in making informed judgements. Students generate and document in digital and non-digital form, design ideas for different audiences using appropriate technical terms, and graphical representation techniques including algorithms. They independently and safely plan, design, test, modify and create a range of digital solutions that meet intended purposes including user interfaces and the use of a programming language. They plan, document and effectively manage processes and resources to produce designed solutions for each of the prescribed technologies contexts. They develop criteria for success, including innovation and sustainability considerations, and use these to judge the suitability of their ideas, solutions and processes. Students use appropriate protocols when collaborating, and creating and communicating ideas, information and solutions face-to-face and online.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Digital Technologies",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    },
+    {
+      "id": "technologies-digital_technologies-years_9_and_10-achievement",
+      "content": "By the end of Years 9 and 10 in Technologies — Digital Technologies, students are expected to: By the end of Year 10, students explain the control and management of networked digital systems and the security implications of the interaction between hardware, software and users. They explain simple data compression, and why content data are separated from presentation.Students plan and manage digital projects using an iterative approach. They define and decompose complex problems in terms of functional and non-functional requirements. Students design and evaluate user experiences and algorithms. They design and implement modular programs, including an object-oriented program, using algorithms and data structures involving modular functions that reflect the relationships of real-world data and data entities. They take account of privacy and security requirements when selecting and validating data. Students test and predict results and implement digital solutions. They evaluate information systems and their solutions in terms of risk, sustainability and potential for innovation and enterprise. They share and collaborate online, establishing protocols for the use, transmission and maintenance of data and projects.",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "achievement_standard",
+        "subject": "Technologies — Digital Technologies",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/9b56e53f-9758-457e-80aa-e47eaf4eee63"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1694 @@
+{
+  "documents": [
+    {
+      "id": "the_arts-dance-foundation_to_year_2-cd000",
+      "content": "In Foundation to Year 2 The Arts — Dance, students learn to: Explore, improvise and organise ideas to make dance sequences using the elements of dance",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-foundation_to_year_2-cd001",
+      "content": "In Foundation to Year 2 The Arts — Dance, students learn to: Present dance that communicates ideas to an audience, including dance used by cultural groups in the community",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-foundation_to_year_2-cd002",
+      "content": "In Foundation to Year 2 The Arts — Dance, students learn to: Respond to dance and consider where and why people dance, starting with dances from Australia including dances of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-foundation_to_year_2-cd003",
+      "content": "In Foundation to Year 2 The Arts — Dance, students learn to: Use fundamental movement skills to develop technical skills when practising dance sequences",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_3_and_4-cd004",
+      "content": "In Years 3 and 4 The Arts — Dance, students learn to: Perform dances using expressive skills to communicate ideas, including telling cultural or community stories",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_3_and_4-cd005",
+      "content": "In Years 3 and 4 The Arts — Dance, students learn to: Improvise and structure movement ideas for dance sequences using the elements of dance and choreographic devices",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_3_and_4-cd006",
+      "content": "In Years 3 and 4 The Arts — Dance, students learn to: Identify how the elements of dance and production elements express ideas in dance they make, perform and experience as audience, including exploration of Aboriginal and Torres Strait Islander dance",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_3_and_4-cd007",
+      "content": "In Years 3 and 4 The Arts — Dance, students learn to: Practise technical skills safely in fundamental movements",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_5_and_6-cd008",
+      "content": "In Years 5 and 6 The Arts — Dance, students learn to: Explain how the elements of dance and production elements communicate meaning by comparing dances from different social, cultural and historical contexts, including Aboriginal and Torres Strait Islander dance",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_5_and_6-cd009",
+      "content": "In Years 5 and 6 The Arts — Dance, students learn to: Explore movement and choreographic devices using the elements of dance to choreograph dances that communicate meaning",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_5_and_6-cd010",
+      "content": "In Years 5 and 6 The Arts — Dance, students learn to: Perform dance using expressive skills to communicate a choreographer’s ideas, including performing dances of cultural groups in the community",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_5_and_6-cd011",
+      "content": "In Years 5 and 6 The Arts — Dance, students learn to: Develop technical and expressive skills in fundamental movements including body control, accuracy, alignment, strength, balance and coordination",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_7_and_8-cd012",
+      "content": "In Years 7 and 8 The Arts — Dance, students learn to: Practise and refine technical skills in style-specific techniques",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_7_and_8-cd013",
+      "content": "In Years 7 and 8 The Arts — Dance, students learn to: Combine elements of dance and improvise by making literal movements into abstract movements",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_7_and_8-cd014",
+      "content": "In Years 7 and 8 The Arts — Dance, students learn to: Rehearse and perform focusing on expressive skills appropriate to style and/or choreographic intent",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_7_and_8-cd015",
+      "content": "In Years 7 and 8 The Arts — Dance, students learn to: Identify and connect specific features and purposes of dance from contemporary and past times to explore viewpoints and enrich their dance-making, starting with dance in Australia and including dance of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_7_and_8-cd016",
+      "content": "In Years 7 and 8 The Arts — Dance, students learn to: Analyse how choreographers use elements of dance and production elements to communicate intent",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_7_and_8-cd017",
+      "content": "In Years 7 and 8 The Arts — Dance, students learn to: Develop their choreographic intent by applying the elements of dance to select and organise movement",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_7_and_8-cd018",
+      "content": "In Years 7 and 8 The Arts — Dance, students learn to: Structure dances using choreographic devices and form",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_9_and_10-cd019",
+      "content": "In Years 9 and 10 The Arts — Dance, students learn to: Perform dances using genre- and style-specific techniques and expressive skills to communicate a choreographer’s intent",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_9_and_10-cd020",
+      "content": "In Years 9 and 10 The Arts — Dance, students learn to: Practise and refine technical skills to develop proficiency in genre- and style-specific techniques",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_9_and_10-cd021",
+      "content": "In Years 9 and 10 The Arts — Dance, students learn to: Improvise to find new movement possibilities and explore personal style by combining elements of dance",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_9_and_10-cd022",
+      "content": "In Years 9 and 10 The Arts — Dance, students learn to: Manipulate combinations of the elements of dance and choreographic devices to communicate their choreographic intent",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_9_and_10-cd023",
+      "content": "In Years 9 and 10 The Arts — Dance, students learn to: Analyse a range of dance from contemporary and past times to explore differing viewpoints and enrich their dance making, starting with dance from Australia and including dance of Aboriginal and Torres Strait Islander Peoples, and consider dance in international contexts",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_9_and_10-cd024",
+      "content": "In Years 9 and 10 The Arts — Dance, students learn to: Evaluate their own choreography and performance, and that of others to inform and refine future work",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-dance-years_9_and_10-cd025",
+      "content": "In Years 9 and 10 The Arts — Dance, students learn to: Structure dances using movement motifs, choreographic devices and form",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Dance",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-foundation_to_year_2-cd026",
+      "content": "In Foundation to Year 2 The Arts — Drama, students learn to: Explore role and dramatic action in dramatic play, improvisation and process drama",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-foundation_to_year_2-cd027",
+      "content": "In Foundation to Year 2 The Arts — Drama, students learn to: Use voice, facial expression, movement and space to imagine and establish role and situation",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-foundation_to_year_2-cd028",
+      "content": "In Foundation to Year 2 The Arts — Drama, students learn to: Present drama that communicates ideas, including stories from their community, to an audience",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-foundation_to_year_2-cd029",
+      "content": "In Foundation to Year 2 The Arts — Drama, students learn to: Respond to drama and consider where and why people make drama, starting with Australian drama including drama of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_3_and_4-cd030",
+      "content": "In Years 3 and 4 The Arts — Drama, students learn to: Use voice, body, movement and language to sustain role and relationships and create dramatic action with a sense of time and place",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_3_and_4-cd031",
+      "content": "In Years 3 and 4 The Arts — Drama, students learn to: Explore ideas and narrative structures through roles and situations and use empathy in their own improvisations and devised drama",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_3_and_4-cd032",
+      "content": "In Years 3 and 4 The Arts — Drama, students learn to: Shape and perform dramatic action using narrative structures and tension in devised and scripted drama, including exploration of Aboriginal and Torres Strait Islander drama",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_3_and_4-cd033",
+      "content": "In Years 3 and 4 The Arts — Drama, students learn to: Identify intended purposes and meaning of drama, starting with Australian drama, including drama of Aboriginal and Torres Strait Islander Peoples, using the elements of drama to make comparisons",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_5_and_6-cd034",
+      "content": "In Years 5 and 6 The Arts — Drama, students learn to: Explore dramatic action, empathy and space in improvisations, playbuilding and scripted drama to develop characters and situations",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_5_and_6-cd035",
+      "content": "In Years 5 and 6 The Arts — Drama, students learn to: Rehearse and perform devised and scripted drama that develops narrative, drives dramatic tension, and uses dramatic symbol, performance styles and design elements to share community and cultural stories and engage an audience",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_5_and_6-cd036",
+      "content": "In Years 5 and 6 The Arts — Drama, students learn to: Explain how the elements of drama and production elements communicate meaning by comparing drama from different social, cultural and historical contexts, including Aboriginal and Torres Strait Islander drama",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_5_and_6-cd037",
+      "content": "In Years 5 and 6 The Arts — Drama, students learn to: Develop skills and techniques of voice and movement to create character, mood and atmosphere and focus dramatic action",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_7_and_8-cd038",
+      "content": "In Years 7 and 8 The Arts — Drama, students learn to: Identify and connect specific features and purposes of drama from contemporary and past times to explore viewpoints and enrich their drama making, starting with drama in Australia and including drama of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_7_and_8-cd039",
+      "content": "In Years 7 and 8 The Arts — Drama, students learn to: Develop roles and characters consistent with situation, dramatic forms and performance styles to convey status, relationships and intentions",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_7_and_8-cd040",
+      "content": "In Years 7 and 8 The Arts — Drama, students learn to: Develop and refine expressive skills in voice and movement to communicate ideas and dramatic action in different performance styles and conventions, including contemporary Australian drama styles developed by Aboriginal and Torres Strait Islander dramatists",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_7_and_8-cd041",
+      "content": "In Years 7 and 8 The Arts — Drama, students learn to: Analyse how the elements of drama have been combined in devised and scripted drama to convey different forms, performance styles and dramatic meaning",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_7_and_8-cd042",
+      "content": "In Years 7 and 8 The Arts — Drama, students learn to: Plan, structure and rehearse drama, exploring ways to communicate and refine dramatic meaning for theatrical effect",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_7_and_8-cd043",
+      "content": "In Years 7 and 8 The Arts — Drama, students learn to: Combine the elements of drama in devised and scripted drama to explore and develop issues, ideas and themes",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_7_and_8-cd044",
+      "content": "In Years 7 and 8 The Arts — Drama, students learn to: Perform devised and scripted drama maintaining commitment to role",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_9_and_10-cd045",
+      "content": "In Years 9 and 10 The Arts — Drama, students learn to: Improvise with the elements of drama and narrative structure to develop ideas, and explore subtext to shape devised and scripted drama",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_9_and_10-cd046",
+      "content": "In Years 9 and 10 The Arts — Drama, students learn to: Practise and refine the expressive capacity of voice and movement to communicate ideas and dramatic action in a range of forms, styles and performance spaces, including exploration of those developed by Aboriginal and Torres Strait Islander dramatists",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_9_and_10-cd047",
+      "content": "In Years 9 and 10 The Arts — Drama, students learn to: Manipulate combinations of the elements of drama to develop and convey the physical and psychological aspects of roles and characters consistent with intentions in dramatic forms and performance styles",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_9_and_10-cd048",
+      "content": "In Years 9 and 10 The Arts — Drama, students learn to: Structure drama to engage an audience through manipulation of dramatic action, forms and performance styles and by using design elements",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_9_and_10-cd049",
+      "content": "In Years 9 and 10 The Arts — Drama, students learn to: Perform devised and scripted drama making deliberate artistic choices and shaping design elements to unify dramatic meaning for an audience",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_9_and_10-cd050",
+      "content": "In Years 9 and 10 The Arts — Drama, students learn to: Analyse a range of drama from contemporary and past times to explore differing viewpoints and enrich their drama making, starting with drama from Australia and including drama of Aboriginal and Torres Strait Islander Peoples, and consider drama in international contexts",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-drama-years_9_and_10-cd051",
+      "content": "In Years 9 and 10 The Arts — Drama, students learn to: Evaluate how the elements of drama, forms and performance styles in devised and scripted drama convey meaning and aesthetic effect",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Drama",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-foundation_to_year_2-cd052",
+      "content": "In Foundation to Year 2 The Arts — Media Arts, students learn to: Use media technologies to capture and edit images, sounds and text for a purpose",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-foundation_to_year_2-cd053",
+      "content": "In Foundation to Year 2 The Arts — Media Arts, students learn to: Respond to media artworks and consider where and why people make media artworks, starting with media from Australia including media artworks of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-foundation_to_year_2-cd054",
+      "content": "In Foundation to Year 2 The Arts — Media Arts, students learn to: Explore ideas, characters and settings in the community through stories in images, sounds and text",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-foundation_to_year_2-cd055",
+      "content": "In Foundation to Year 2 The Arts — Media Arts, students learn to: Create and present media artworks that communicate ideas and stories to an audience",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_3_and_4-cd056",
+      "content": "In Years 3 and 4 The Arts — Media Arts, students learn to: Investigate and devise representations of people in their community, including themselves, through settings, ideas and story structure in images, sounds and text",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_3_and_4-cd057",
+      "content": "In Years 3 and 4 The Arts — Media Arts, students learn to: Use media technologies to create time and space through the manipulation of images, sounds and text to tell stories",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_3_and_4-cd058",
+      "content": "In Years 3 and 4 The Arts — Media Arts, students learn to: Identify intended purposes and meanings of media artworks, using media arts key concepts, starting with media artworks in Australia including media artworks of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_3_and_4-cd059",
+      "content": "In Years 3 and 4 The Arts — Media Arts, students learn to: Plan, create and present media artworks for specific purposes with awareness of responsible media practice",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_5_and_6-cd060",
+      "content": "In Years 5 and 6 The Arts — Media Arts, students learn to: Develop skills with media technologies to shape space, time, movement and lighting within images, sounds and text",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_5_and_6-cd061",
+      "content": "In Years 5 and 6 The Arts — Media Arts, students learn to: Plan, produce and present media artworks for specific audiences and purposes using responsible media practice",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_5_and_6-cd062",
+      "content": "In Years 5 and 6 The Arts — Media Arts, students learn to: Explore representations, characterisations and points of view of people in their community, including themselves, using settings, ideas, story principles and genre conventions in images, sounds and text",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_5_and_6-cd063",
+      "content": "In Years 5 and 6 The Arts — Media Arts, students learn to: Explain how the elements of media arts and story principles communicate meaning by comparing media artworks from different social, cultural and historical contexts, including Aboriginal and Torres Strait Islander media artworks",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_7_and_8-cd064",
+      "content": "In Years 7 and 8 The Arts — Media Arts, students learn to: Plan, structure and design media artworks that engage audiences",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_7_and_8-cd065",
+      "content": "In Years 7 and 8 The Arts — Media Arts, students learn to: Develop and refine media production skills to shape the technical and symbolic elements of images, sounds and text for a specific purpose and meaning",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_7_and_8-cd066",
+      "content": "In Years 7 and 8 The Arts — Media Arts, students learn to: Analyse how technical and symbolic elements are used in media artworks to create representations influenced by story, genre, values and points of view of particular audiences",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_7_and_8-cd067",
+      "content": "In Years 7 and 8 The Arts — Media Arts, students learn to: Identify specific features and purposes of media artworks from contemporary and past times to explore viewpoints and enrich their media arts making, starting with Australian media artworks including of Aboriginal and Torres Strait Islander media artworks",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_7_and_8-cd068",
+      "content": "In Years 7 and 8 The Arts — Media Arts, students learn to: Present media artworks for different community and institutional contexts with consideration of ethical and regulatory issues",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_7_and_8-cd069",
+      "content": "In Years 7 and 8 The Arts — Media Arts, students learn to: Develop media representations to show familiar or shared social and cultural values and beliefs, including those of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_7_and_8-cd070",
+      "content": "In Years 7 and 8 The Arts — Media Arts, students learn to: Experiment with the organisation of ideas to structure stories through media conventions and genres to create points of view in images, sounds and text",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_9_and_10-cd071",
+      "content": "In Years 9 and 10 The Arts — Media Arts, students learn to: Analyse a range of media artworks from contemporary and past times to explore differing viewpoints and enrich their media arts making, starting with Australian media artworks, including media artworks of Aboriginal and Torres Strait Islander Peoples, and international media artworks",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_9_and_10-cd072",
+      "content": "In Years 9 and 10 The Arts — Media Arts, students learn to: Develop and refine media production skills to integrate and shape the technical and symbolic elements in images, sounds and text for a specific purpose, meaning and style",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_9_and_10-cd073",
+      "content": "In Years 9 and 10 The Arts — Media Arts, students learn to: Plan and design media artworks for a range of purposes that challenge the expectations of specific audiences by particular use of production processes",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_9_and_10-cd074",
+      "content": "In Years 9 and 10 The Arts — Media Arts, students learn to: Produce and distribute media artworks for a range of community and institutional contexts and consider social, ethical and regulatory issues",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_9_and_10-cd075",
+      "content": "In Years 9 and 10 The Arts — Media Arts, students learn to: Evaluate how technical and symbolic elements are manipulated in media artworks to create and challenge representations framed by media conventions, social beliefs and values for a range of audiences",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_9_and_10-cd076",
+      "content": "In Years 9 and 10 The Arts — Media Arts, students learn to: Manipulate media representations to identify and examine social and cultural values and beliefs, including those of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-media_arts-years_9_and_10-cd077",
+      "content": "In Years 9 and 10 The Arts — Media Arts, students learn to: Experiment with ideas and stories that manipulate media conventions and genres to construct new and alternative points of view through images, sounds and text",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Media Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-foundation_to_year_2-cd078",
+      "content": "In Foundation to Year 2 The Arts — Music, students learn to: Develop aural skills by exploring and imitating sounds, pitch and rhythm patterns using voice, movement and body percussion",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-foundation_to_year_2-cd079",
+      "content": "In Foundation to Year 2 The Arts — Music, students learn to: Create compositions and perform music to communicate ideas to an audience",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-foundation_to_year_2-cd080",
+      "content": "In Foundation to Year 2 The Arts — Music, students learn to: Sing and play instruments to improvise, practise a repertoire of chants, songs and rhymes, including songs used by cultural groups in the community",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-foundation_to_year_2-cd081",
+      "content": "In Foundation to Year 2 The Arts — Music, students learn to: Respond to music and consider where and why people make music, starting with Australian music, including music of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_3_and_4-cd082",
+      "content": "In Years 3 and 4 The Arts — Music, students learn to: Create, perform and record compositions by selecting and organising sounds, silence, tempo and volume",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_3_and_4-cd083",
+      "content": "In Years 3 and 4 The Arts — Music, students learn to: Identify intended purposes and meanings as they listen to music using the elements of music to make comparisons, starting with Australian music, including music of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_3_and_4-cd084",
+      "content": "In Years 3 and 4 The Arts — Music, students learn to: Develop aural skills by exploring, imitating and recognising elements of music including dynamics, pitch and rhythm patterns",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_3_and_4-cd085",
+      "content": "In Years 3 and 4 The Arts — Music, students learn to: Practise singing, playing instruments and improvising music, using elements of music including rhythm, pitch, dynamics and form in a range of pieces, including in music from the local community",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_5_and_6-cd086",
+      "content": "In Years 5 and 6 The Arts — Music, students learn to: Explore dynamics and expression, using aural skills to identify and perform rhythm and pitch patterns",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_5_and_6-cd087",
+      "content": "In Years 5 and 6 The Arts — Music, students learn to: Rehearse and perform music including music they have composed by improvising, sourcing and arranging ideas and making decisions to engage an audience",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_5_and_6-cd088",
+      "content": "In Years 5 and 6 The Arts — Music, students learn to: Develop technical and expressive skills in singing and playing instruments with understanding of rhythm, pitch and form in a range of pieces, including in music from the community",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_5_and_6-cd089",
+      "content": "In Years 5 and 6 The Arts — Music, students learn to: Explain how the elements of music communicate meaning by comparing music from different social, cultural and historical contexts, including Aboriginal and Torres Strait Islander music",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_7_and_8-cd090",
+      "content": "In Years 7 and 8 The Arts — Music, students learn to: Perform and present a range of music, using techniques and expression appropriate to style",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_7_and_8-cd091",
+      "content": "In Years 7 and 8 The Arts — Music, students learn to: Develop musical ideas, such as mood, by improvising, combining and manipulating the elements of music",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_7_and_8-cd092",
+      "content": "In Years 7 and 8 The Arts — Music, students learn to: Experiment with texture and timbre in sound sources using aural skills",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_7_and_8-cd093",
+      "content": "In Years 7 and 8 The Arts — Music, students learn to: Structure compositions by combining and manipulating the elements of music using notation",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_7_and_8-cd094",
+      "content": "In Years 7 and 8 The Arts — Music, students learn to: Analyse composers’ use of the elements of music and stylistic features when listening to and interpreting music",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_7_and_8-cd095",
+      "content": "In Years 7 and 8 The Arts — Music, students learn to: Practise and rehearse a variety of music, including Australian music to develop technical and expressive skills",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_7_and_8-cd096",
+      "content": "In Years 7 and 8 The Arts — Music, students learn to: Identify and connect specific features and purposes of music from different eras to explore viewpoints and enrich their music making, starting with Australian music including music of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_9_and_10-cd097",
+      "content": "In Years 9 and 10 The Arts — Music, students learn to: Perform music applying techniques and expression to interpret the composer’s use of elements of music",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_9_and_10-cd098",
+      "content": "In Years 9 and 10 The Arts — Music, students learn to: Evaluate a range of music and compositions to inform and refine their own compositions and performances",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_9_and_10-cd099",
+      "content": "In Years 9 and 10 The Arts — Music, students learn to: Manipulate combinations of the elements of music in a range of styles, using technology and notation",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_9_and_10-cd100",
+      "content": "In Years 9 and 10 The Arts — Music, students learn to: Practise and rehearse to refine a variety of performance repertoire with increasing technical and interpretative skill",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_9_and_10-cd101",
+      "content": "In Years 9 and 10 The Arts — Music, students learn to: Improvise and arrange music, using aural recognition of texture, dynamics and expression to manipulate the elements of music to explore personal style in composition and performance",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_9_and_10-cd102",
+      "content": "In Years 9 and 10 The Arts — Music, students learn to: Plan and organise compositions with an understanding of style and convention, including drawing upon Australian music by Aboriginal and Torres Strait Islander artists",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-music-years_9_and_10-cd103",
+      "content": "In Years 9 and 10 The Arts — Music, students learn to: Analyse a range of music from contemporary and past times to explore differing viewpoints and enrich their music making, starting with Australian music,including music of Aboriginal and Torres Strait Islander Peoples, and consider music in international contexts",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Music",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-foundation_to_year_2-cd104",
+      "content": "In Foundation to Year 2 The Arts — Visual Arts, students learn to: Respond to visual artworks and consider where and why people make visual artworks, starting with visual artworks from Australia, including visual artworks of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-foundation_to_year_2-cd105",
+      "content": "In Foundation to Year 2 The Arts — Visual Arts, students learn to: Explore ideas, experiences, observations and imagination to create visual artworks and design, including considering ideas in artworks by Aboriginal and Torres Strait Islander artists",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-foundation_to_year_2-cd106",
+      "content": "In Foundation to Year 2 The Arts — Visual Arts, students learn to: Create and display artworks to communicate ideas to an audience",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-foundation_to_year_2-cd107",
+      "content": "In Foundation to Year 2 The Arts — Visual Arts, students learn to: Use and experiment with different materials, techniques, technologies and processes to make artworks",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Foundation to Year 2",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_3_and_4-cd108",
+      "content": "In Years 3 and 4 The Arts — Visual Arts, students learn to: Explore ideas and artworks from different cultures and times, including artwork by Aboriginal and Torres Strait Islander artists, to use as inspiration for their own representations",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_3_and_4-cd109",
+      "content": "In Years 3 and 4 The Arts — Visual Arts, students learn to: Identify intended purposes and meanings of artworks using visual arts terminology to compare artworks, starting with visual artworks in Australia including visual artworks of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_3_and_4-cd110",
+      "content": "In Years 3 and 4 The Arts — Visual Arts, students learn to: Use materials, techniques and processes to explore visual conventions when making artworks",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_3_and_4-cd111",
+      "content": "In Years 3 and 4 The Arts — Visual Arts, students learn to: Present artworks and describe how they have used visual conventions to represent their ideas",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 3 and 4",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_5_and_6-cd112",
+      "content": "In Years 5 and 6 The Arts — Visual Arts, students learn to: Explore ideas and practices used by artists, including practices of Aboriginal and Torres Strait Islander artists, to represent different views, beliefs and opinions",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_5_and_6-cd113",
+      "content": "In Years 5 and 6 The Arts — Visual Arts, students learn to: Plan the display of artworks to enhance their meaning for an audience",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_5_and_6-cd114",
+      "content": "In Years 5 and 6 The Arts — Visual Arts, students learn to: Explain how visual arts conventions communicate meaning by comparing artworks from different social, cultural and historical contexts, including Aboriginal and Torres Strait Islander artworks",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_5_and_6-cd115",
+      "content": "In Years 5 and 6 The Arts — Visual Arts, students learn to: Develop and apply techniques and processes when making their artworks",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 5 and 6",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_7_and_8-cd116",
+      "content": "In Years 7 and 8 The Arts — Visual Arts, students learn to: Identify and connect specific features and purposes of visual artworks from contemporary and past times to explore viewpoints and enrich their art-making, starting with Australian artworks including those of Aboriginal and Torres Strait Islander Peoples",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_7_and_8-cd117",
+      "content": "In Years 7 and 8 The Arts — Visual Arts, students learn to: Develop ways to enhance their intentions as artists through exploration of how artists use materials, techniques, technologies and processes",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_7_and_8-cd118",
+      "content": "In Years 7 and 8 The Arts — Visual Arts, students learn to: Practise techniques and processes to enhance representation of ideas in their art-making",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_7_and_8-cd119",
+      "content": "In Years 7 and 8 The Arts — Visual Arts, students learn to: Present artwork demonstrating consideration of how the artwork is displayed to enhance the artist’s intention to an audience",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_7_and_8-cd120",
+      "content": "In Years 7 and 8 The Arts — Visual Arts, students learn to: Analyse how artists use visual conventions in artworks",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_7_and_8-cd121",
+      "content": "In Years 7 and 8 The Arts — Visual Arts, students learn to: Experiment with visual arts conventions and techniques, including exploration of techniques used by Aboriginal and Torres Strait Islander artists, to represent a theme, concept or idea in their artwork",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_7_and_8-cd122",
+      "content": "In Years 7 and 8 The Arts — Visual Arts, students learn to: Develop planning skills for art-making by exploring techniques and processes used by different artists",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 7 and 8",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_9_and_10-cd123",
+      "content": "In Years 9 and 10 The Arts — Visual Arts, students learn to: Develop and refine techniques and processes to represent ideas and subject matter",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_9_and_10-cd124",
+      "content": "In Years 9 and 10 The Arts — Visual Arts, students learn to: Evaluate how representations communicate artistic intentions in artworks they make and view to inform their future art making",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_9_and_10-cd125",
+      "content": "In Years 9 and 10 The Arts — Visual Arts, students learn to: Conceptualise and develop representations of themes, concepts or subject matter to experiment with their developing personal style, reflecting on the styles of artists, including Aboriginal and Torres Strait Islander artists",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_9_and_10-cd126",
+      "content": "In Years 9 and 10 The Arts — Visual Arts, students learn to: Plan and design artworks that represent artistic intention",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_9_and_10-cd127",
+      "content": "In Years 9 and 10 The Arts — Visual Arts, students learn to: Manipulate materials, techniques, technologies and processes to develop and represent their own artistic intentions",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_9_and_10-cd128",
+      "content": "In Years 9 and 10 The Arts — Visual Arts, students learn to: Present ideas for displaying artworks and evaluate displays of artworks",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    },
+    {
+      "id": "the_arts-visual_arts-years_9_and_10-cd129",
+      "content": "In Years 9 and 10 The Arts — Visual Arts, students learn to: Analyse a range of visual artworks from contemporary and past times to explore differing viewpoints and enrich their visual art-making, starting with Australian artworks, including those of Aboriginal and Torres Strait Islander Peoples, and consider international artworks",
+      "metadata": {
+        "source": "acara_sparql",
+        "content_type": "content_description",
+        "subject": "The Arts — Visual Arts",
+        "year_level": "Years 9 and 10",
+        "strand": null,
+        "substrand": null,
+        "source_url": "http://rdf.australiancurriculum.edu.au/elements/2018/05/0c03a300-197c-4cb4-85dd-a0471eb206db"
+      }
+    }
+  ]
+}
