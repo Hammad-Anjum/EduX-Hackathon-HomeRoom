@@ -14,7 +14,7 @@ router = APIRouter()
 @router.post("/draft", response_model=DraftUpdateResponse)
 async def draft_update(request: DraftUpdateRequest):
     """Teacher sends brief notes → AI generates parent-friendly update."""
-    generated = llm_service.generate_update(request.teacher_notes)
+    generated = llm_service.generate_update(request.teacher_notes, request.classroom_id)
 
     update = {
         "id": f"u{uuid.uuid4().hex[:8]}",
@@ -23,6 +23,7 @@ async def draft_update(request: DraftUpdateRequest):
         "generated_content": generated.get("content", ""),
         "home_activities": generated.get("home_activities", []),
         "guided_prompts": generated.get("guided_prompts", []),
+        "model_used": generated.get("model_used", "zephyr"),
         "status": "draft",
         "created_at": datetime.now(timezone.utc).isoformat(),
     }
@@ -62,13 +63,14 @@ async def edit_update(update_id: str, request: DraftUpdateRequest):
     if update.get("status") == "sent":
         return {"error": "Cannot edit a sent update"}
 
-    generated = llm_service.generate_update(request.teacher_notes)
+    generated = llm_service.generate_update(request.teacher_notes, request.classroom_id)
 
     data_store.update_by_id("updates.json", update_id, {
         "teacher_notes": request.teacher_notes,
         "generated_content": generated.get("content", ""),
         "home_activities": generated.get("home_activities", []),
         "guided_prompts": generated.get("guided_prompts", []),
+        "model_used": generated.get("model_used", "zephyr"),
     })
     return data_store.find_by_id("updates.json", update_id)
 
@@ -100,7 +102,9 @@ async def get_feed(
             return []
         classrooms = data_store.filter("classrooms.json", teacher_id=user_id)
         classroom_ids = [c["id"] for c in classrooms]
-        return [u for u in updates if u.get("classroom_id") in classroom_ids]
+        result = [u for u in updates if u.get("classroom_id") in classroom_ids]
+        result.sort(key=lambda u: u.get("created_at", ""), reverse=True)
+        return result
 
     elif role == "parent":
         # Parent sees updates for classrooms their children are in
@@ -114,10 +118,12 @@ async def get_feed(
             for student in classroom.get("students", []):
                 if student["id"] in children_ids:
                     parent_classroom_ids.add(classroom["id"])
-        return [
+        result = [
             u for u in updates
             if u.get("classroom_id") in parent_classroom_ids and u.get("status") == "sent"
         ]
+        result.sort(key=lambda u: u.get("created_at", ""), reverse=True)
+        return result
 
     return []
 

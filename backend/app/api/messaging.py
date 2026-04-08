@@ -83,7 +83,9 @@ async def list_conversations(user_id: str = Query(...)):
         threads[other_id]["last_at"] = msg["created_at"]
         threads[other_id]["count"] += 1
 
-    return list(threads.values())
+    result = list(threads.values())
+    result.sort(key=lambda t: t.get("last_at", ""), reverse=True)
+    return result
 
 
 @router.get("/{other_user_id}")

@@ -12,6 +12,7 @@ interface SpeechRecognitionHook {
   start: () => void;
   stop: () => void;
   supported: boolean;
+  error: string | null;
 }
 
 export function useSpeechRecognition(
@@ -20,6 +21,7 @@ export function useSpeechRecognition(
 ): SpeechRecognitionHook {
   const [isListening, setIsListening] = useState(false);
   const [transcript, setTranscript] = useState('');
+  const [error, setError] = useState<string | null>(null);
   const recognitionRef = useRef<SpeechRecognition | null>(null);
   const onResultRef = useRef(onResult);
   onResultRef.current = onResult;
@@ -36,20 +38,27 @@ export function useSpeechRecognition(
     recognition.lang = STT_LANG_MAP[lang] || lang;
 
     recognition.onresult = (event: SpeechRecognitionEvent) => {
-      const result = event.results[0];
-      if (result?.isFinal) {
-        const text = result[0].transcript;
+      // With interimResults=false, all results should be final
+      let text = '';
+      for (let i = 0; i < event.results.length; i++) {
+        text += event.results[i][0].transcript;
+      }
+      console.log('[STT] Result:', text);
+      if (text.trim()) {
         setTranscript(text);
         onResultRef.current?.(text);
-        setIsListening(false);
       }
+      setIsListening(false);
     };
 
-    recognition.onerror = () => {
+    recognition.onerror = (event) => {
+      console.error('[STT] Error:', event.error);
+      setError(event.error);
       setIsListening(false);
     };
 
     recognition.onend = () => {
+      console.log('[STT] Ended');
       setIsListening(false);
     };
 
@@ -57,12 +66,14 @@ export function useSpeechRecognition(
   }, [lang]);
 
   const start = useCallback(() => {
+    setError(null);
     try {
       recognitionRef.current?.start();
       setIsListening(true);
       setTranscript('');
-    } catch {
-      // already started
+      console.log('[STT] Started listening');
+    } catch (e) {
+      console.error('[STT] Start failed:', e);
     }
   }, []);
 
@@ -71,5 +82,5 @@ export function useSpeechRecognition(
     setIsListening(false);
   }, []);
 
-  return { isListening, transcript, start, stop, supported };
+  return { isListening, transcript, start, stop, supported, error };
 }

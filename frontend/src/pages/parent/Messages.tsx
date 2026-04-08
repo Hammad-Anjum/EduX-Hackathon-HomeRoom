@@ -58,6 +58,7 @@ export default function Messages({ user }: { user: User }) {
               text={msg.original_text}
               isMine={msg.sender_id === user.id}
               userLanguage={user.language}
+              originalLanguage={msg.original_language}
               isVoice={msg.is_voice}
               audioOriginal={msg.audio_original}
               audioTranslated={msg.audio_translated}
@@ -75,8 +76,8 @@ export default function Messages({ user }: { user: User }) {
             className="flex-1 border rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-indigo-500"
           />
           <VoiceRecordButton
-            lang={user.language}
-            onTranscript={(text) => { if (connected) send({ text, is_voice: true }); }}
+            inputText={input}
+            onSendVoice={(text) => { if (connected) { send({ text, is_voice: true }); setInput(''); } }}
             disabled={!connected}
           />
           <button

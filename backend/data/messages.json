@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "m09d4fa1c",
+    "sender_id": "t1",
+    "receiver_id": "p3",
+    "original_text": "Hi how are you today",
+    "original_language": "so",
+    "translated_text": "مرحبا كيف حالك اليوم؟",
+    "translated_language": "ar",
+    "created_at": "2026-04-08T11:41:20.934899+00:00",
+    "is_voice": false,
+    "audio_original": null,
+    "audio_translated": null
+  },
+  {
+    "id": "mcc76574e",
+    "sender_id": "t1",
+    "receiver_id": "p3",
+    "original_text": "hello fatima. how are you today",
+    "original_language": "en",
+    "translated_text": "مرحبا فاطمة. كيف حالك اليوم ؟",
+    "translated_language": "ar",
+    "created_at": "2026-04-08T12:59:35.731232+00:00",
+    "is_voice": true,
+    "audio_original": "audio/mcc76574e_original.mp3",
+    "audio_translated": "audio/mcc76574e_translated.mp3"
+  },
+  {
+    "id": "m2b0d7048",
+    "sender_id": "p3",
+    "receiver_id": "t1",
+    "original_text": "أنا بخير، كيف حالك؟",
+    "original_language": "ar",
+    "translated_text": "I'm fine, how are you?",
+    "translated_language": "en",
+    "created_at": "2026-04-08T13:04:27.979050+00:00",
+    "is_voice": false,
+    "audio_original": null,
+    "audio_translated": null
+  }
+]

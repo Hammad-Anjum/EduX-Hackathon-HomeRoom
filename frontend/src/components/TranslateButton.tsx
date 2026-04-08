@@ -5,17 +5,18 @@ import { useTranslation } from '../hooks/useTranslation';
 interface TranslateButtonProps {
   text: string;
   targetLanguage: string;
+  sourceLanguage?: string;
   className?: string;
 }
 
-export default function TranslateButton({ text, targetLanguage, className = '' }: TranslateButtonProps) {
+export default function TranslateButton({ text, targetLanguage, sourceLanguage, className = '' }: TranslateButtonProps) {
   const { t } = useTranslation(targetLanguage);
   const [translated, setTranslated] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [visible, setVisible] = useState(false);
 
-  // Don't render for English users viewing English content
-  if (targetLanguage === 'en') return null;
+  // Don't render if source and target are the same language
+  if (sourceLanguage && sourceLanguage === targetLanguage) return null;
 
   const handleTranslate = async () => {
     if (translated) {

@@ -22,7 +22,7 @@ class Settings(BaseSettings):
     # CurricuLLM API
     curricullm_api_key: str = os.getenv("CURRICULLM_API_KEY", "")
     curricullm_base_url: str = os.getenv("CURRICULLM_BASE_URL", "https://api.curricullm.com/v1")
-    curricullm_model: str = os.getenv("CURRICULLM_MODEL", "curricullm")
+    curricullm_model: str = os.getenv("CURRICULLM_MODEL", "CurricuLLM-AU")
 
     # Server
     host: str = "0.0.0.0"

@@ -49,18 +49,60 @@ Parent's Question: {question}
 Answer:"""
         return self._chat(prompt, max_tokens=512)
 
-    def generate_update(self, teacher_notes: str) -> dict:
-        """Convert brief teacher notes into a parent-friendly weekly update using 3 separate LLM calls."""
+    def generate_update(self, teacher_notes: str, classroom_id: str = "c1") -> dict:
+        """Convert brief teacher notes into a parent-friendly weekly update.
+
+        Strategy: Try CurricuLLM first (supports JSON output, curriculum-aligned).
+        Fall back to Zephyr 3-call approach if CurricuLLM unavailable.
+        """
+        from app.services.curricullm_service import curricullm_service
+        from app.services.curriculum_engine import YEAR_TO_STAGE
+        from app.services.data_store import data_store
+
+        # Get classroom year level
+        classroom = data_store.find_by_id("classrooms.json", classroom_id)
+        year_level = f"Year {classroom.get('year_level', 3)}" if classroom else "Year 3"
+        stage = YEAR_TO_STAGE.get(year_level, "Stage 2")
+
+        # Strategy 1: CurricuLLM direct (JSON output, curriculum-aligned)
+        if curricullm_service.is_available():
+            logger.info("Trying CurricuLLM direct generation for update")
+            result = curricullm_service.generate_parent_update(teacher_notes, stage=stage)
+            if result and result.get("content"):
+                logger.info("CurricuLLM generated update successfully")
+                return {
+                    "content": result["content"],
+                    "home_activities": result.get("home_activities", [])[:3],
+                    "guided_prompts": result.get("guided_prompts", [])[:3],
+                    "model_used": "CurricuLLM-AU",
+                }
+            logger.info("CurricuLLM generation failed, falling back to Zephyr")
+
+        # Strategy 2: Zephyr with CurricuLLM context enrichment
+        curriculum_context = ""
+        model_used = "zephyr"
+        if curricullm_service.is_available():
+            clm_result = curricullm_service.query(
+                f"What should {year_level} students know about: {teacher_notes}",
+                stage=stage,
+            )
+            if clm_result.get("answer"):
+                curriculum_context = clm_result["answer"]
+                model_used = "CurricuLLM-AU + zephyr"
+                logger.info("CurricuLLM context enrichment: %s", curriculum_context[:200])
+
+        context_block = f"\n\nAustralian Curriculum context ({year_level}):\n{curriculum_context}" if curriculum_context else ""
+
         # Call 1: Content
         content = self._chat(
-            f"You are a school communication assistant. Write a warm, concise 2-paragraph summary for parents about what their children learned this week. No bullet points, no headers, just paragraphs.\n\nTeacher's notes: {teacher_notes}\n\nParent-friendly summary:",
+            f"You are a school communication assistant for an Australian {year_level} classroom. Write a warm, concise 2-paragraph summary for parents about what their children learned this week. Reference the Australian Curriculum where relevant. No bullet points, no headers, just paragraphs.\n\nTeacher's notes: {teacher_notes}{context_block}\n\nParent-friendly summary:",
             max_tokens=300,
         )
         logger.info("Content generated: %s", content[:200])
 
         # Call 2: Home activities
         activities_text = self._chat(
-            f"Based on this classroom learning, suggest 3 simple activities parents can do at home with their child. One per line, starting with a dash. Keep each under 20 words.\n\nWhat was learned: {teacher_notes}\n\nHome activities:",
+            f"Based on this {year_level} classroom learning, suggest 3 specific activities parents can do at home with their child that align with the Australian Curriculum. One per line, starting with a dash. Keep each under 25 words.\n\nWhat was learned: {teacher_notes}{context_block}\n\nHome activities:",
             max_tokens=200,
         )
         activities = [line.strip().lstrip("- ").lstrip("* ").strip() for line in activities_text.split("\n") if line.strip().lstrip("- ").lstrip("* ").strip()][:3]
@@ -68,7 +110,7 @@ Answer:"""
 
         # Call 3: Guided prompts
         prompts_text = self._chat(
-            f"Write 3 short questions a teacher can ask parents about their child's learning this week. One per line, starting with a dash. Keep each under 15 words.\n\nTopic: {teacher_notes}\n\nQuestions for parents:",
+            f"Write 3 short questions a {year_level} teacher can ask parents about their child's learning this week. One per line, starting with a dash. Keep each under 15 words.\n\nTopic: {teacher_notes}\n\nQuestions for parents:",
             max_tokens=150,
         )
         prompts = [line.strip().lstrip("- ").lstrip("* ").strip() for line in prompts_text.split("\n") if line.strip().lstrip("- ").lstrip("* ").strip() and "?" in line][:3]
@@ -78,6 +120,7 @@ Answer:"""
             "content": content.strip(),
             "home_activities": activities,
             "guided_prompts": prompts,
+            "model_used": model_used,
         }
 
     def summarize_responses(self, responses: list[dict]) -> dict:
@@ -106,7 +149,10 @@ JSON:"""
         })
 
     def generate_recommendations(self, student_data: dict) -> dict:
-        """Generate personalised recommendations from aggregated student data."""
+        """Generate personalised recommendations from aggregated student data, enriched with CurricuLLM."""
+        from app.services.curricullm_service import curricullm_service
+        from app.services.curriculum_engine import YEAR_TO_STAGE
+
         logger.info("generate_recommendations called with %d progress, %d skills, %d naplan, %d assignments",
                      len(student_data.get("progress", [])), len(student_data.get("skills", [])),
                      len(student_data.get("naplan", [])), len(student_data.get("assignments", [])))
@@ -141,6 +187,21 @@ JSON:"""
         wb = student_data.get("wellbeing", {})
         wellbeing_text = f"{wb.get('trend', 'unknown')} (avg zone: {wb.get('avg_zone', '?')}/5)"
 
+        # Query CurricuLLM for curriculum expectations for weak subjects
+        curriculum_context = ""
+        weak_subjects = [s for s, recs in progress_by_subj.items()
+                         if any(r.get("achievement_level") in ("Below", "At") for r in recs)]
+        if curricullm_service.is_available() and weak_subjects:
+            stage = YEAR_TO_STAGE.get("Year 3", "Stage 2")
+            for subj in weak_subjects[:3]:
+                ctx = curricullm_service.generate_recommendations_context(subj, stage=stage)
+                if ctx:
+                    curriculum_context += f"\n{subj} curriculum expectations: {ctx}\n"
+            if curriculum_context:
+                logger.info("CurricuLLM enrichment added for: %s", weak_subjects)
+
+        curriculum_block = f"\n\nAUSTRALIAN CURRICULUM EXPECTATIONS:\n{curriculum_context}" if curriculum_context else ""
+
         prompt = f"""You are an expert Australian K-12 education advisor. Analyse this student and generate personalised learning recommendations.
 
 === STUDENT DATA ===
@@ -157,11 +218,11 @@ NAPLAN RESULTS (2025):
 RECENT ASSIGNMENTS:
 {assignments_text or 'No data'}
 
-WELLBEING TREND: {wellbeing_text}
+WELLBEING TREND: {wellbeing_text}{curriculum_block}
 
 === INSTRUCTIONS ===
 1. Write a 2-3 sentence holistic summary covering strengths, growth areas, and wellbeing.
-2. For EACH subject with data, write 2-3 specific actionable recommendations that reference the student's actual scores and skill levels. Suggest concrete activities appropriate for Australian primary school.
+2. For EACH subject with data, write 2-3 specific actionable recommendations that reference the student's actual scores and skill levels. Suggest concrete activities appropriate for Australian primary school. Align with the Australian Curriculum where possible.
 3. If wellbeing trend is declining, note this prominently in the summary.
 
 Respond with ONLY valid JSON — no extra text, no markdown, no code blocks:

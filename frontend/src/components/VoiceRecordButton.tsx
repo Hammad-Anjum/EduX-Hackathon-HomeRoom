@@ -1,26 +1,20 @@
-import { useSpeechRecognition } from '../hooks/useSpeechRecognition';
-
 interface Props {
-  lang: string;
-  onTranscript: (text: string) => void;
+  onSendVoice: (text: string) => void;
+  inputText: string;
   disabled?: boolean;
 }
 
-export default function VoiceRecordButton({ lang, onTranscript, disabled }: Props) {
-  const { isListening, start, stop, supported } = useSpeechRecognition(lang, onTranscript);
-
-  if (!supported) return null;
+export default function VoiceRecordButton({ onSendVoice, inputText, disabled }: Props) {
+  const hasText = inputText.trim().length > 0;
 
   return (
     <button
-      onClick={isListening ? stop : start}
-      disabled={disabled}
-      className={`p-2 rounded-lg transition-colors disabled:opacity-50 ${
-        isListening
-          ? 'bg-red-500 text-white animate-pulse'
-          : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-      }`}
-      title={isListening ? 'Stop recording' : 'Record voice message'}
+      onClick={() => {
+        if (hasText) onSendVoice(inputText.trim());
+      }}
+      disabled={disabled || !hasText}
+      className="p-2 rounded-lg transition-colors disabled:opacity-50 bg-gray-100 text-gray-600 hover:bg-indigo-100 hover:text-indigo-600"
+      title="Send as voice message (with audio)"
     >
       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}

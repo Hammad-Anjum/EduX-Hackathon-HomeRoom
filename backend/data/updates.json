@@ -1,1 +1,61 @@
-[]
+[
+  {
+    "id": "uea3bcee1",
+    "classroom_id": "c1",
+    "teacher_notes": "tomorrow will be a test on matrices",
+    "generated_content": "Dear parents,\n\nWe've had a busy week in math class learning about matrices! Your child has been working hard to understand the basics of matrix operations, including addition, subtraction, and multiplication. They've also learned how to find the determinant of a 2x2 matrix and how to solve systems of linear equations using matrices. They've been practicing these skills with real-world applications, such as finding the area of a triangle and solving systems of linear equations in physics problems. We've also been discussing matrix transformations and how they can be used in coding and computer graphics. Tomorrow, we'll be taking a test to review everything we've learned. Encourage your child to study tonight and come prepared to show off their newfound knowledge!\n\nIn English, we've been reading \"The Giver\" and discussing the themes of memory and identity. We've analyzed the symbolism of the color white and how it relates to the main character's loss of memory. We've also been practicing writing descriptive paragraphs and analyzing figurative language. Next week, we'll be starting a research project on a famous scientist.\n\nIn science, we've been exploring the water cycle and creating models of it. We've learned about evaporation, condensation, precipitation, and runoff. We're looking forward to a field trip",
+    "home_activities": [
+      "Draw a matrix and find its determinant",
+      "Make a matrix and find its inverse",
+      "Solve a system of linear equations using matrices"
+    ],
+    "guided_prompts": [
+      "Did your child practice finding determinants and solving systems of equations?",
+      "Did they understand the difference between inverse and transpose?",
+      "How many matrix operations did they complete in class today?"
+    ],
+    "status": "sent",
+    "created_at": "2026-04-08T11:37:55.335704+00:00",
+    "sent_at": "2026-04-08T11:38:08.150251+00:00"
+  },
+  {
+    "id": "u92e60ae9",
+    "classroom_id": "c1",
+    "teacher_notes": "we started work on mathematics for year 4. we covered fractions today\n",
+    "generated_content": "This week in Year 4 Mathematics, we began exploring the fascinating world of fractions. Students learned to understand fractions as numbers that represent parts of a whole, which aligns with the Australian Curriculum content descriptor ACMNA072. They engaged in activities that helped them identify and represent fractions in various forms, building a strong foundation for more complex fraction concepts in the future. It was wonderful to see their enthusiasm and curiosity as they discovered how fractions are used in everyday life.\n\nTo support your child's learning at home, encourage them to notice and talk about fractions in daily activities, such as sharing food or measuring ingredients while cooking. This practical approach helps reinforce their understanding and connects classroom learning to real-world experiences. We look forward to continuing our journey with fractions and developing their mathematical skills further in the coming weeks.",
+    "home_activities": [
+      "Help your child divide a pizza or cake into equal parts and discuss the fractions involved.",
+      "Use measuring cups together when cooking to explore fractions like 1/2, 1/4, and 3/4.",
+      "Play fraction matching games using cards or online resources to reinforce fraction recognition."
+    ],
+    "guided_prompts": [
+      "Can you show me how you would split this sandwich into halves or quarters?",
+      "What fraction of the chocolate bar would you have if you ate two out of eight pieces?",
+      "How can we use fractions when we follow a recipe together?"
+    ],
+    "model_used": "CurricuLLM-AU",
+    "status": "sent",
+    "created_at": "2026-04-08T13:11:01.996503+00:00",
+    "sent_at": "2026-04-08T13:12:05.830327+00:00"
+  },
+  {
+    "id": "ua6e7d28c",
+    "classroom_id": "c1",
+    "teacher_notes": "today was a productive day studying matrices",
+    "generated_content": "This week in Mathematics, our Year 5 and 6 students had a productive day exploring the concept of matrices. While matrices are not explicitly detailed in the Australian Curriculum for these year levels, this study supports their developing understanding of patterns, number relationships, and spatial reasoning, which align with the Algebra and Space strands. Engaging with matrices helps students build foundational skills in organizing and interpreting data in rows and columns, which can enhance their problem-solving and reasoning abilities. This experience also complements their work with algorithms and number patterns, fostering logical thinking and preparation for more advanced mathematical concepts in future years.\n\nWe encourage students to continue developing their curiosity and confidence in mathematics by exploring how matrices can be used to represent information and solve problems. This aligns with the curriculum's focus on using mathematical modelling and digital tools to investigate patterns and relationships. Our aim is to nurture a positive disposition towards mathematics by connecting classroom learning with real-world applications and encouraging students to articulate their thinking clearly.",
+    "home_activities": [
+      "Create a simple matrix at home using a grid of numbers or objects and practice adding or rearranging rows and columns.",
+      "Look for examples of matrices in everyday life, such as seating charts, calendars, or sports team line-ups, and discuss their purpose.",
+      "Use online games or apps that involve pattern recognition or arranging objects in rows and columns to reinforce matrix concepts."
+    ],
+    "guided_prompts": [
+      "Can you explain what a matrix is and how it helps organize information?",
+      "How do the rows and columns in a matrix relate to each other?",
+      "Can you think of a situation where using a matrix might help solve a problem?"
+    ],
+    "model_used": "CurricuLLM-AU",
+    "status": "sent",
+    "created_at": "2026-04-08T13:23:36.804449+00:00",
+    "sent_at": "2026-04-08T13:23:52.136034+00:00"
+  }
+]

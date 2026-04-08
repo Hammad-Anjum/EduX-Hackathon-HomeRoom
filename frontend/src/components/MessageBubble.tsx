@@ -5,6 +5,7 @@ interface MessageBubbleProps {
   text: string;
   isMine: boolean;
   userLanguage: string;
+  originalLanguage?: string;
   isVoice?: boolean;
   audioOriginal?: string | null;
   audioTranslated?: string | null;
@@ -44,7 +45,7 @@ function AudioButton({ url, label, accent }: { url: string; label: string; accen
   );
 }
 
-export default function MessageBubble({ text, isMine, userLanguage, isVoice, audioOriginal, audioTranslated }: MessageBubbleProps) {
+export default function MessageBubble({ text, isMine, userLanguage, originalLanguage, isVoice, audioOriginal, audioTranslated }: MessageBubbleProps) {
   return (
     <div className={`flex ${isMine ? 'justify-end' : 'justify-start'}`}>
       <div className={`max-w-xs rounded-lg p-3 ${isMine ? 'bg-indigo-600 text-white' : 'bg-gray-100 text-gray-800'}`}>
@@ -60,11 +61,14 @@ export default function MessageBubble({ text, isMine, userLanguage, isVoice, aud
             {audioTranslated && <AudioButton url={audioTranslated} label="Translated" accent={isMine} />}
           </div>
         )}
-        <TranslateButton
-          text={text}
-          targetLanguage={userLanguage}
-          className={isMine ? 'text-indigo-200' : ''}
-        />
+        {!isMine && (
+          <TranslateButton
+            text={text}
+            targetLanguage={userLanguage}
+            sourceLanguage={originalLanguage}
+            className=""
+          />
+        )}
       </div>
     </div>
   );
