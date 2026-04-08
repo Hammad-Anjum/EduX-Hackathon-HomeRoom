@@ -12,6 +12,7 @@ from app.api.translate import router as translate_router
 from app.api.users import router as users_router
 from app.api.progress import router as progress_router
 from app.api.recommendations import router as recommendations_router
+from app.api.forum import router as forum_router
 from app.websocket.chat import router as chat_ws_router
 from app.websocket.meeting import router as meeting_ws_router
 
@@ -37,6 +38,7 @@ app.include_router(translate_router, prefix="/api/translate", tags=["Translation
 app.include_router(users_router, prefix="/api/users", tags=["Users"])
 app.include_router(progress_router, prefix="/api/progress", tags=["Student Progress"])
 app.include_router(recommendations_router, prefix="/api/recommendations", tags=["Recommendations"])
+app.include_router(forum_router, prefix="/api/forum", tags=["Forum"])
 
 # WebSocket routes
 app.include_router(chat_ws_router, tags=["WebSocket Chat"])

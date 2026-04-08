@@ -11,6 +11,12 @@ export const draftUpdate = (teacher_notes: string, classroom_id: string) =>
 export const sendUpdate = (id: string) =>
   api.post(`/updates/${id}/send`);
 
+export const deleteUpdate = (id: string) =>
+  api.delete(`/updates/${id}`);
+
+export const editUpdate = (id: string, teacher_notes: string, classroom_id: string) =>
+  api.put(`/updates/${id}`, { teacher_notes, classroom_id });
+
 export const getFeed = (user_id: string, role: 'teacher' | 'parent') =>
   api.get('/updates/feed', { params: { user_id, role } });
 
@@ -101,6 +107,19 @@ export const updateRecommendationItem = (recId: string, itemId: string, data: { 
 
 export const getChildRecommendations = (parentId: string) =>
   api.get(`/recommendations/parent/${parentId}/children`);
+
+// --- Forum ---
+export const getForumPosts = () =>
+  api.get('/forum/');
+
+export const getForumPost = (postId: string) =>
+  api.get(`/forum/${postId}`);
+
+export const createForumPost = (author_id: string, title: string, body: string) =>
+  api.post('/forum/', { author_id, title, body });
+
+export const replyToForumPost = (postId: string, author_id: string, body: string) =>
+  api.post(`/forum/${postId}/reply`, { author_id, body });
 
 // --- Integrations ---
 export const importGoogleClassroom = (classroomId: string) =>

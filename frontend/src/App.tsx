@@ -20,6 +20,9 @@ import ParentMessages from './pages/parent/Messages';
 import ParentMeetingRoom from './pages/parent/MeetingRoom';
 import ChildProgress from './pages/parent/ChildProgress';
 
+// Shared pages
+import Forum from './pages/shared/Forum';
+
 const USERS = {
   teacher: { id: 't1', name: 'Ms. Smith', role: 'teacher' as const, language: 'en' },
   parent_zh: { id: 'p1', name: 'Wei Chen', role: 'parent' as const, language: 'zh' },
@@ -53,12 +56,14 @@ function NavBar({ userKey, setUserKey }: { userKey: UserKey; setUserKey: (k: Use
         { to: '/teacher/compose', label: t('nav.new_update') },
         { to: '/teacher/students', label: t('nav.students') },
         { to: '/teacher/integrations', label: t('nav.integrations') },
+        { to: '/teacher/forum', label: t('nav.forum') },
         { to: '/teacher/messages', label: t('nav.messages') },
       ]
     : [
         { to: '/parent/feed', label: t('nav.updates') },
         { to: '/parent/progress', label: t('nav.progress') },
         { to: '/parent/curriculum', label: t('nav.curriculum') },
+        { to: '/parent/forum', label: t('nav.forum') },
         { to: '/parent/messages', label: t('nav.messages') },
       ];
 
@@ -110,6 +115,7 @@ function App() {
             <Route path="/teacher/students" element={<StudentList user={user} />} />
             <Route path="/teacher/student/:studentId" element={<StudentDetail user={user} />} />
             <Route path="/teacher/integrations" element={<Integrations user={user} />} />
+            <Route path="/teacher/forum" element={<Forum user={user} />} />
             <Route path="/teacher/messages" element={<TeacherMessages user={user} />} />
             <Route path="/teacher/meeting/:meetingId" element={<TeacherMeetingRoom user={user} />} />
 
@@ -118,6 +124,7 @@ function App() {
             <Route path="/parent/respond/:updateId" element={<Respond user={user} />} />
             <Route path="/parent/progress" element={<ChildProgress user={user} />} />
             <Route path="/parent/curriculum" element={<CurriculumAsk user={user} />} />
+            <Route path="/parent/forum" element={<Forum user={user} />} />
             <Route path="/parent/messages" element={<ParentMessages user={user} />} />
             <Route path="/parent/meeting/:meetingId" element={<ParentMeetingRoom user={user} />} />
 

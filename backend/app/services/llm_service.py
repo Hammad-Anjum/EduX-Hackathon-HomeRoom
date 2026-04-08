@@ -1,33 +1,41 @@
 import json
 import logging
-from langchain_huggingface import HuggingFaceEndpoint, HuggingFaceEmbeddings
-from langchain_core.prompts import PromptTemplate
+from huggingface_hub import InferenceClient
+from langchain_huggingface import HuggingFaceEmbeddings
 
 from app.config import settings
 
 logger = logging.getLogger(__name__)
 
+MODEL = "HuggingFaceH4/zephyr-7b-beta"
+
 
 class LLMService:
     def __init__(self):
-        logger.info("Initializing LLMService with model: meta-llama/Llama-2-7b-chat-hf")
-        self.llm = HuggingFaceEndpoint(
-            model="meta-llama/Llama-2-7b-chat-hf",
-            huggingfacehub_api_token=settings.huggingfacehub_api_token,
-            temperature=0.3,
-            max_new_tokens=1024,
+        logger.info("Initializing LLMService with model: %s, embeddings: %s", MODEL, settings.hf_embedding_model)
+        self.client = InferenceClient(
+            model=MODEL,
+            token=settings.huggingfacehub_api_token,
         )
         self.embeddings = HuggingFaceEmbeddings(
-            model_name="meta-llama/Llama-2-7b-chat-hf",
+            model_name=settings.hf_embedding_model,
         )
+
+    def _chat(self, prompt: str, max_tokens: int = 1024) -> str:
+        """Send a prompt via chat completion and return the response text."""
+        response = self.client.chat_completion(
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=max_tokens,
+            temperature=0.3,
+        )
+        return (response.choices[0].message.content or "").strip()
 
     def get_embeddings(self) -> HuggingFaceEmbeddings:
         return self.embeddings
 
     def answer_question(self, question: str, context: str) -> str:
         """Answer a parent's curriculum question using RAG context."""
-        prompt = PromptTemplate(
-            template="""You are a helpful education assistant for parents in Australia.
+        prompt = f"""You are a helpful education assistant for parents in Australia.
 Answer the parent's question using ONLY the curriculum information provided below.
 Use plain, simple language — avoid education jargon. If you must use a technical term, explain it.
 Give specific, practical examples of what the child should be able to do.
@@ -38,46 +46,39 @@ Curriculum Information:
 
 Parent's Question: {question}
 
-Answer:""",
-            input_variables=["context", "question"],
-        )
-        chain = prompt | self.llm
-        response = chain.invoke({"context": context, "question": question})
-        return response.strip() if isinstance(response, str) else str(response).strip()
+Answer:"""
+        return self._chat(prompt, max_tokens=512)
 
     def generate_update(self, teacher_notes: str) -> dict:
-        """Convert brief teacher notes into a parent-friendly weekly update."""
-        prompt = PromptTemplate(
-            template="""You are a school communication assistant helping teachers write parent updates.
-
-Convert the teacher's brief notes into a warm, parent-friendly weekly update.
-You MUST respond with ONLY valid JSON — no extra text, no markdown.
-
-Teacher's notes: {notes}
-
-Respond with this exact JSON structure:
-{{"content": "A warm 2-3 paragraph summary of what children learned this week, written for parents", "home_activities": ["Activity 1 parents can do at home", "Activity 2 parents can do at home"], "guided_prompts": ["Question 1 for parents to respond to?", "Question 2 for parents to respond to?", "Question 3 for parents to respond to?"]}}
-
-JSON:""",
-            input_variables=["notes"],
+        """Convert brief teacher notes into a parent-friendly weekly update using 3 separate LLM calls."""
+        # Call 1: Content
+        content = self._chat(
+            f"You are a school communication assistant. Write a warm, concise 2-paragraph summary for parents about what their children learned this week. No bullet points, no headers, just paragraphs.\n\nTeacher's notes: {teacher_notes}\n\nParent-friendly summary:",
+            max_tokens=300,
         )
-        chain = prompt | self.llm
-        response = chain.invoke({"notes": teacher_notes})
-        response_text = response.strip() if isinstance(response, str) else str(response).strip()
+        logger.info("Content generated: %s", content[:200])
 
-        try:
-            return json.loads(response_text)
-        except json.JSONDecodeError:
-            # Try to extract JSON from response
-            start = response_text.find("{")
-            end = response_text.rfind("}") + 1
-            if start != -1 and end > start:
-                return json.loads(response_text[start:end])
-            return {
-                "content": response_text,
-                "home_activities": [],
-                "guided_prompts": [],
-            }
+        # Call 2: Home activities
+        activities_text = self._chat(
+            f"Based on this classroom learning, suggest 3 simple activities parents can do at home with their child. One per line, starting with a dash. Keep each under 20 words.\n\nWhat was learned: {teacher_notes}\n\nHome activities:",
+            max_tokens=200,
+        )
+        activities = [line.strip().lstrip("- ").lstrip("* ").strip() for line in activities_text.split("\n") if line.strip().lstrip("- ").lstrip("* ").strip()][:3]
+        logger.info("Activities generated: %s", activities)
+
+        # Call 3: Guided prompts
+        prompts_text = self._chat(
+            f"Write 3 short questions a teacher can ask parents about their child's learning this week. One per line, starting with a dash. Keep each under 15 words.\n\nTopic: {teacher_notes}\n\nQuestions for parents:",
+            max_tokens=150,
+        )
+        prompts = [line.strip().lstrip("- ").lstrip("* ").strip() for line in prompts_text.split("\n") if line.strip().lstrip("- ").lstrip("* ").strip() and "?" in line][:3]
+        logger.info("Prompts generated: %s", prompts)
+
+        return {
+            "content": content.strip(),
+            "home_activities": activities,
+            "guided_prompts": prompts,
+        }
 
     def summarize_responses(self, responses: list[dict]) -> dict:
         """Summarize parent responses into insights for the teacher."""
@@ -85,45 +86,31 @@ JSON:""",
             f"- Parent {r.get('parent_id', '?')}: {r.get('translated_text', r.get('response_text', ''))}"
             for r in responses
         )
-
-        prompt = PromptTemplate(
-            template="""You are an education communication analyst.
+        prompt = f"""You are an education communication analyst.
 Summarize these parent responses to a teacher's weekly update.
-You MUST respond with ONLY valid JSON — no extra text, no markdown.
+You MUST respond with ONLY valid JSON — no extra text, no markdown, no code blocks.
 
 Parent responses:
-{responses}
+{responses_text}
 
 Respond with this exact JSON structure:
 {{"summary": "2-3 sentence overall summary", "sentiment": {{"positive": 0.0, "neutral": 0.0, "concerned": 0.0}}, "themes": ["theme1", "theme2"], "follow_ups": ["Any specific concerns to follow up on"]}}
 
-JSON:""",
-            input_variables=["responses"],
-        )
-        chain = prompt | self.llm
-        response = chain.invoke({"responses": responses_text})
-        response_text = response.strip() if isinstance(response, str) else str(response).strip()
-
-        try:
-            return json.loads(response_text)
-        except json.JSONDecodeError:
-            start = response_text.find("{")
-            end = response_text.rfind("}") + 1
-            if start != -1 and end > start:
-                return json.loads(response_text[start:end])
-            return {
-                "summary": response_text,
-                "sentiment": {"positive": 0.5, "neutral": 0.3, "concerned": 0.2},
-                "themes": [],
-                "follow_ups": [],
-            }
-
+JSON:"""
+        response_text = self._chat(prompt)
+        return self._parse_json(response_text, {
+            "summary": response_text,
+            "sentiment": {"positive": 0.5, "neutral": 0.3, "concerned": 0.2},
+            "themes": [],
+            "follow_ups": [],
+        })
 
     def generate_recommendations(self, student_data: dict) -> dict:
         """Generate personalised recommendations from aggregated student data."""
         logger.info("generate_recommendations called with %d progress, %d skills, %d naplan, %d assignments",
                      len(student_data.get("progress", [])), len(student_data.get("skills", [])),
                      len(student_data.get("naplan", [])), len(student_data.get("assignments", [])))
+
         achievements_text = ""
         progress_by_subj: dict[str, list] = {}
         for p in student_data.get("progress", []):
@@ -154,64 +141,41 @@ JSON:""",
         wb = student_data.get("wellbeing", {})
         wellbeing_text = f"{wb.get('trend', 'unknown')} (avg zone: {wb.get('avg_zone', '?')}/5)"
 
-        prompt = PromptTemplate(
-            template="""You are an expert Australian K-12 education advisor. Analyse this student and generate personalised learning recommendations.
+        prompt = f"""You are an expert Australian K-12 education advisor. Analyse this student and generate personalised learning recommendations.
 
 === STUDENT DATA ===
 
 ACHIEVEMENT LEVELS (term-over-term):
-{achievements}
+{achievements_text or 'No data'}
 
 SKILL MASTERY:
-{skills}
+{skills_text or 'No data'}
 
 NAPLAN RESULTS (2025):
-{naplan}
+{naplan_text or 'No data'}
 
 RECENT ASSIGNMENTS:
-{assignments}
+{assignments_text or 'No data'}
 
-WELLBEING TREND: {wellbeing}
+WELLBEING TREND: {wellbeing_text}
 
 === INSTRUCTIONS ===
 1. Write a 2-3 sentence holistic summary covering strengths, growth areas, and wellbeing.
 2. For EACH subject with data, write 2-3 specific actionable recommendations that reference the student's actual scores and skill levels. Suggest concrete activities appropriate for Australian primary school.
 3. If wellbeing trend is declining, note this prominently in the summary.
 
-Respond with ONLY valid JSON:
+Respond with ONLY valid JSON — no extra text, no markdown, no code blocks:
 {{"summary": "2-3 sentence summary", "subjects": [{{"subject": "Mathematics", "recommendations": ["specific rec 1", "specific rec 2"]}}, ...]}}
 
-JSON:""",
-            input_variables=["achievements", "skills", "naplan", "assignments", "wellbeing"],
-        )
-        chain = prompt | self.llm
-        response = chain.invoke({
-            "achievements": achievements_text or "No data",
-            "skills": skills_text or "No data",
-            "naplan": naplan_text or "No data",
-            "assignments": assignments_text or "No data",
-            "wellbeing": wellbeing_text,
-        })
-        response_text = response.strip() if isinstance(response, str) else str(response).strip()
+JSON:"""
+        response_text = self._chat(prompt)
         logger.info("LLM raw response (first 500 chars): %s", response_text[:500])
 
-        try:
-            parsed = json.loads(response_text)
-            logger.info("LLM response parsed as JSON successfully")
-            return parsed
-        except json.JSONDecodeError:
-            logger.warning("Direct JSON parse failed, trying to extract JSON from response")
-            start = response_text.find("{")
-            end = response_text.rfind("}") + 1
-            if start != -1 and end > start:
-                try:
-                    parsed = json.loads(response_text[start:end])
-                    logger.info("Extracted JSON successfully from position %d-%d", start, end)
-                    return parsed
-                except json.JSONDecodeError as e2:
-                    logger.error("Extracted JSON also failed to parse: %s", e2)
+        result = self._parse_json(response_text, None)
+        if result is None:
             logger.warning("Falling back to template-based recommendations")
             return self._fallback_recommendations(student_data)
+        return result
 
     def _fallback_recommendations(self, student_data: dict) -> dict:
         """Rule-based recommendations when LLM is unavailable."""
@@ -248,6 +212,32 @@ JSON:""",
             "summary": summary,
             "subjects": [{"subject": s, "recommendations": recs[:3]} for s, recs in subjects.items()],
         }
+
+    def _parse_json(self, text: str, fallback):
+        """Try to parse JSON from LLM response, with extraction fallback."""
+        # Direct parse
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError:
+            pass
+
+        # Try to find a valid JSON object by scanning from each { to matching }
+        for i, ch in enumerate(text):
+            if ch == '{':
+                depth = 0
+                for j in range(i, len(text)):
+                    if text[j] == '{':
+                        depth += 1
+                    elif text[j] == '}':
+                        depth -= 1
+                    if depth == 0:
+                        try:
+                            return json.loads(text[i:j + 1])
+                        except json.JSONDecodeError:
+                            break
+
+        logger.warning("Could not parse JSON from LLM response")
+        return fallback
 
 
 # Singleton

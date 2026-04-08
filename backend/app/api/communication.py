@@ -39,6 +39,40 @@ async def draft_update(request: DraftUpdateRequest):
     )
 
 
+@router.delete("/{update_id}")
+async def delete_update(update_id: str):
+    """Delete a draft update."""
+    all_updates = data_store.read("updates.json")
+    update = next((u for u in all_updates if u["id"] == update_id), None)
+    if not update:
+        return {"error": "Update not found"}
+    if update.get("status") == "sent":
+        return {"error": "Cannot delete a sent update"}
+    all_updates = [u for u in all_updates if u["id"] != update_id]
+    data_store.write("updates.json", all_updates)
+    return {"status": "deleted", "id": update_id}
+
+
+@router.put("/{update_id}")
+async def edit_update(update_id: str, request: DraftUpdateRequest):
+    """Edit a draft update — regenerates content from new notes."""
+    update = data_store.find_by_id("updates.json", update_id)
+    if not update:
+        return {"error": "Update not found"}
+    if update.get("status") == "sent":
+        return {"error": "Cannot edit a sent update"}
+
+    generated = llm_service.generate_update(request.teacher_notes)
+
+    data_store.update_by_id("updates.json", update_id, {
+        "teacher_notes": request.teacher_notes,
+        "generated_content": generated.get("content", ""),
+        "home_activities": generated.get("home_activities", []),
+        "guided_prompts": generated.get("guided_prompts", []),
+    })
+    return data_store.find_by_id("updates.json", update_id)
+
+
 @router.post("/{update_id}/send")
 async def send_update(update_id: str):
     """Mark update as sent. Translation integration in Sprint 4."""

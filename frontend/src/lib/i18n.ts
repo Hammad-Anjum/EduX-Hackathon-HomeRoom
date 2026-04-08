@@ -107,6 +107,22 @@ const translations: Record<string, Record<string, string>> = {
     "voice.play_translated": "Translated",
     "voice.message": "Voice message",
 
+    // Forum
+    "nav.forum": "Forum",
+    "forum.title": "Parent Forum",
+    "forum.new_post": "New Question",
+    "forum.title_placeholder": "Question title...",
+    "forum.body_placeholder": "Write your question in any language...",
+    "forum.post": "Post",
+    "forum.posting": "Posting...",
+    "forum.reply": "Reply",
+    "forum.replies": "Replies",
+    "forum.reply_placeholder": "Write a reply in any language...",
+    "forum.back": "Back to Forum",
+    "forum.empty": "No questions yet. Be the first to ask!",
+    "forum.teacher": "Teacher",
+    "forum.teacher_hint": "Reply to parent questions below.",
+
     // Wellbeing
     // Recommendations
     "recommendations.title": "Recommendations",
@@ -314,6 +330,22 @@ const translations: Record<string, Record<string, string>> = {
     "voice.play_translated": "翻译",
     "voice.message": "语音消息",
 
+    // Forum
+    "nav.forum": "论坛",
+    "forum.title": "家长论坛",
+    "forum.new_post": "新问题",
+    "forum.title_placeholder": "问题标题...",
+    "forum.body_placeholder": "用任何语言写下您的问题...",
+    "forum.post": "发布",
+    "forum.posting": "发布中...",
+    "forum.reply": "回复",
+    "forum.replies": "回复",
+    "forum.reply_placeholder": "用任何语言写下回复...",
+    "forum.back": "返回论坛",
+    "forum.empty": "还没有问题。成为第一个提问的人！",
+    "forum.teacher": "教师",
+    "forum.teacher_hint": "回复以下家长问题。",
+
     // Wellbeing
     // Recommendations
     "recommendations.title": "建议",
@@ -519,6 +551,22 @@ const translations: Record<string, Record<string, string>> = {
     "voice.play_original": "الأصلي",
     "voice.play_translated": "مترجم",
     "voice.message": "رسالة صوتية",
+
+    // Forum
+    "nav.forum": "المنتدى",
+    "forum.title": "منتدى أولياء الأمور",
+    "forum.new_post": "سؤال جديد",
+    "forum.title_placeholder": "عنوان السؤال...",
+    "forum.body_placeholder": "اكتب سؤالك بأي لغة...",
+    "forum.post": "نشر",
+    "forum.posting": "جارٍ النشر...",
+    "forum.reply": "رد",
+    "forum.replies": "ردود",
+    "forum.reply_placeholder": "اكتب ردا بأي لغة...",
+    "forum.back": "العودة للمنتدى",
+    "forum.empty": "لا توجد أسئلة بعد. كن أول من يسأل!",
+    "forum.teacher": "المعلم",
+    "forum.teacher_hint": "قم بالرد على أسئلة أولياء الأمور أدناه.",
 
     // Wellbeing
     // Recommendations
