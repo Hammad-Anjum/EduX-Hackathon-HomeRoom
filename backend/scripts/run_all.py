@@ -1,5 +1,5 @@
 """
-BridgeEd Data Extraction Pipeline
+HomeRoom Data Extraction Pipeline
 Runs all extraction scripts to populate backend/data/curriculum/
 for RAG ingestion into ChromaDB.
 
@@ -18,7 +18,7 @@ from fetch_education_explainers import main as generate_explainers
 
 def main():
     print("=" * 60)
-    print("BridgeEd — Data Extraction Pipeline")
+    print("HomeRoom — Data Extraction Pipeline")
     print("=" * 60)
 
     grand_total = 0

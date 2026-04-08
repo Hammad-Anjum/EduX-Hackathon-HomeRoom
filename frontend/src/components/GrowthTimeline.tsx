@@ -8,6 +8,8 @@ const SUBJECT_COLORS: Record<string, string> = {
   Mathematics: '#6366f1',
   English: '#f59e0b',
   Science: '#10b981',
+  HASS: '#ef4444',
+  'The Arts': '#8b5cf6',
 };
 
 export default function GrowthTimeline({ data, yLabel }: { data: DataPoint[]; yLabel: string }) {

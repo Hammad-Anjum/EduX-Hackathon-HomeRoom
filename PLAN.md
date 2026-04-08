@@ -1,4 +1,4 @@
-# BridgeEd — Hackathon MVP Plan
+# HomeRoom — Hackathon MVP Plan
 
 ---
 

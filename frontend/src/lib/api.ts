@@ -70,8 +70,31 @@ export const createAssignment = (data: any) =>
 export const updateAssignmentResults = (assignmentId: string, data: any) =>
   api.put(`/progress/assignments/${assignmentId}/results`, data);
 
+export const updateNaplan = (studentId: string, data: any) =>
+  api.post(`/progress/student/${studentId}/naplan`, data);
+
+export const updateStudentAssignmentResult = (studentId: string, assignmentId: string, score: number | null, feedback: string) =>
+  api.post(`/progress/student/${studentId}/assignment-result`, null, { params: { assignment_id: assignmentId, score, feedback } });
+
 export const getChildProgress = (parentId: string) =>
   api.get(`/progress/parent/${parentId}/children`);
+
+// --- Wellbeing ---
+export const logCheckin = (studentId: string, data: { zone: number; teacher_note?: string; classroom_id?: string }) =>
+  api.post(`/progress/student/${studentId}/checkin`, { classroom_id: 'c1', ...data });
+
+export const getStudentCheckins = (studentId: string, days?: number) =>
+  api.get(`/progress/student/${studentId}/checkins`, { params: { days } });
+
+export const getClassroomCheckins = (classroomId: string) =>
+  api.get(`/progress/classroom/${classroomId}/checkins`);
+
+// --- Integrations ---
+export const importGoogleClassroom = (classroomId: string) =>
+  api.post('/progress/import/google-classroom', { classroom_id: classroomId });
+
+export const exportCsv = (classroomId: string) =>
+  api.get(`/progress/export/csv/${classroomId}`, { responseType: 'blob' });
 
 // --- Translation ---
 export const translateText = (text: string, target_language: string, source_language: string = 'auto') =>

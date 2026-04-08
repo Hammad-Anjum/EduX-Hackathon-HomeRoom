@@ -26,6 +26,31 @@ export function AchievementBadge({ level, size = 'sm' }: Props) {
   );
 }
 
+export function AchievementLegend({ t }: { t: (key: string) => string }) {
+  return (
+    <div className="bg-gray-50 rounded-lg p-4 text-xs space-y-3">
+      <p className="font-semibold text-gray-600">{t('legend.title')}</p>
+      <div>
+        <p className="font-medium text-gray-500 mb-1">{t('legend.achievement')}</p>
+        <div className="space-y-1">
+          <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full bg-amber-300 border border-amber-400" /><span className="text-gray-600">{t('legend.achievement.below')}</span></div>
+          <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full bg-green-300 border border-green-400" /><span className="text-gray-600">{t('legend.achievement.at')}</span></div>
+          <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded-full bg-blue-300 border border-blue-400" /><span className="text-gray-600">{t('legend.achievement.above')}</span></div>
+        </div>
+      </div>
+      <div>
+        <p className="font-medium text-gray-500 mb-1">{t('legend.naplan')}</p>
+        <div className="space-y-1">
+          <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded bg-blue-200" /><span className="text-gray-600">{t('legend.naplan.exceeding')}</span></div>
+          <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded bg-green-200" /><span className="text-gray-600">{t('legend.naplan.strong')}</span></div>
+          <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded bg-amber-200" /><span className="text-gray-600">{t('legend.naplan.developing')}</span></div>
+          <div className="flex items-center gap-2"><span className="inline-block w-3 h-3 rounded bg-red-200" /><span className="text-gray-600">{t('legend.naplan.needs')}</span></div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export function NaplanBadge({ band }: { band: string }) {
   const cls = NAPLAN_COLORS[band] || 'bg-gray-50 text-gray-500';
   return (

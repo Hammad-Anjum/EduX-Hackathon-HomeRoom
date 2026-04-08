@@ -212,7 +212,7 @@ def download_brochure(output_dir: str) -> bool:
     try:
         resp = requests.get(
             BROCHURE_URL,
-            headers={"User-Agent": "BridgeEd-Hackathon/1.0"},
+            headers={"User-Agent": "HomeRoom-Hackathon/1.0"},
             timeout=30,
         )
         resp.raise_for_status()

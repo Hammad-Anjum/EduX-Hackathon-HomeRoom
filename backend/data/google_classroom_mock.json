@@ -1,0 +1,97 @@
+{
+  "course": {
+    "id": "gc_course_1",
+    "name": "Year 3 Blue",
+    "section": "Blue",
+    "descriptionHeading": "Year 3 — Term 1 2026",
+    "courseState": "ACTIVE",
+    "ownerId": "gc_teacher_1",
+    "creationTime": "2026-01-20T08:00:00.000Z",
+    "enrollmentCode": "y3blue26",
+    "guardiansEnabled": true
+  },
+  "students": [
+    {
+      "courseId": "gc_course_1",
+      "userId": "gc_s1",
+      "profile": { "name": { "givenName": "Lily", "familyName": "Chen", "fullName": "Lily Chen" }, "emailAddress": "lily.chen@school.edu.au" }
+    },
+    {
+      "courseId": "gc_course_1",
+      "userId": "gc_s2",
+      "profile": { "name": { "givenName": "Tom", "familyName": "Jones", "fullName": "Tom Jones" }, "emailAddress": "tom.jones@school.edu.au" }
+    },
+    {
+      "courseId": "gc_course_1",
+      "userId": "gc_s3",
+      "profile": { "name": { "givenName": "Amir", "familyName": "Al-Hassan", "fullName": "Amir Al-Hassan" }, "emailAddress": "amir.alhassan@school.edu.au" }
+    }
+  ],
+  "courseWork": [
+    {
+      "courseId": "gc_course_1",
+      "id": "gc_cw1",
+      "title": "Multiplication Timed Test",
+      "description": "Complete 50 multiplication facts in 5 minutes",
+      "state": "PUBLISHED",
+      "workType": "ASSIGNMENT",
+      "maxPoints": 100,
+      "dueDate": { "year": 2026, "month": 4, "day": 15 },
+      "creationTime": "2026-04-01T08:00:00.000Z",
+      "topicId": "Mathematics"
+    },
+    {
+      "courseId": "gc_course_1",
+      "id": "gc_cw2",
+      "title": "Persuasive Writing - Screen Time",
+      "description": "Write a persuasive text arguing for or against more screen time for kids",
+      "state": "PUBLISHED",
+      "workType": "ASSIGNMENT",
+      "maxPoints": 100,
+      "dueDate": { "year": 2026, "month": 4, "day": 18 },
+      "creationTime": "2026-04-07T08:00:00.000Z",
+      "topicId": "English"
+    },
+    {
+      "courseId": "gc_course_1",
+      "id": "gc_cw3",
+      "title": "Heat Transfer Experiment Report",
+      "description": "Write up the results of our heat transfer investigation",
+      "state": "PUBLISHED",
+      "workType": "ASSIGNMENT",
+      "maxPoints": 100,
+      "dueDate": { "year": 2026, "month": 4, "day": 22 },
+      "creationTime": "2026-04-10T08:00:00.000Z",
+      "topicId": "Science"
+    },
+    {
+      "courseId": "gc_course_1",
+      "id": "gc_cw4",
+      "title": "Australian Landmarks Research",
+      "description": "Research and present three significant Australian landmarks",
+      "state": "PUBLISHED",
+      "workType": "ASSIGNMENT",
+      "maxPoints": 100,
+      "dueDate": { "year": 2026, "month": 4, "day": 25 },
+      "creationTime": "2026-04-14T08:00:00.000Z",
+      "topicId": "HASS"
+    }
+  ],
+  "studentSubmissions": [
+    { "courseId": "gc_course_1", "courseWorkId": "gc_cw1", "id": "sub_1_1", "userId": "gc_s1", "state": "RETURNED", "assignedGrade": 92, "draftGrade": 92, "updateTime": "2026-04-15T14:00:00.000Z" },
+    { "courseId": "gc_course_1", "courseWorkId": "gc_cw1", "id": "sub_1_2", "userId": "gc_s2", "state": "RETURNED", "assignedGrade": 68, "draftGrade": 68, "updateTime": "2026-04-15T14:00:00.000Z" },
+    { "courseId": "gc_course_1", "courseWorkId": "gc_cw1", "id": "sub_1_3", "userId": "gc_s3", "state": "RETURNED", "assignedGrade": 84, "draftGrade": 84, "updateTime": "2026-04-15T14:00:00.000Z" },
+
+    { "courseId": "gc_course_1", "courseWorkId": "gc_cw2", "id": "sub_2_1", "userId": "gc_s1", "state": "RETURNED", "assignedGrade": 78, "draftGrade": 78, "updateTime": "2026-04-18T14:00:00.000Z" },
+    { "courseId": "gc_course_1", "courseWorkId": "gc_cw2", "id": "sub_2_2", "userId": "gc_s2", "state": "RETURNED", "assignedGrade": 95, "draftGrade": 95, "updateTime": "2026-04-18T14:00:00.000Z" },
+    { "courseId": "gc_course_1", "courseWorkId": "gc_cw2", "id": "sub_2_3", "userId": "gc_s3", "state": "RETURNED", "assignedGrade": 61, "draftGrade": 61, "updateTime": "2026-04-18T14:00:00.000Z" },
+
+    { "courseId": "gc_course_1", "courseWorkId": "gc_cw3", "id": "sub_3_1", "userId": "gc_s1", "state": "RETURNED", "assignedGrade": 87, "draftGrade": 87, "updateTime": "2026-04-22T14:00:00.000Z" },
+    { "courseId": "gc_course_1", "courseWorkId": "gc_cw3", "id": "sub_3_2", "userId": "gc_s2", "state": "RETURNED", "assignedGrade": 74, "draftGrade": 74, "updateTime": "2026-04-22T14:00:00.000Z" },
+    { "courseId": "gc_course_1", "courseWorkId": "gc_cw3", "id": "sub_3_3", "userId": "gc_s3", "state": "RETURNED", "assignedGrade": 91, "draftGrade": 91, "updateTime": "2026-04-22T14:00:00.000Z" },
+
+    { "courseId": "gc_course_1", "courseWorkId": "gc_cw4", "id": "sub_4_1", "userId": "gc_s1", "state": "RETURNED", "assignedGrade": 80, "draftGrade": 80, "updateTime": "2026-04-25T14:00:00.000Z" },
+    { "courseId": "gc_course_1", "courseWorkId": "gc_cw4", "id": "sub_4_2", "userId": "gc_s2", "state": "RETURNED", "assignedGrade": 88, "draftGrade": 88, "updateTime": "2026-04-25T14:00:00.000Z" },
+    { "courseId": "gc_course_1", "courseWorkId": "gc_cw4", "id": "sub_4_3", "userId": "gc_s3", "state": "RETURNED", "assignedGrade": 73, "draftGrade": 73, "updateTime": "2026-04-25T14:00:00.000Z" }
+  ]
+}

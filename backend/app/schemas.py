@@ -115,6 +115,19 @@ class BulkResultsUpdate(BaseModel):
     results: list[AssignmentResult]
 
 
+class WellbeingCheckin(BaseModel):
+    zone: int  # 1-5
+    teacher_note: str = ""
+    classroom_id: str = "c1"
+
+
+class NaplanUpdate(BaseModel):
+    domain: str
+    band: str
+    score: Optional[int] = None
+    year: int = 2025
+
+
 class ImportRequest(BaseModel):
     source_url: Optional[str] = None
     classroom_id: str

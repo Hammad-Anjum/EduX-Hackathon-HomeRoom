@@ -43,5 +43,35 @@
       { "student_id": "s2", "score": 71, "submitted": true, "feedback": "Good progress. Keep practising expanded form." },
       { "student_id": "s3", "score": 80, "submitted": true, "feedback": "Solid work across all questions." }
     ]
+  },
+  {
+    "id": "a4",
+    "classroom_id": "c1",
+    "subject": "Science",
+    "title": "Living Things Classification",
+    "description": "Classify animals by observable features",
+    "due_date": "2026-03-28",
+    "created_at": "2026-03-24T08:00:00Z",
+    "created_by": "t1",
+    "results": [
+      { "student_id": "s1", "score": 88, "submitted": true, "feedback": "Thorough classification with clear reasoning." },
+      { "student_id": "s2", "score": 75, "submitted": true, "feedback": "Good grouping. Add more detail to explanations." },
+      { "student_id": "s3", "score": 91, "submitted": true, "feedback": "Outstanding work. Excellent use of scientific language." }
+    ]
+  },
+  {
+    "id": "a5",
+    "classroom_id": "c1",
+    "subject": "HASS",
+    "title": "My Community Map",
+    "description": "Create a map of important places in our community",
+    "due_date": "2026-04-07",
+    "created_at": "2026-04-01T08:00:00Z",
+    "created_by": "t1",
+    "results": [
+      { "student_id": "s1", "score": 79, "submitted": true, "feedback": "Good use of map symbols. Add a compass rose next time." },
+      { "student_id": "s2", "score": 86, "submitted": true, "feedback": "Detailed map with excellent labelling." },
+      { "student_id": "s3", "score": 74, "submitted": true, "feedback": "Nice effort. Try to include more community places." }
+    ]
   }
 ]

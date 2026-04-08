@@ -12,7 +12,7 @@ from app.websocket.chat import router as chat_ws_router
 from app.websocket.meeting import router as meeting_ws_router
 
 app = FastAPI(
-    title="BridgeEd",
+    title="HomeRoom",
     description="Teacher-Parent Communication Platform",
     version="0.1.0",
 )
@@ -40,4 +40,4 @@ app.include_router(meeting_ws_router, tags=["WebSocket Meeting"])
 
 @app.get("/")
 async def root():
-    return {"status": "ok", "app": "BridgeEd", "version": "0.1.0"}
+    return {"status": "ok", "app": "HomeRoom", "version": "0.1.0"}

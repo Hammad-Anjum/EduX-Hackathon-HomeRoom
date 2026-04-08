@@ -1,0 +1,19 @@
+[
+  { "id": "np1", "student_id": "s1", "year": 2025, "domain": "Reading", "band": "Strong", "score": 428, "updated_at": "2025-09-15T10:00:00Z" },
+  { "id": "np2", "student_id": "s1", "year": 2025, "domain": "Writing", "band": "Developing", "score": 385, "updated_at": "2025-09-15T10:00:00Z" },
+  { "id": "np3", "student_id": "s1", "year": 2025, "domain": "Spelling", "band": "Strong", "score": 420, "updated_at": "2025-09-15T10:00:00Z" },
+  { "id": "np4", "student_id": "s1", "year": 2025, "domain": "Grammar and Punctuation", "band": "Strong", "score": 432, "updated_at": "2025-09-15T10:00:00Z" },
+  { "id": "np5", "student_id": "s1", "year": 2025, "domain": "Numeracy", "band": "Strong", "score": 445, "updated_at": "2025-09-15T10:00:00Z" },
+
+  { "id": "np6", "student_id": "s2", "year": 2025, "domain": "Reading", "band": "Exceeding", "score": 510, "updated_at": "2025-09-15T10:00:00Z" },
+  { "id": "np7", "student_id": "s2", "year": 2025, "domain": "Writing", "band": "Exceeding", "score": 498, "updated_at": "2025-09-15T10:00:00Z" },
+  { "id": "np8", "student_id": "s2", "year": 2025, "domain": "Spelling", "band": "Strong", "score": 440, "updated_at": "2025-09-15T10:00:00Z" },
+  { "id": "np9", "student_id": "s2", "year": 2025, "domain": "Grammar and Punctuation", "band": "Exceeding", "score": 505, "updated_at": "2025-09-15T10:00:00Z" },
+  { "id": "np10", "student_id": "s2", "year": 2025, "domain": "Numeracy", "band": "Developing", "score": 370, "updated_at": "2025-09-15T10:00:00Z" },
+
+  { "id": "np11", "student_id": "s3", "year": 2025, "domain": "Reading", "band": "Developing", "score": 355, "updated_at": "2025-09-15T10:00:00Z" },
+  { "id": "np12", "student_id": "s3", "year": 2025, "domain": "Writing", "band": "Needs Additional Support", "score": 310, "updated_at": "2025-09-15T10:00:00Z" },
+  { "id": "np13", "student_id": "s3", "year": 2025, "domain": "Spelling", "band": "Developing", "score": 345, "updated_at": "2025-09-15T10:00:00Z" },
+  { "id": "np14", "student_id": "s3", "year": 2025, "domain": "Grammar and Punctuation", "band": "Developing", "score": 360, "updated_at": "2025-09-15T10:00:00Z" },
+  { "id": "np15", "student_id": "s3", "year": 2025, "domain": "Numeracy", "band": "Strong", "score": 430, "updated_at": "2025-09-15T10:00:00Z" }
+]

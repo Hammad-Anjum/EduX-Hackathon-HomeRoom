@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { BrowserRouter, Routes, Route, Navigate, Link, useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { BrowserRouter, Routes, Route, Navigate, Link, useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from './hooks/useTranslation';
 
 // Teacher pages
@@ -10,6 +10,7 @@ import TeacherMessages from './pages/teacher/Messages';
 import TeacherMeetingRoom from './pages/teacher/MeetingRoom';
 import StudentList from './pages/teacher/StudentList';
 import StudentDetail from './pages/teacher/StudentDetail';
+import Integrations from './pages/teacher/Integrations';
 
 // Parent pages
 import Feed from './pages/parent/Feed';
@@ -30,7 +31,19 @@ type UserKey = keyof typeof USERS;
 
 function NavBar({ userKey, setUserKey }: { userKey: UserKey; setUserKey: (k: UserKey) => void }) {
   const location = useLocation();
+  const navigate = useNavigate();
   const user = USERS[userKey];
+
+  // Redirect to home when role changes and current path doesn't match
+  useEffect(() => {
+    const isTeacherPath = location.pathname.startsWith('/teacher');
+    const isParentPath = location.pathname.startsWith('/parent');
+    if (user.role === 'teacher' && !isTeacherPath) {
+      navigate('/teacher/dashboard');
+    } else if (user.role === 'parent' && !isParentPath) {
+      navigate('/parent/feed');
+    }
+  }, [userKey]);
   const { t } = useTranslation(user.language);
   const isTeacher = user.role === 'teacher';
 
@@ -39,6 +52,7 @@ function NavBar({ userKey, setUserKey }: { userKey: UserKey; setUserKey: (k: Use
         { to: '/teacher/dashboard', label: t('nav.dashboard') },
         { to: '/teacher/compose', label: t('nav.new_update') },
         { to: '/teacher/students', label: t('nav.students') },
+        { to: '/teacher/integrations', label: t('nav.integrations') },
         { to: '/teacher/messages', label: t('nav.messages') },
       ]
     : [
@@ -95,6 +109,7 @@ function App() {
             <Route path="/teacher/insights/:updateId" element={<Insights user={user} />} />
             <Route path="/teacher/students" element={<StudentList user={user} />} />
             <Route path="/teacher/student/:studentId" element={<StudentDetail user={user} />} />
+            <Route path="/teacher/integrations" element={<Integrations user={user} />} />
             <Route path="/teacher/messages" element={<TeacherMessages user={user} />} />
             <Route path="/teacher/meeting/:meetingId" element={<TeacherMeetingRoom user={user} />} />
 

@@ -103,7 +103,7 @@ class CurriculumEngine:
         models = [
             {
                 "id": "rag",
-                "name": "BridgeEd RAG",
+                "name": "HomeRoom RAG",
                 "description": "Our curriculum knowledge base (10,051 documents)",
                 "available": True,
             },
