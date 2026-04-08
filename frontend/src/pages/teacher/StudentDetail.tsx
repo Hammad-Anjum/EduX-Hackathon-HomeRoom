@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { getStudentDetail, updateAchievement, updateSkill, updateNaplan, updateStudentAssignmentResult, createAssignment, getStudentCheckins, logCheckin } from '../../lib/api';
+import { getStudentDetail, updateAchievement, updateSkill, updateNaplan, updateStudentAssignmentResult, createAssignment, getStudentCheckins, logCheckin, generateRecommendations, getStudentRecommendations, updateRecommendationItem } from '../../lib/api';
 import { useTranslation } from '../../hooks/useTranslation';
 import { AchievementBadge, NaplanBadge, AchievementLegend } from '../../components/AchievementBadge';
 import WellbeingStrip, { WellbeingLegend } from '../../components/WellbeingStrip';
 import WellbeingCheckinForm from '../../components/WellbeingCheckinForm';
+import WithLegend from '../../components/WithLegend';
 
 interface User { id: string; name: string; role: string; language: string }
 
@@ -24,9 +25,13 @@ export default function StudentDetail({ user }: { user: User }) {
   const { t } = useTranslation(user.language);
   const { studentId } = useParams();
   const [detail, setDetail] = useState<any>(null);
-  const [tab, setTab] = useState<'achievements' | 'naplan' | 'skills' | 'assignments' | 'wellbeing'>('achievements');
+  const [tab, setTab] = useState<'achievements' | 'naplan' | 'skills' | 'assignments' | 'wellbeing' | 'recommendations'>('achievements');
   const [wellbeingData, setWellbeingData] = useState<any>(null);
   const [savedFlag, setSavedFlag] = useState('');
+  const [recs, setRecs] = useState<any>(null);
+  const [recsLoading, setRecsLoading] = useState(false);
+  const [editingItem, setEditingItem] = useState<string | null>(null);
+  const [editText, setEditText] = useState('');
 
   // Achievement form
   const [editSubject, setEditSubject] = useState('Mathematics');
@@ -63,10 +68,31 @@ export default function StudentDetail({ user }: { user: User }) {
 
   const loadWellbeing = () => {
     if (!studentId) return;
-    getStudentCheckins(studentId).then((res) => setWellbeingData(res.data));
+    getStudentCheckins(studentId).then((res) => setWellbeingData(res.data)).catch(() => {});
   };
 
-  useEffect(() => { loadWellbeing(); }, [studentId]);
+  useEffect(() => { loadWellbeing(); loadRecs(); }, [studentId]);
+
+  const loadRecs = () => {
+    if (!studentId) return;
+    getStudentRecommendations(studentId).then((res) => setRecs(res.data)).catch(() => {});
+  };
+
+  const handleGenerate = async () => {
+    if (!studentId) return;
+    setRecsLoading(true);
+    try {
+      const res = await generateRecommendations(studentId);
+      setRecs(res.data);
+    } catch { /* fallback handled server-side */ }
+    setRecsLoading(false);
+  };
+
+  const handleApproveItem = async (itemId: string, status: string, edited?: string) => {
+    if (!recs) return;
+    await updateRecommendationItem(recs.id, itemId, { status, edited_text: edited });
+    loadRecs();
+  };
 
   const reload = () => {
     if (!studentId) return;
@@ -154,6 +180,7 @@ export default function StudentDetail({ user }: { user: User }) {
     { key: 'skills' as const, label: t('student.skills') },
     { key: 'assignments' as const, label: t('student.assignments') },
     { key: 'wellbeing' as const, label: t('wellbeing.title') },
+    { key: 'recommendations' as const, label: t('recommendations.title') },
   ];
 
   const inputCls = "w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none";
@@ -166,8 +193,8 @@ export default function StudentDetail({ user }: { user: User }) {
         <Link to="/teacher/students" className="text-sm text-indigo-600 hover:underline mb-2 inline-block">
           {t('students.title')}
         </Link>
-        <h1 className="text-2xl font-bold text-gray-800">{t('student.detail')}</h1>
-        <p className="text-sm text-gray-400 mt-1">ID: {studentId}</p>
+        <h1 className="text-2xl font-bold text-gray-800">{detail?.student_name || studentId}</h1>
+        <p className="text-sm text-gray-400 mt-1">{studentId}</p>
       </div>
 
       {/* Summary cards */}
@@ -202,6 +229,7 @@ export default function StudentDetail({ user }: { user: User }) {
 
       {/* ── ACHIEVEMENTS TAB ── */}
       {tab === 'achievements' && (
+        <WithLegend legend={<AchievementLegend t={t} />}>
         <div className="space-y-6">
           {(() => {
             const bySubject: Record<string, any[]> = {};
@@ -227,8 +255,6 @@ export default function StudentDetail({ user }: { user: User }) {
             ));
           })()}
 
-          <AchievementLegend t={t} />
-
           <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-6">
             <h3 className="font-semibold text-sm text-gray-700 mb-4">Update Achievement <SavedNotice show={savedFlag === 'achievement'} /></h3>
             <div className="grid grid-cols-2 gap-3 mb-4">
@@ -246,6 +272,7 @@ export default function StudentDetail({ user }: { user: User }) {
             <button onClick={handleSaveAchievement} className={btnCls}>{t('student.save')}</button>
           </div>
         </div>
+        </WithLegend>
       )}
 
       {/* ── NAPLAN TAB ── */}
@@ -419,6 +446,7 @@ export default function StudentDetail({ user }: { user: User }) {
 
       {/* ── WELLBEING TAB ── */}
       {tab === 'wellbeing' && (
+        <WithLegend legend={<WellbeingLegend t={t} />}>
         <div className="space-y-5">
           {/* Trend */}
           {wellbeingData && (
@@ -472,7 +500,93 @@ export default function StudentDetail({ user }: { user: User }) {
             </div>
           )}
 
-          <WellbeingLegend t={t} />
+        </div>
+        </WithLegend>
+      )}
+
+      {/* ── RECOMMENDATIONS TAB ── */}
+      {tab === 'recommendations' && (
+        <div className="space-y-5">
+          {/* Generate / Regenerate button */}
+          <div className="flex items-center gap-3">
+            <button onClick={handleGenerate} disabled={recsLoading}
+              className="bg-indigo-600 text-white px-5 py-2 rounded-lg text-sm font-medium hover:bg-indigo-700 transition-colors disabled:opacity-50">
+              {recsLoading ? t('recommendations.generating') : recs ? t('recommendations.regenerate') : t('recommendations.generate')}
+            </button>
+            {recs && !recs.llm_available && (
+              <span className="text-xs text-amber-600 bg-amber-50 px-3 py-1 rounded-lg">{t('recommendations.llm_fallback')}</span>
+            )}
+          </div>
+
+          {recs ? (
+            <>
+              {/* Wellbeing warning */}
+              {recs.wellbeing_flag === 'declining' && (
+                <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-800">
+                  {t('recommendations.wellbeing_warning')}
+                </div>
+              )}
+
+              {/* Summary (teacher-only) */}
+              <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+                <div className="flex items-center gap-2 mb-2">
+                  <h4 className="text-sm font-semibold text-gray-700">{t('recommendations.summary')}</h4>
+                  <span className="text-[10px] text-gray-400 bg-gray-100 px-2 py-0.5 rounded">{t('recommendations.teacher_only')}</span>
+                </div>
+                <p className="text-sm text-gray-600 leading-relaxed">{recs.summary}</p>
+              </div>
+
+              {/* Per-subject recommendations */}
+              {recs.subjects?.map((subj: any) => (
+                <div key={subj.subject} className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+                  <h4 className="text-sm font-semibold text-gray-600 mb-3">{subj.subject}</h4>
+                  <div className="space-y-3">
+                    {subj.items?.map((item: any) => (
+                      <div key={item.id} className={`rounded-lg p-3 ${item.status === 'approved' ? 'bg-green-50 border border-green-200' : item.status === 'hidden' ? 'bg-gray-50 border border-gray-200 opacity-50' : 'bg-gray-50 border border-gray-200'}`}>
+                        {editingItem === item.id ? (
+                          <div className="space-y-2">
+                            <textarea value={editText} onChange={(e) => setEditText(e.target.value)}
+                              className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-indigo-500 outline-none" rows={3} />
+                            <div className="flex gap-2">
+                              <button onClick={() => { handleApproveItem(item.id, 'approved', editText); setEditingItem(null); }}
+                                className="bg-green-600 text-white px-3 py-1 rounded text-xs font-medium hover:bg-green-700">{t('recommendations.approve')}</button>
+                              <button onClick={() => setEditingItem(null)}
+                                className="text-xs text-gray-400 hover:text-gray-600">Cancel</button>
+                            </div>
+                          </div>
+                        ) : (
+                          <>
+                            <p className="text-sm text-gray-700 mb-2">{item.edited_text || item.text}</p>
+                            <div className="flex items-center gap-2">
+                              <span className={`text-[10px] px-2 py-0.5 rounded font-medium ${
+                                item.status === 'approved' ? 'bg-green-100 text-green-700' :
+                                item.status === 'hidden' ? 'bg-gray-200 text-gray-500' :
+                                'bg-gray-100 text-gray-500'
+                              }`}>{t(`recommendations.${item.status}`)}</span>
+                              {item.status !== 'approved' && (
+                                <button onClick={() => handleApproveItem(item.id, 'approved')}
+                                  className="text-xs text-green-600 hover:underline">{t('recommendations.approve')}</button>
+                              )}
+                              {item.status !== 'hidden' && (
+                                <button onClick={() => handleApproveItem(item.id, 'hidden')}
+                                  className="text-xs text-gray-400 hover:underline">{t('recommendations.hide')}</button>
+                              )}
+                              <button onClick={() => { setEditingItem(item.id); setEditText(item.edited_text || item.text); }}
+                                className="text-xs text-indigo-600 hover:underline">{t('recommendations.edit')}</button>
+                            </div>
+                          </>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </>
+          ) : (
+            <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-8 text-center">
+              <p className="text-gray-400 text-sm">{t('recommendations.no_data')}</p>
+            </div>
+          )}
         </div>
       )}
     </div>

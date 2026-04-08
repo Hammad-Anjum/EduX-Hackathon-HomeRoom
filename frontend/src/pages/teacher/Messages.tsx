@@ -3,6 +3,7 @@ import { getConversations, getThread, getUsers } from '../../lib/api';
 import { useWebSocket } from '../../hooks/useWebSocket';
 import { useTranslation } from '../../hooks/useTranslation';
 import MessageBubble from '../../components/MessageBubble';
+import VoiceRecordButton from '../../components/VoiceRecordButton';
 
 interface User { id: string; name: string; role: string; language: string }
 
@@ -45,7 +46,7 @@ export default function Messages({ user }: { user: User }) {
 
   const handleSend = () => {
     if (!input.trim() || !connected) return;
-    send({ text: input });
+    send({ text: input, is_voice: false });
     setInput('');
   };
 
@@ -138,6 +139,9 @@ export default function Messages({ user }: { user: User }) {
                   text={msg.original_text}
                   isMine={msg.sender_id === user.id}
                   userLanguage={user.language}
+                  isVoice={msg.is_voice}
+                  audioOriginal={msg.audio_original}
+                  audioTranslated={msg.audio_translated}
                 />
               ))}
               <div ref={messagesEndRef} />
@@ -149,6 +153,11 @@ export default function Messages({ user }: { user: User }) {
                 onKeyDown={(e) => e.key === 'Enter' && handleSend()}
                 placeholder={t('messages.placeholder')}
                 className="flex-1 border rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-indigo-500"
+              />
+              <VoiceRecordButton
+                lang={user.language}
+                onTranscript={(text) => { if (connected) send({ text, is_voice: true }); }}
+                disabled={!connected}
               />
               <button
                 onClick={handleSend}

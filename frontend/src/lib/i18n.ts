@@ -101,7 +101,30 @@ const translations: Record<string, Record<string, string>> = {
     "chat.title": "Chat with Teacher",
     "chat.placeholder": "Write in any language...",
 
+    // Voice
+    "voice.recording": "Listening...",
+    "voice.play_original": "Original",
+    "voice.play_translated": "Translated",
+    "voice.message": "Voice message",
+
     // Wellbeing
+    // Recommendations
+    "recommendations.title": "Recommendations",
+    "recommendations.generate": "Generate Recommendations",
+    "recommendations.regenerate": "Regenerate",
+    "recommendations.generating": "Analysing student data...",
+    "recommendations.approve": "Approve for Parent",
+    "recommendations.hide": "Hide",
+    "recommendations.edit": "Edit",
+    "recommendations.approved": "Approved",
+    "recommendations.hidden": "Hidden",
+    "recommendations.draft": "Draft",
+    "recommendations.summary": "Student Summary",
+    "recommendations.wellbeing_warning": "This student's wellbeing trend is declining. Please assess their situation before sharing academic recommendations with parents.",
+    "recommendations.no_data": "No recommendations yet. Click Generate to create personalised recommendations.",
+    "recommendations.llm_fallback": "AI was unavailable. These are template-based suggestions.",
+    "recommendations.teacher_only": "Teacher Only",
+
     "wellbeing.title": "Wellbeing",
     "wellbeing.checkin": "Today's Check-In",
     "wellbeing.zone_1": "Having a tough day",
@@ -285,7 +308,30 @@ const translations: Record<string, Record<string, string>> = {
     "chat.title": "与老师聊天",
     "chat.placeholder": "用任何语言书写...",
 
+    // Voice
+    "voice.recording": "正在收听...",
+    "voice.play_original": "原文",
+    "voice.play_translated": "翻译",
+    "voice.message": "语音消息",
+
     // Wellbeing
+    // Recommendations
+    "recommendations.title": "建议",
+    "recommendations.generate": "生成建议",
+    "recommendations.regenerate": "重新生成",
+    "recommendations.generating": "正在分析学生数据...",
+    "recommendations.approve": "批准给家长",
+    "recommendations.hide": "隐藏",
+    "recommendations.edit": "编辑",
+    "recommendations.approved": "已批准",
+    "recommendations.hidden": "已隐藏",
+    "recommendations.draft": "草稿",
+    "recommendations.summary": "学生总结",
+    "recommendations.wellbeing_warning": "该学生的身心健康趋势正在下降。分享建议前请先评估其情况。",
+    "recommendations.no_data": "暂无建议。点击生成以创建个性化建议。",
+    "recommendations.llm_fallback": "AI 不可用。这些是基于模板的建议。",
+    "recommendations.teacher_only": "仅教师可见",
+
     "wellbeing.title": "身心健康",
     "wellbeing.checkin": "今日签到",
     "wellbeing.zone_1": "今天很艰难",
@@ -468,7 +514,30 @@ const translations: Record<string, Record<string, string>> = {
     "chat.title": "الدردشة مع المعلم",
     "chat.placeholder": "اكتب بأي لغة...",
 
+    // Voice
+    "voice.recording": "جارٍ الاستماع...",
+    "voice.play_original": "الأصلي",
+    "voice.play_translated": "مترجم",
+    "voice.message": "رسالة صوتية",
+
     // Wellbeing
+    // Recommendations
+    "recommendations.title": "التوصيات",
+    "recommendations.generate": "إنشاء التوصيات",
+    "recommendations.regenerate": "إعادة الإنشاء",
+    "recommendations.generating": "جارٍ تحليل بيانات الطالب...",
+    "recommendations.approve": "الموافقة للوالدين",
+    "recommendations.hide": "إخفاء",
+    "recommendations.edit": "تعديل",
+    "recommendations.approved": "تمت الموافقة",
+    "recommendations.hidden": "مخفي",
+    "recommendations.draft": "مسودة",
+    "recommendations.summary": "ملخص الطالب",
+    "recommendations.wellbeing_warning": "اتجاه رفاهية هذا الطالب في تراجع. يرجى تقييم وضعه قبل مشاركة التوصيات الأكاديمية مع الوالدين.",
+    "recommendations.no_data": "لا توجد توصيات بعد. انقر على إنشاء لإنشاء توصيات مخصصة.",
+    "recommendations.llm_fallback": "الذكاء الاصطناعي غير متاح. هذه اقتراحات قائمة على القوالب.",
+    "recommendations.teacher_only": "للمعلم فقط",
+
     "wellbeing.title": "الرفاهية",
     "wellbeing.checkin": "تسجيل اليوم",
     "wellbeing.zone_1": "يوم صعب",

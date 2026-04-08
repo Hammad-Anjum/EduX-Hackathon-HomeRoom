@@ -50,6 +50,14 @@ async def list_students(classroom_id: str):
 @router.get("/student/{student_id}")
 async def get_student_detail(student_id: str):
     """Full progress detail for one student."""
+    # Resolve student name
+    student_name = student_id
+    for cls in data_store.read("classrooms.json"):
+        for s in cls.get("students", []):
+            if s["id"] == student_id:
+                student_name = s["name"]
+                break
+
     progress = data_store.filter("student_progress.json", student_id=student_id)
     skills = data_store.filter("skills.json", student_id=student_id)
     naplan = data_store.filter("naplan_results.json", student_id=student_id)
@@ -74,6 +82,7 @@ async def get_student_detail(student_id: str):
 
     return {
         "student_id": student_id,
+        "student_name": student_name,
         "progress": progress,
         "skills": skills,
         "naplan": naplan,

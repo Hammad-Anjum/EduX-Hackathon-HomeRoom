@@ -6,6 +6,7 @@ from fastapi import APIRouter, Query
 from app.schemas import SendMessageRequest, MessageResponse
 from app.services.data_store import data_store
 from app.services.translator import translator
+from app.services.tts_service import tts_service
 
 router = APIRouter()
 
@@ -23,8 +24,18 @@ async def send_message(request: SendMessageRequest):
     # Translate if needed
     translated_text = translator.translate(request.text, target_lang, original_lang)
 
+    msg_id = f"m{uuid.uuid4().hex[:8]}"
+
+    # Generate TTS for voice messages
+    audio_original = None
+    audio_translated = None
+    if request.is_voice:
+        audio_original, audio_translated = tts_service.generate_pair(
+            request.text, original_lang, translated_text, target_lang, msg_id,
+        )
+
     message = {
-        "id": f"m{uuid.uuid4().hex[:8]}",
+        "id": msg_id,
         "sender_id": request.sender_id,
         "receiver_id": request.receiver_id,
         "student_id": request.student_id or "",
@@ -33,6 +44,9 @@ async def send_message(request: SendMessageRequest):
         "translated_text": translated_text,
         "translated_language": target_lang,
         "created_at": datetime.now(timezone.utc).isoformat(),
+        "is_voice": request.is_voice,
+        "audio_original": audio_original,
+        "audio_translated": audio_translated,
     }
 
     data_store.append("messages.json", message)

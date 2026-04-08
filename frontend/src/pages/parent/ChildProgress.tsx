@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
-import { getChildProgress } from '../../lib/api';
+import { getChildProgress, getChildRecommendations } from '../../lib/api';
 import { useTranslation } from '../../hooks/useTranslation';
 import { AchievementBadge, NaplanBadge, AchievementLegend } from '../../components/AchievementBadge';
 import GrowthTimeline from '../../components/GrowthTimeline';
 import SkillMatrix, { SkillLegend } from '../../components/SkillMatrix';
 import TranslateButton from '../../components/TranslateButton';
 import { WellbeingLegend } from '../../components/WellbeingStrip';
+import WithLegend from '../../components/WithLegend';
 
 interface User { id: string; name: string; role: string; language: string }
 
@@ -57,12 +58,16 @@ export default function ChildProgress({ user }: { user: User }) {
   const { t } = useTranslation(user.language);
   const [children, setChildren] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
-  const [tab, setTab] = useState<'achievements' | 'naplan' | 'growth' | 'skills' | 'assignments' | 'wellbeing'>('achievements');
+  const [tab, setTab] = useState<'achievements' | 'naplan' | 'growth' | 'skills' | 'assignments' | 'wellbeing' | 'recommendations'>('achievements');
+  const [childRecs, setChildRecs] = useState<any[]>([]);
 
   useEffect(() => {
     getChildProgress(user.id)
       .then((res) => setChildren(res.data))
       .finally(() => setLoading(false));
+    getChildRecommendations(user.id)
+      .then((res) => setChildRecs(res.data || []))
+      .catch(() => {});
   }, [user.id]);
 
   if (loading) return <p className="text-gray-500 p-6">Loading...</p>;
@@ -82,6 +87,7 @@ export default function ChildProgress({ user }: { user: User }) {
     { key: 'skills' as const, label: t('progress.skills') },
     { key: 'assignments' as const, label: t('student.assignments') },
     { key: 'wellbeing' as const, label: t('wellbeing.title') },
+    { key: 'recommendations' as const, label: t('recommendations.title') },
   ];
 
   return (
@@ -122,8 +128,8 @@ export default function ChildProgress({ user }: { user: User }) {
 
             {/* ── ACHIEVEMENTS ── */}
             {tab === 'achievements' && (
-              <div>
-                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-4">
+              <WithLegend legend={<AchievementLegend t={t} />}>
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
                   {Object.values(latestBySubject).map((p: any) => (
                     <div key={p.subject} className="bg-white rounded-xl border border-gray-100 shadow-sm p-4">
                       <p className="text-xs font-medium text-gray-400 mb-2">{p.subject}</p>
@@ -140,8 +146,7 @@ export default function ChildProgress({ user }: { user: User }) {
                     </div>
                   ))}
                 </div>
-                <AchievementLegend t={t} />
-              </div>
+              </WithLegend>
             )}
 
             {/* ── NAPLAN ── */}
@@ -193,12 +198,11 @@ export default function ChildProgress({ user }: { user: User }) {
 
             {/* ── SKILLS ── */}
             {tab === 'skills' && (
-              <div>
-                <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5 mb-4">
+              <WithLegend legend={<SkillLegend t={t} />}>
+                <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
                   <SkillMatrix skills={child.skills} targetLanguage={user.language} />
                 </div>
-                <SkillLegend t={t} />
-              </div>
+              </WithLegend>
             )}
 
             {/* ── ASSIGNMENTS ── */}
@@ -232,6 +236,7 @@ export default function ChildProgress({ user }: { user: User }) {
 
             {/* ── WELLBEING ── */}
             {tab === 'wellbeing' && (
+              <WithLegend legend={<WellbeingLegend t={t} />}>
               <div className="space-y-4">
                 {child.wellbeing && child.wellbeing.checkins?.length > 0 ? (
                   <>
@@ -261,10 +266,38 @@ export default function ChildProgress({ user }: { user: User }) {
                     <p className="text-gray-400 text-sm">{t('wellbeing.no_data')}</p>
                   </div>
                 )}
-
-                <WellbeingLegend t={t} />
               </div>
+              </WithLegend>
             )}
+
+            {/* ── RECOMMENDATIONS ── */}
+            {tab === 'recommendations' && (() => {
+              const childRec = childRecs.find((r: any) => r.student_id === child.student_id);
+              const hasRecs = childRec?.subjects?.length > 0;
+              return (
+                <div className="space-y-4">
+                  {hasRecs ? (
+                    childRec.subjects.map((subj: any) => (
+                      <div key={subj.subject} className="bg-white rounded-xl border border-gray-100 shadow-sm p-5">
+                        <h4 className="text-sm font-semibold text-gray-600 mb-3">{subj.subject}</h4>
+                        <div className="space-y-2">
+                          {subj.items.map((item: any, i: number) => (
+                            <div key={i} className="bg-green-50 border border-green-200 rounded-lg p-3">
+                              <p className="text-sm text-gray-700">{item.text}</p>
+                              <TranslateButton text={item.text} targetLanguage={user.language} />
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    ))
+                  ) : (
+                    <div className="bg-white rounded-xl border border-gray-100 shadow-sm p-8 text-center">
+                      <p className="text-gray-400 text-sm">{t('recommendations.no_data')}</p>
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
           </div>
         );
       })}

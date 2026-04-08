@@ -89,6 +89,19 @@ export const getStudentCheckins = (studentId: string, days?: number) =>
 export const getClassroomCheckins = (classroomId: string) =>
   api.get(`/progress/classroom/${classroomId}/checkins`);
 
+// --- Recommendations ---
+export const generateRecommendations = (studentId: string) =>
+  api.post(`/recommendations/generate/${studentId}`);
+
+export const getStudentRecommendations = (studentId: string) =>
+  api.get(`/recommendations/student/${studentId}`);
+
+export const updateRecommendationItem = (recId: string, itemId: string, data: { status: string; edited_text?: string }) =>
+  api.patch(`/recommendations/${recId}/items/${itemId}`, data);
+
+export const getChildRecommendations = (parentId: string) =>
+  api.get(`/recommendations/parent/${parentId}/children`);
+
 // --- Integrations ---
 export const importGoogleClassroom = (classroomId: string) =>
   api.post('/progress/import/google-classroom', { classroom_id: classroomId });

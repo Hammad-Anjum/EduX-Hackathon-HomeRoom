@@ -1,5 +1,8 @@
+import os
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 from app.config import settings
 from app.api.communication import router as communication_router
@@ -8,6 +11,7 @@ from app.api.messaging import router as messaging_router
 from app.api.translate import router as translate_router
 from app.api.users import router as users_router
 from app.api.progress import router as progress_router
+from app.api.recommendations import router as recommendations_router
 from app.websocket.chat import router as chat_ws_router
 from app.websocket.meeting import router as meeting_ws_router
 
@@ -32,10 +36,17 @@ app.include_router(messaging_router, prefix="/api/messages", tags=["Messaging"])
 app.include_router(translate_router, prefix="/api/translate", tags=["Translation"])
 app.include_router(users_router, prefix="/api/users", tags=["Users"])
 app.include_router(progress_router, prefix="/api/progress", tags=["Student Progress"])
+app.include_router(recommendations_router, prefix="/api/recommendations", tags=["Recommendations"])
 
 # WebSocket routes
 app.include_router(chat_ws_router, tags=["WebSocket Chat"])
 app.include_router(meeting_ws_router, tags=["WebSocket Meeting"])
+
+
+# Static files (audio)
+audio_dir = os.path.join(settings.data_dir, "audio")
+os.makedirs(audio_dir, exist_ok=True)
+app.mount("/audio", StaticFiles(directory=audio_dir), name="audio")
 
 
 @app.get("/")

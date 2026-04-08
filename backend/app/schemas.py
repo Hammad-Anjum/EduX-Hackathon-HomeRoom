@@ -64,6 +64,7 @@ class SendMessageRequest(BaseModel):
     receiver_id: str
     text: str
     student_id: Optional[str] = None
+    is_voice: bool = False
 
 
 class MessageResponse(BaseModel):
@@ -75,6 +76,9 @@ class MessageResponse(BaseModel):
     translated_text: str
     translated_language: str
     created_at: str
+    is_voice: bool = False
+    audio_original: Optional[str] = None
+    audio_translated: Optional[str] = None
 
 
 # --- On-demand Translation ---
@@ -119,6 +123,11 @@ class WellbeingCheckin(BaseModel):
     zone: int  # 1-5
     teacher_note: str = ""
     classroom_id: str = "c1"
+
+
+class RecommendationItemUpdate(BaseModel):
+    status: str  # "approved" | "hidden"
+    edited_text: Optional[str] = None
 
 
 class NaplanUpdate(BaseModel):

@@ -1,3 +1,4 @@
+import asyncio
 import json
 import uuid
 from datetime import datetime, timezone
@@ -6,6 +7,7 @@ from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 
 from app.services.data_store import data_store
 from app.services.translator import translator
+from app.services.tts_service import tts_service
 
 router = APIRouter()
 
@@ -35,6 +37,8 @@ async def chat_websocket(websocket: WebSocket, sender_id: str, receiver_id: str)
             if not text.strip():
                 continue
 
+            is_voice = payload.get("is_voice", False)
+
             # Detect language and translate
             original_lang = translator.detect_language(text)
             receiver = data_store.find_by_id("users.json", receiver_id)
@@ -42,9 +46,19 @@ async def chat_websocket(websocket: WebSocket, sender_id: str, receiver_id: str)
             target_lang = receiver.get("language", "en") if receiver else "en"
             translated_text = translator.translate(text, target_lang, original_lang)
 
+            # Generate TTS for voice messages
+            audio_original = None
+            audio_translated = None
+            msg_id = f"m{uuid.uuid4().hex[:8]}"
+            if is_voice:
+                audio_original, audio_translated = await asyncio.to_thread(
+                    tts_service.generate_pair,
+                    text, original_lang, translated_text, target_lang, msg_id,
+                )
+
             # Store message
             message = {
-                "id": f"m{uuid.uuid4().hex[:8]}",
+                "id": msg_id,
                 "sender_id": sender_id,
                 "receiver_id": receiver_id,
                 "original_text": text,
@@ -52,6 +66,9 @@ async def chat_websocket(websocket: WebSocket, sender_id: str, receiver_id: str)
                 "translated_text": translated_text,
                 "translated_language": target_lang,
                 "created_at": datetime.now(timezone.utc).isoformat(),
+                "is_voice": is_voice,
+                "audio_original": audio_original,
+                "audio_translated": audio_translated,
             }
             data_store.append("messages.json", message)
 
@@ -65,6 +82,9 @@ async def chat_websocket(websocket: WebSocket, sender_id: str, receiver_id: str)
                 "translated_text": translated_text,
                 "translated_language": target_lang,
                 "created_at": message["created_at"],
+                "is_voice": is_voice,
+                "audio_original": audio_original,
+                "audio_translated": audio_translated,
             })
 
             for conn in active_connections.get(key, []):

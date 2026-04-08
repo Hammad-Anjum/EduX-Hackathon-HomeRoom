@@ -14,6 +14,9 @@ export default function TranslateButton({ text, targetLanguage, className = '' }
   const [loading, setLoading] = useState(false);
   const [visible, setVisible] = useState(false);
 
+  // Don't render for English users viewing English content
+  if (targetLanguage === 'en') return null;
+
   const handleTranslate = async () => {
     if (translated) {
       setVisible(!visible);
