@@ -21,7 +21,7 @@ function SavedNotice({ show }: { show: boolean }) {
   return <span className="text-green-600 text-xs font-medium ml-2">Saved!</span>;
 }
 
-export default function StudentDetail({ user }: { user: User }) {
+export default function StudentDetail({ user, classroomId }: { user: User; classroomId: string }) {
   const { t } = useTranslation(user.language);
   const { studentId } = useParams();
   const [detail, setDetail] = useState<any>(null);
@@ -142,7 +142,7 @@ export default function StudentDetail({ user }: { user: User }) {
   const handleCreateAssignment = async () => {
     if (!newAssignTitle.trim()) return;
     await createAssignment({
-      classroom_id: 'c1', subject: newAssignSubject, title: newAssignTitle.trim(),
+      classroom_id: classroomId, subject: newAssignSubject, title: newAssignTitle.trim(),
       due_date: newAssignDue || null,
     });
     setNewAssignTitle('');
@@ -476,7 +476,7 @@ export default function StudentDetail({ user }: { user: User }) {
             t={t}
             onSubmit={async (zone, note) => {
               if (!studentId) return;
-              await logCheckin(studentId, { zone, teacher_note: note });
+              await logCheckin(studentId, { zone, teacher_note: note, classroom_id: classroomId });
               loadWellbeing();
             }}
           />

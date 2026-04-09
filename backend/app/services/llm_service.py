@@ -28,7 +28,16 @@ class LLMService:
             max_tokens=max_tokens,
             temperature=0.3,
         )
-        return (response.choices[0].message.content or "").strip()
+        text = (response.choices[0].message.content or "").strip()
+        # Truncate at first fake follow-up turn (LLM generates multi-turn conversations)
+        for marker in ["[/PARENT]", "[/INST]", "[/USER]", "[INST]", "[PARENT]", "</s>"]:
+            idx = text.find(marker)
+            if idx > 20:
+                text = text[:idx]
+        # Clean any remaining tags
+        for tag in ["[/INST]", "[/PARENT]", "[/USER]", "[/ASSISTANT]", "[INST]", "[PARENT]", "</s>", "<s>"]:
+            text = text.replace(tag, "")
+        return text.strip()
 
     def get_embeddings(self) -> HuggingFaceEmbeddings:
         return self.embeddings
@@ -49,7 +58,7 @@ Parent's Question: {question}
 Answer:"""
         return self._chat(prompt, max_tokens=512)
 
-    def generate_update(self, teacher_notes: str, classroom_id: str = "c1") -> dict:
+    def generate_update(self, teacher_notes: str, classroom_id: str = "c1", year_level: str | None = None, subject: str | None = None) -> dict:
         """Convert brief teacher notes into a parent-friendly weekly update.
 
         Strategy: Try CurricuLLM first (supports JSON output, curriculum-aligned).
@@ -59,15 +68,18 @@ Answer:"""
         from app.services.curriculum_engine import YEAR_TO_STAGE
         from app.services.data_store import data_store
 
-        # Get classroom year level
-        classroom = data_store.find_by_id("classrooms.json", classroom_id)
-        year_level = f"Year {classroom.get('year_level', 3)}" if classroom else "Year 3"
+        # Resolve year level from parameter or classroom data
+        if not year_level:
+            classroom = data_store.find_by_id("classrooms.json", classroom_id)
+            year_level = f"Year {classroom.get('year_level', 3)}" if classroom else "Year 3"
         stage = YEAR_TO_STAGE.get(year_level, "Stage 2")
+
+        logger.info("Generating update: year=%s, stage=%s, subject=%s", year_level, stage, subject)
 
         # Strategy 1: CurricuLLM direct (JSON output, curriculum-aligned)
         if curricullm_service.is_available():
             logger.info("Trying CurricuLLM direct generation for update")
-            result = curricullm_service.generate_parent_update(teacher_notes, stage=stage)
+            result = curricullm_service.generate_parent_update(teacher_notes, stage=stage, subject=subject)
             if result and result.get("content"):
                 logger.info("CurricuLLM generated update successfully")
                 return {

@@ -5,8 +5,8 @@ const api = axios.create({
 });
 
 // --- Communication Hub ---
-export const draftUpdate = (teacher_notes: string, classroom_id: string) =>
-  api.post('/updates/draft', { teacher_notes, classroom_id });
+export const draftUpdate = (teacher_notes: string, classroom_id: string, year_level?: string, subject?: string) =>
+  api.post('/updates/draft', { teacher_notes, classroom_id, year_level, subject });
 
 export const sendUpdate = (id: string) =>
   api.post(`/updates/${id}/send`);
@@ -17,8 +17,8 @@ export const deleteUpdate = (id: string) =>
 export const editUpdate = (id: string, teacher_notes: string, classroom_id: string) =>
   api.put(`/updates/${id}`, { teacher_notes, classroom_id });
 
-export const getFeed = (user_id: string, role: 'teacher' | 'parent') =>
-  api.get('/updates/feed', { params: { user_id, role } });
+export const getFeed = (user_id: string, role: 'teacher' | 'parent', classroom_id?: string) =>
+  api.get('/updates/feed', { params: { user_id, role, classroom_id } });
 
 export const respondToUpdate = (updateId: string, data: {
   parent_id: string;
@@ -57,6 +57,9 @@ export const getThread = (other_user_id: string, user_id: string) =>
 export const getUsers = (exclude?: string) =>
   api.get('/users/', { params: exclude ? { exclude } : {} });
 
+export const getClassrooms = (teacherId?: string) =>
+  api.get('/users/classrooms', { params: teacherId ? { teacher_id: teacherId } : {} });
+
 // --- Student Progress ---
 export const getClassroomStudents = (classroomId: string) =>
   api.get(`/progress/classroom/${classroomId}/students`);
@@ -87,7 +90,7 @@ export const getChildProgress = (parentId: string) =>
 
 // --- Wellbeing ---
 export const logCheckin = (studentId: string, data: { zone: number; teacher_note?: string; classroom_id?: string }) =>
-  api.post(`/progress/student/${studentId}/checkin`, { classroom_id: 'c1', ...data });
+  api.post(`/progress/student/${studentId}/checkin`, data);
 
 export const getStudentCheckins = (studentId: string, days?: number) =>
   api.get(`/progress/student/${studentId}/checkins`, { params: { days } });

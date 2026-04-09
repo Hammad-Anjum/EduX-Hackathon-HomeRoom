@@ -5,7 +5,7 @@ import { useTranslation } from '../../hooks/useTranslation';
 
 interface User { id: string; name: string; role: string; language: string }
 
-export default function Dashboard({ user }: { user: User }) {
+export default function Dashboard({ user, classroomId }: { user: User; classroomId: string }) {
   const { t } = useTranslation(user.language);
   const navigate = useNavigate();
   const [updates, setUpdates] = useState<any[]>([]);
@@ -13,10 +13,10 @@ export default function Dashboard({ user }: { user: User }) {
   const [actionLoading, setActionLoading] = useState<string | null>(null);
 
   const loadUpdates = () => {
-    getFeed(user.id, 'teacher').then((res) => setUpdates(res.data));
+    getFeed(user.id, 'teacher', classroomId).then((res) => setUpdates(res.data));
   };
 
-  useEffect(() => { loadUpdates(); }, [user.id]);
+  useEffect(() => { loadUpdates(); }, [user.id, classroomId]);
 
   const handleSend = async (id: string) => {
     setActionLoading(id);

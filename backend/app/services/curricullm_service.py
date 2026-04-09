@@ -62,7 +62,7 @@ class CurricuLLMService:
                 f"{self.base_url}/chat/completions",
                 json=payload,
                 headers=headers,
-                timeout=30,
+                timeout=60,
             )
             response.raise_for_status()
             data = response.json()
@@ -118,6 +118,7 @@ class CurricuLLMService:
         self,
         teacher_notes: str,
         stage: Optional[str] = None,
+        subject: Optional[str] = None,
     ) -> dict | None:
         """Generate a curriculum-aligned parent update directly via CurricuLLM with JSON output."""
         result = self._call(
@@ -135,6 +136,7 @@ class CurricuLLMService:
                 {"role": "user", "content": f"Teacher's notes: {teacher_notes}"},
             ],
             stage=stage,
+            subject=subject,
             response_format={"type": "json_object"},
             max_tokens=1024,
         )

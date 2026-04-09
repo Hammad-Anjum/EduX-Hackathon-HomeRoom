@@ -14,7 +14,10 @@ router = APIRouter()
 @router.post("/draft", response_model=DraftUpdateResponse)
 async def draft_update(request: DraftUpdateRequest):
     """Teacher sends brief notes → AI generates parent-friendly update."""
-    generated = llm_service.generate_update(request.teacher_notes, request.classroom_id)
+    generated = llm_service.generate_update(
+        request.teacher_notes, request.classroom_id,
+        year_level=request.year_level, subject=request.subject,
+    )
 
     update = {
         "id": f"u{uuid.uuid4().hex[:8]}",
@@ -63,7 +66,10 @@ async def edit_update(update_id: str, request: DraftUpdateRequest):
     if update.get("status") == "sent":
         return {"error": "Cannot edit a sent update"}
 
-    generated = llm_service.generate_update(request.teacher_notes, request.classroom_id)
+    generated = llm_service.generate_update(
+        request.teacher_notes, request.classroom_id,
+        year_level=request.year_level, subject=request.subject,
+    )
 
     data_store.update_by_id("updates.json", update_id, {
         "teacher_notes": request.teacher_notes,
@@ -91,18 +97,22 @@ async def send_update(update_id: str):
 async def get_feed(
     user_id: str = Query(...),
     role: str = Query(..., regex="^(teacher|parent)$"),
+    classroom_id: str = Query(None),
 ):
     """Get updates feed for a teacher or parent."""
     updates = data_store.read("updates.json")
 
     if role == "teacher":
-        # Teacher sees their own updates
+        # Teacher sees updates for a specific classroom (or all their classrooms)
         user = data_store.find_by_id("users.json", user_id)
         if not user:
             return []
-        classrooms = data_store.filter("classrooms.json", teacher_id=user_id)
-        classroom_ids = [c["id"] for c in classrooms]
-        result = [u for u in updates if u.get("classroom_id") in classroom_ids]
+        if classroom_id:
+            result = [u for u in updates if u.get("classroom_id") == classroom_id]
+        else:
+            classrooms = data_store.filter("classrooms.json", teacher_id=user_id)
+            classroom_ids = [c["id"] for c in classrooms]
+            result = [u for u in updates if u.get("classroom_id") in classroom_ids]
         result.sort(key=lambda u: u.get("created_at", ""), reverse=True)
         return result
 

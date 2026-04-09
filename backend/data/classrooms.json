@@ -9,5 +9,15 @@
       { "id": "s2", "name": "Tom Jones", "parent_ids": ["p2"] },
       { "id": "s3", "name": "Amir Al-Hassan", "parent_ids": ["p3"] }
     ]
+  },
+  {
+    "id": "c2",
+    "name": "Year 4 Red",
+    "year_level": 4,
+    "teacher_id": "t1",
+    "students": [
+      { "id": "s4", "name": "Zara Patel", "parent_ids": ["p4"] },
+      { "id": "s5", "name": "Liam O'Brien", "parent_ids": ["p5"] }
+    ]
   }
 ]

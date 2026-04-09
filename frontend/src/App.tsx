@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, Link, useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from './hooks/useTranslation';
+import { getClassrooms } from './lib/api';
+import CurriculumSidebar from './components/CurriculumSidebar';
+import Landing from './pages/Landing';
 
 // Teacher pages
 import Dashboard from './pages/teacher/Dashboard';
@@ -32,12 +35,15 @@ const USERS = {
 
 type UserKey = keyof typeof USERS;
 
-function NavBar({ userKey, setUserKey }: { userKey: UserKey; setUserKey: (k: UserKey) => void }) {
+function NavBar({ userKey, setUserKey, classroomId, setClassroomId, classrooms }: {
+  userKey: UserKey; setUserKey: (k: UserKey) => void;
+  classroomId: string; setClassroomId: (id: string) => void;
+  classrooms: any[];
+}) {
   const location = useLocation();
   const navigate = useNavigate();
   const user = USERS[userKey];
 
-  // Redirect to home when role changes and current path doesn't match
   useEffect(() => {
     const isTeacherPath = location.pathname.startsWith('/teacher');
     const isParentPath = location.pathname.startsWith('/parent');
@@ -47,6 +53,7 @@ function NavBar({ userKey, setUserKey }: { userKey: UserKey; setUserKey: (k: Use
       navigate('/parent/feed');
     }
   }, [userKey]);
+
   const { t } = useTranslation(user.language);
   const isTeacher = user.role === 'teacher';
 
@@ -62,7 +69,6 @@ function NavBar({ userKey, setUserKey }: { userKey: UserKey; setUserKey: (k: Use
     : [
         { to: '/parent/feed', label: t('nav.updates') },
         { to: '/parent/progress', label: t('nav.progress') },
-        { to: '/parent/curriculum', label: t('nav.curriculum') },
         { to: '/parent/forum', label: t('nav.forum') },
         { to: '/parent/messages', label: t('nav.messages') },
       ];
@@ -82,6 +88,18 @@ function NavBar({ userKey, setUserKey }: { userKey: UserKey; setUserKey: (k: Use
         ))}
       </div>
       <div className="flex items-center gap-3">
+        {/* Classroom selector (teacher only) */}
+        {isTeacher && classrooms.length > 1 && (
+          <select
+            value={classroomId}
+            onChange={(e) => setClassroomId(e.target.value)}
+            className="bg-indigo-700 text-white text-sm rounded px-2 py-1 border border-indigo-500"
+          >
+            {classrooms.map((c: any) => (
+              <option key={c.id} value={c.id}>{c.name}</option>
+            ))}
+          </select>
+        )}
         <span className="text-sm opacity-80">{user.name}</span>
         <select
           value={userKey}
@@ -100,39 +118,61 @@ function NavBar({ userKey, setUserKey }: { userKey: UserKey; setUserKey: (k: Use
 
 function App() {
   const [userKey, setUserKey] = useState<UserKey>('teacher');
+  const [classroomId, setClassroomId] = useState('c1');
+  const [classrooms, setClassrooms] = useState<any[]>([]);
   const user = USERS[userKey];
+
+  useEffect(() => {
+    if (user.role === 'teacher') {
+      getClassrooms(user.id).then((res) => {
+        setClassrooms(res.data);
+        if (res.data.length > 0 && !res.data.find((c: any) => c.id === classroomId)) {
+          setClassroomId(res.data[0].id);
+        }
+      }).catch(() => {});
+    }
+  }, [user.id, user.role]);
 
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-gray-50">
-        <NavBar userKey={userKey} setUserKey={setUserKey} />
-        <main className="max-w-5xl mx-auto p-6">
-          <Routes>
-            {/* Teacher routes */}
-            <Route path="/teacher/dashboard" element={<Dashboard user={user} />} />
-            <Route path="/teacher/compose" element={<ComposeUpdate user={user} />} />
-            <Route path="/teacher/insights/:updateId" element={<Insights user={user} />} />
-            <Route path="/teacher/students" element={<StudentList user={user} />} />
-            <Route path="/teacher/student/:studentId" element={<StudentDetail user={user} />} />
-            <Route path="/teacher/integrations" element={<Integrations user={user} />} />
-            <Route path="/teacher/forum" element={<Forum user={user} />} />
-            <Route path="/teacher/messages" element={<TeacherMessages user={user} />} />
-            <Route path="/teacher/meeting/:meetingId" element={<TeacherMeetingRoom user={user} />} />
+      <Routes>
+        {/* Landing page — no nav, no sidebar */}
+        <Route path="/" element={<Landing />} />
 
-            {/* Parent routes */}
-            <Route path="/parent/feed" element={<Feed user={user} />} />
-            <Route path="/parent/respond/:updateId" element={<Respond user={user} />} />
-            <Route path="/parent/progress" element={<ChildProgress user={user} />} />
-            <Route path="/parent/curriculum" element={<CurriculumAsk user={user} />} />
-            <Route path="/parent/forum" element={<Forum user={user} />} />
-            <Route path="/parent/messages" element={<ParentMessages user={user} />} />
-            <Route path="/parent/meeting/:meetingId" element={<ParentMeetingRoom user={user} />} />
+        {/* App pages — with nav + sidebar */}
+        <Route path="*" element={
+          <div className="min-h-screen bg-gray-50">
+            <NavBar userKey={userKey} setUserKey={setUserKey} classroomId={classroomId} setClassroomId={setClassroomId} classrooms={classrooms} />
+            <main className="max-w-5xl mx-auto p-6">
+              <Routes>
+                {/* Teacher routes */}
+                <Route path="/teacher/dashboard" element={<Dashboard user={user} classroomId={classroomId} />} />
+                <Route path="/teacher/compose" element={<ComposeUpdate user={user} classroomId={classroomId} />} />
+                <Route path="/teacher/insights/:updateId" element={<Insights user={user} />} />
+                <Route path="/teacher/students" element={<StudentList user={user} classroomId={classroomId} />} />
+                <Route path="/teacher/student/:studentId" element={<StudentDetail user={user} classroomId={classroomId} />} />
+                <Route path="/teacher/integrations" element={<Integrations user={user} classroomId={classroomId} />} />
+                <Route path="/teacher/forum" element={<Forum user={user} />} />
+                <Route path="/teacher/messages" element={<TeacherMessages user={user} />} />
+                <Route path="/teacher/meeting/:meetingId" element={<TeacherMeetingRoom user={user} />} />
 
-            {/* Default redirect */}
-            <Route path="*" element={<Navigate to={user.role === 'teacher' ? '/teacher/dashboard' : '/parent/feed'} />} />
-          </Routes>
-        </main>
-      </div>
+                {/* Parent routes */}
+                <Route path="/parent/feed" element={<Feed user={user} />} />
+                <Route path="/parent/respond/:updateId" element={<Respond user={user} />} />
+                <Route path="/parent/progress" element={<ChildProgress user={user} />} />
+                <Route path="/parent/curriculum" element={<CurriculumAsk user={user} />} />
+                <Route path="/parent/forum" element={<Forum user={user} />} />
+                <Route path="/parent/messages" element={<ParentMessages user={user} />} />
+                <Route path="/parent/meeting/:meetingId" element={<ParentMeetingRoom user={user} />} />
+
+                {/* Fallback */}
+                <Route path="*" element={<Navigate to={user.role === 'teacher' ? '/teacher/dashboard' : '/parent/feed'} />} />
+              </Routes>
+            </main>
+            <CurriculumSidebar userLanguage={user.language} />
+          </div>
+        } />
+      </Routes>
     </BrowserRouter>
   );
 }

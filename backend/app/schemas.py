@@ -7,6 +7,8 @@ from typing import Optional
 class DraftUpdateRequest(BaseModel):
     teacher_notes: str
     classroom_id: str
+    year_level: Optional[str] = None
+    subject: Optional[str] = None
 
 
 class DraftUpdateResponse(BaseModel):

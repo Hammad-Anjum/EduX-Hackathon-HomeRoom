@@ -9,7 +9,7 @@ interface User { id: string; name: string; role: string; language: string }
 
 const ALL_SUBJECTS = ['Mathematics', 'English', 'Science', 'HASS', 'The Arts'];
 
-export default function StudentList({ user }: { user: User }) {
+export default function StudentList({ user, classroomId }: { user: User; classroomId: string }) {
   const { t } = useTranslation(user.language);
   const [students, setStudents] = useState<any[]>([]);
   const [search, setSearch] = useState('');
@@ -18,13 +18,13 @@ export default function StudentList({ user }: { user: User }) {
   const ZONE_COLORS: Record<number, string> = { 1: '#6B7280', 2: '#818CF8', 3: '#FBBF24', 4: '#34D399', 5: '#F472B6' };
 
   useEffect(() => {
-    getClassroomStudents('c1').then((res) => setStudents(res.data));
-    getClassroomCheckins('c1').then((res) => {
+    getClassroomStudents(classroomId).then((res) => setStudents(res.data));
+    getClassroomCheckins(classroomId).then((res) => {
       const map: Record<string, any> = {};
       for (const c of res.data) map[c.student_id] = c.latest;
       setCheckins(map);
     });
-  }, []);
+  }, [classroomId]);
 
   const filtered = students.filter((s) =>
     s.name.toLowerCase().includes(search.toLowerCase())

@@ -4,7 +4,7 @@ import { useTranslation } from '../../hooks/useTranslation';
 
 interface User { id: string; name: string; role: string; language: string }
 
-export default function Integrations({ user }: { user: User }) {
+export default function Integrations({ user, classroomId }: { user: User; classroomId: string }) {
   const { t } = useTranslation(user.language);
   const [gcLoading, setGcLoading] = useState(false);
   const [gcResult, setGcResult] = useState<any>(null);
@@ -15,7 +15,7 @@ export default function Integrations({ user }: { user: User }) {
     setGcLoading(true);
     setGcResult(null);
     try {
-      const res = await importGoogleClassroom('c1');
+      const res = await importGoogleClassroom(classroomId);
       setGcResult(res.data);
     } catch {
       setGcResult({ status: 'error', message: 'Import failed.' });
@@ -27,11 +27,11 @@ export default function Integrations({ user }: { user: User }) {
   const handleCsvExport = async () => {
     setCsvLoading(true);
     try {
-      const res = await exportCsv('c1');
+      const res = await exportCsv(classroomId);
       const url = window.URL.createObjectURL(new Blob([res.data]));
       const link = document.createElement('a');
       link.href = url;
-      link.setAttribute('download', 'homeroom_c1_export.csv');
+      link.setAttribute('download', `homeroom_${classroomId}_export.csv`);
       document.body.appendChild(link);
       link.click();
       link.remove();
