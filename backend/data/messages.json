@@ -76,5 +76,18 @@
     "is_voice": false,
     "audio_original": null,
     "audio_translated": null
+  },
+  {
+    "id": "m60e7aced",
+    "sender_id": "t1",
+    "receiver_id": "p3",
+    "original_text": "Hi fatima, how are you today?",
+    "original_language": "en",
+    "translated_text": "مرحبا فاطمة كيف حالك اليوم؟",
+    "translated_language": "ar",
+    "created_at": "2026-04-09T12:21:42.756528+00:00",
+    "is_voice": true,
+    "audio_original": "audio/m60e7aced_original.mp3",
+    "audio_translated": "audio/m60e7aced_translated.mp3"
   }
 ]
